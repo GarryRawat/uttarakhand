@@ -1,0 +1,544 @@
+CRITICAL - 2024-06-10 12:16:52 --> ErrorException: Undefined variable $sum
+in APPPATH\Views\admin\insertDetails.php on line 30.
+ 1 APPPATH\Views\admin\insertDetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Views\\admin\\insertDetails.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\uttrakhand\\app\\Views\\admin\\insertDetails.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/insertDetails', [], true)
+ 5 APPPATH\Controllers\AdminController.php(26): view('admin/insertDetails')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->InsertDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:25:21 --> Error: Class "App\Models\UttarakhandModel" not found
+in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:25:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:26:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:28:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:28:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:28:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:28:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:29:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:29:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:29:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:30:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:31:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:32:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-10 13:32:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\uttrakhand\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\uttrakhand\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\uttrakhand\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\uttrakhand\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\uttrakhand\app\Controllers\AdminController.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+#9 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\uttrakhand\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\uttrakhand\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#3 C:\xampp\htdocs\uttrakhand\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\uttrakhand\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\uttrakhand\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\uttrakhand\app\Controllers\AdminController.php(70): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+#8 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\uttrakhand\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-10 13:32:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 3 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:33:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-10 13:33:35 --> mysqli_sql_exception: Column 'about_title' cannot be null in C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xampp\htdocs\uttrakhand\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\uttrakhand\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\uttrakhand\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\uttrakhand\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\uttrakhand\app\Controllers\AdminController.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+#9 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\uttrakhand\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-10 13:33:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:33:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:33:35 --> [Caused by] mysqli_sql_exception: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:33:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-10 13:33:41 --> mysqli_sql_exception: Column 'about_title' cannot be null in C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xampp\htdocs\uttrakhand\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\uttrakhand\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\uttrakhand\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\uttrakhand\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\uttrakhand\app\Controllers\AdminController.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+#9 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\uttrakhand\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-10 13:33:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:33:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:33:41 --> [Caused by] mysqli_sql_exception: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'उत्तराखंड के अद्वितीय पर्यटन स्थल\', \'उत्तराखंड-के-अद्वितीय-पर्यटन-स्थल\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:33:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:33:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:34:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-10 13:34:16 --> mysqli_sql_exception: Column 'about_title' cannot be null in C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xampp\htdocs\uttrakhand\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\uttrakhand\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\uttrakhand\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\uttrakhand\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\uttrakhand\app\Controllers\AdminController.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+#9 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\uttrakhand\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-10 13:34:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:34:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:34:16 --> [Caused by] mysqli_sql_exception: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:34:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-10 13:34:57 --> mysqli_sql_exception: Column 'about_title' cannot be null in C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xampp\htdocs\uttrakhand\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\uttrakhand\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\uttrakhand\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\uttrakhand\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\uttrakhand\app\Controllers\AdminController.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+#9 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\uttrakhand\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-10 13:34:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:34:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:34:57 --> [Caused by] mysqli_sql_exception: Column 'about_title' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'auli\', \'hello\', \'hello\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:34:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:35:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:35:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-10 13:35:12 --> mysqli_sql_exception: Column 'about_description' cannot be null in C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\uttrakhand\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xampp\htdocs\uttrakhand\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xampp\htdocs\uttrakhand\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xampp\htdocs\uttrakhand\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\uttrakhand\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\uttrakhand\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\uttrakhand\app\Controllers\AdminController.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+#9 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\uttrakhand\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\uttrakhand\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-10 13:35:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_description' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:35:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'about_description' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'Neque laborum Occae\', \'Possimus voluptas c\', \'Possimus-voluptas-c\', \'Rerum autem et error\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'Neque laborum Occae\', \'Possimus voluptas c\', \'Possimus-voluptas-c\', \'Rerum autem et error\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-10 13:35:12 --> [Caused by] mysqli_sql_exception: Column 'about_description' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'Neque laborum Occae\', \'Possimus voluptas c\', \'Possimus-voluptas-c\', \'Rerum autem et error\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'Neque laborum Occae\', \'Possimus voluptas c\', \'Possimus-voluptas-c\', \'Rerum autem et error\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (\'Neque laborum Occae\', \'Possimus voluptas c\', \'Possimus-voluptas-c\', \'Rerum autem et error\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `explore_uttarakhand` (`place`, `title`, `slug`, `about_title`, `about_description`) VALUES (:place:, :title:, :slug:, :about_title:, :about_description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AdminController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:35:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:35:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:35:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-10 13:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 13:35:42 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "list" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('list')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\AdminController.php(73): redirect('list')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:38:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:38:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:38:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-10 13:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 13:38:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "list" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('list')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\AdminController.php(73): redirect('list')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:39:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-10 13:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 13:39:13 --> ErrorException: Undefined variable $response
+in APPPATH\Controllers\AdminController.php on line 82.
+ 1 APPPATH\Controllers\AdminController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\AdminController.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:39:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-10 13:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 13:39:15 --> ErrorException: Undefined variable $response
+in APPPATH\Controllers\AdminController.php on line 82.
+ 1 APPPATH\Controllers\AdminController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\AdminController.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->AddpageData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:39:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-10 13:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-10 13:40:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:40:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-10 13:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-10 13:45:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:45:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-10 13:45:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-10 13:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-10 13:46:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

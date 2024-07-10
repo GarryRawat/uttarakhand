@@ -1,0 +1,1177 @@
+WARNING - 2024-06-29 05:20:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:20:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 05:21:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\HomeController.php on line 79.
+ 1 APPPATH\Controllers\HomeController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\HomeController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HomeController->Mainpage('index.html')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:21:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:32:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:33:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:34:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 05:35:46 --> ErrorException: Undefined variable $cities
+in APPPATH\Views\admin\pages\addblogs.php on line 18.
+ 1 APPPATH\Views\admin\pages\addblogs.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Views\\admin\\pages\\addblogs.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\uttrakhand\\app\\Views\\admin\\pages\\addblogs.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/pages/addblogs', [], true)
+ 5 APPPATH\Controllers\BlogController.php(15): view('admin/pages/addblogs')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->ShowBlogs()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:59:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategorymodel is deprecated in APPPATH\Controllers\BlogController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 05:59:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategorymodel is deprecated in APPPATH\Controllers\BlogController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:01:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategorymodel is deprecated in APPPATH\Controllers\BlogController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:07:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategorymodel is deprecated in APPPATH\Controllers\BlogController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:09:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategorymodel is deprecated in APPPATH\Controllers\BlogController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:10:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategorymodel is deprecated in APPPATH\Controllers\BlogController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:26:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:26:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:26:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:26:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:55:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:55:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 06:55:11 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/addblogData" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/addblogData')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\BlogController.php(71): redirect('/addblogData')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\BlogController->AddBlogs()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:55:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:55:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:55:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:55:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:56:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 06:56:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\HomeController.php on line 79.
+ 1 APPPATH\Controllers\HomeController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\HomeController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HomeController->Mainpage('addblogData')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:57:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 06:57:54 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\HomeController.php on line 79.
+ 1 APPPATH\Controllers\HomeController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\HomeController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HomeController->Mainpage('addblogData')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 06:58:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\HomeController.php on line 79.
+ 1 APPPATH\Controllers\HomeController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\HomeController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HomeController->Mainpage('addblogData')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:58:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 06:58:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\HomeController.php on line 79.
+ 1 APPPATH\Controllers\HomeController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\HomeController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HomeController->Mainpage('addblogData')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 06:59:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:00:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:00:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:00:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:00:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:12:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:12:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:12:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:12:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:12:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:13:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 07:13:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\HomeController.php on line 79.
+ 1 APPPATH\Controllers\HomeController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\uttrakhand\\app\\Controllers\\HomeController.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HomeController->Mainpage('listblog')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:14:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:14:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:15:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:15:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:15:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:15:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:17:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:17:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:17:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:17:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:19:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:19:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:19:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:19:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:21:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:34:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:35:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:35:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:37:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:37:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:37:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$citiesModel is deprecated in APPPATH\Controllers\HomeController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:37:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$uttarakhandModel is deprecated in APPPATH\Controllers\HomeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:37:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$imageModel is deprecated in APPPATH\Controllers\HomeController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:37:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$areaModel is deprecated in APPPATH\Controllers\HomeController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 07:37:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\HomeController::$foodModel is deprecated in APPPATH\Controllers\HomeController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HomeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 09:32:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 09:32:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:43:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:43:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:43:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:43:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:43:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$uttarakhandModel is deprecated in APPPATH\Controllers\AdminController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$citiesModel is deprecated in APPPATH\Controllers\AdminController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$imageModel is deprecated in APPPATH\Controllers\AdminController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$areaModel is deprecated in APPPATH\Controllers\AdminController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-06-29 10:44:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\AdminController::$foodModel is deprecated in APPPATH\Controllers\AdminController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AdminController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
