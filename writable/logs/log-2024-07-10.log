@@ -22626,3 +22626,18 @@ WARNING - 2024-07-10 17:18:46 --> [DEPRECATED] Creation of dynamic property App\
  2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
  3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-10 17:50:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogcategoryModel is deprecated in APPPATH\Controllers\BlogController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-10 17:50:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$blogModel is deprecated in APPPATH\Controllers\BlogController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-10 17:50:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\BlogController::$citiesModel is deprecated in APPPATH\Controllers\BlogController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BlogController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
