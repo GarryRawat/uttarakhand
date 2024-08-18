@@ -6,15 +6,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+	
+
+	<!-- end font -->
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Gupter:wght@400;500;700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/animate.css">
 
-	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/magnific-popup.css">
 
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/bootstrap-datepicker.css">
@@ -23,15 +29,32 @@
 
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/flaticon.css">
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/style.css">
+	<script src="<?= base_url() ?>/public/frontend/js/jquery.min.js"></script>
+
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.css" />
+
+	<!-- JS -->
+	<script src="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.min.js"></script>
+
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-	
+	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+
+
+
 </head>
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">TRavel<span>Uttrakhand</span></a>
+			<!-- <a class="navbar-brand" href="index.html"></span></a> -->
+			<div class="website-logo">
+				<img src="<?= base_url() ?>/public/frontend/images/DeVELOPERS3.png">
+			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -50,7 +73,7 @@
 									<li>
 										<ul class="">
 											<?php foreach ($cities as $city) { ?>
-												<li class="mega-item" onmouseover="Getcity(<?= $city['id'] ?>)"><i class="bi bi-arrow-right"></i><a href="<?= base_url(). $city['city_name']?>" class="mx-4"><?= $city['city_name'] ?></a>
+												<li class="mega-item" onmouseover="Getcity(<?= $city['id'] ?>)"><i class="bi bi-arrow-right"></i><a href="<?= base_url() . $city['city_name'] ?>" class="mx-4"><?= $city['city_name'] ?></a>
 
 												</li>
 											<?php } ?>
@@ -95,7 +118,7 @@
 					// return;
 					let html = '';
 					$.each(response.cityDetails, function(key, value) {
-						html += `<li class="mega-item-inner"><a href="<?=base_url()?>${value.city_name}/${value.slug}">${value.place}</a></li>`;
+						html += `<li class="mega-item-inner"><a href="<?= base_url() ?>${value.city_name}/${value.slug}">${value.place}</a></li>`;
 					});
 
 					// console.log(html);

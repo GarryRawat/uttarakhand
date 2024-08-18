@@ -9,7 +9,7 @@
 		<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
 			<div class="col-md-7 ftco-animate">
 				<span class="subheading">Welcome to Uttarakhand</span>
-				<h1 class="mb-4">Discover Your Favorite Place with Us</h1>
+				<h1 class="mb-4"><?= lang('main.home_title') ?></h1>
 				<p class="caps">Travel to the any corner of the world, without going around in circles</p>
 			</div>
 			<!-- <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
@@ -187,7 +187,7 @@
 					<h2 class="mb-4">It's time to start your adventure</h2>
 					<p>उत्तराखंड, जिसे देवभूमि के नाम से भी जाना जाता है, भारत का एक सुंदर राज्य है जो हिमालय की गोद में बसा हुआ है। यह राज्य अपनी प्राकृतिक सुंदरता, बर्फ से ढकी चोटियों, हरे-भरे वनस्पतियों और पवित्र नदियों के लिए प्रसिद्ध है। उत्तराखंड में कई महत्वपूर्ण तीर्थस्थल हैं, जिनमें बद्रीनाथ, केदारनाथ, गंगोत्री और यमुनोत्री शामिल हैं, जो चार धाम यात्रा के रूप में जाने जाते हैं।</p>
 					<p>यहाँ का नैनीताल, मसूरी, और रानीखेत जैसे हिल स्टेशन पर्यटकों के बीच बेहद लोकप्रिय हैं। राज्य का प्रमुख नगर देहरादून है, जो उत्तराखंड की राजधानी भी है। ऋषिकेश और हरिद्वार योग और अध्यात्म के केंद्र के रूप में विश्व प्रसिद्ध हैं।</p>
-					<p><a href="#" class="btn btn-primary py-3 px-4">Search Destination</a></p>
+					<p><a  class="btn btn-primary Searchbtn py-3 px-4">Search Destination</a></p>
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -234,149 +234,13 @@
 	</div>
 </section>
 
-<?= view('section/uttrakhandMap');?>
+<?= view('section/uttrakhandMap'); ?>
+<?= view('section/topTravelPlaces'); ?>
 
-<section class="ftco-section img ftco-select-destination" style="padding-top:0px">
+
+<section class="ftco-section" style="padding-top:45px">
 	<div class="container">
-		<div class="row justify-content-center ">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Pacific Provide Places</span>
-				<h2 class="mb-4">Select Your Destination</h2>
-			</div>
-		</div>
-	</div>
-	<div class="container container-2">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="carousel-destination owl-carousel ftco-animate">
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-1.jpg);">
-								<div class="text">
-									<h3>Philippines</h3>
-									<span>8 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-2.jpg);">
-								<div class="text">
-									<h3>Canada</h3>
-									<span>2 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-3.jpg);">
-								<div class="text">
-									<h3>Thailand</h3>
-									<span>5 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-4.jpg);">
-								<div class="text">
-									<h3>Autralia</h3>
-									<span>5 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-5.jpg);">
-								<div class="text">
-									<h3>Greece</h3>
-									<span>7 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="fico-section rounded-cards">
-	<div class="container">
-		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Destination</span>
-				<h2 class="mb-4">Our Places</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-3 col-sm-6 flip-card">
-				<div class="dm-flip-card">
-
-					<div class="dm-front-card">
-						<img src="<?= base_url() ?>/public/frontend/images/myplace.jpg" class="dm-front-card">
-					</div>
-					<div class="dm-back-card">
-						<p class="text-white">ऋषिकेश उत्तराखंड राज्य में स्थित एक सुंदर और पवित्र शहर है, जिसे "योग की राजधानी" के रूप में जाना जाता है। गंगा नदी के किनारे बसा यह शहर अपने प्राकृतिक सौंदर्य और धार्मिक महत्व के लिए प्रसिद्ध है। यहाँ लक्ष्मण झूला और राम झूला नामक दो प्रमुख पुल हैं</p><br>
-						<a href="https://dmmotionarts.com" class="text-info">Risikesh</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 flip-card">
-				<div class="dm-flip-card">
-
-					<div class="dm-front-card">
-						<img src="<?= base_url() ?>/public/frontend/images/myplace.jpg" class="dm-front-card">
-					</div>
-					<div class="dm-back-card">
-
-						<p class="text-white">ऋषिकेश उत्तराखंड राज्य में स्थित एक सुंदर और पवित्र शहर है, जिसे "योग की राजधानी" के रूप में जाना जाता है। गंगा नदी के किनारे बसा यह शहर अपने प्राकृतिक सौंदर्य और धार्मिक महत्व के लिए प्रसिद्ध है। यहाँ लक्ष्मण झूला और राम झूला नामक दो प्रमुख पुल हैं</p><br>
-						<a href="https://dmmotionarts.com" class="text-info">Risikesh</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-sm-6 flip-card">
-				<div class="dm-flip-card">
-
-					<div class="dm-front-card">
-						<img src="<?= base_url() ?>/public/frontend/images/myplace.jpg" class="dm-front-card">
-					</div>
-					<div class="dm-back-card">
-
-						<p class="text-white">ऋषिकेश उत्तराखंड राज्य में स्थित एक सुंदर और पवित्र शहर है, जिसे "योग की राजधानी" के रूप में जाना जाता है। गंगा नदी के किनारे बसा यह शहर अपने प्राकृतिक सौंदर्य और धार्मिक महत्व के लिए प्रसिद्ध है। यहाँ लक्ष्मण झूला और राम झूला नामक दो प्रमुख पुल हैं</p><br>
-						<a href="https://dmmotionarts.com" class="text-info">Risikesh</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 flip-card">
-				<div class="dm-flip-card">
-
-					<div class="dm-front-card">
-						<img src="<?= base_url() ?>/public/frontend/images/myplace.jpg" class="dm-front-card">
-					</div>
-					<div class="dm-back-card">
-
-						<p class="text-white">ऋषिकेश उत्तराखंड राज्य में स्थित एक सुंदर और पवित्र शहर है, जिसे "योग की राजधानी" के रूप में जाना जाता है। गंगा नदी के किनारे बसा यह शहर अपने प्राकृतिक सौंदर्य और धार्मिक महत्व के लिए प्रसिद्ध है। यहाँ लक्ष्मण झूला और राम झूला नामक दो प्रमुख पुल हैं</p><br>
-						<a href="https://dmmotionarts.com" class="text-info">Risikesh</a>
-					</div>
-				</div>
-			</div>
-
-
-
-		</div>
-	</div>
-
-</section>
-
-<section class="ftco-section">
-	<div class="container">
-		<div class="row justify-content-center pb-4">
+		<div class="row justify-content-center">
 			<div class="col-md-12 heading-section text-center ftco-animate">
 				<span class="subheading">Destination</span>
 				<h2 class="mb-4">Tour Destination</h2>
@@ -693,79 +557,8 @@
 	</div>
 </section>
 
+<?= view('section/currentblog'); ?>
 
-<section class="ftco-section">
-	<div class="container">
-		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Our Blog</span>
-				<h2 class="mb-4">Recent Post</h2>
-			</div>
-		</div>
-		<div class="row d-flex">
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-					<a href="blog-single.html" class="block-20" style="background-image: url('<?= base_url() ?>/public/frontend/images/image_1.jpg');">
-					</a>
-					<div class="text">
-						<div class="d-flex align-items-center mb-4 topp">
-							<div class="one">
-								<span class="day">11</span>
-							</div>
-							<div class="two">
-								<span class="yr">2020</span>
-								<span class="mos">September</span>
-							</div>
-						</div>
-						<h3 class="heading"><a href="#">Most Popular Place In This World</a></h3>
-						<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-						<p><a href="#" class="btn btn-primary">Read more</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-					<a href="blog-single.html" class="block-20" style="background-image: url('<?= base_url() ?>/public/frontend/images/image_2.jpg');">
-					</a>
-					<div class="text">
-						<div class="d-flex align-items-center mb-4 topp">
-							<div class="one">
-								<span class="day">11</span>
-							</div>
-							<div class="two">
-								<span class="yr">2020</span>
-								<span class="mos">September</span>
-							</div>
-						</div>
-						<h3 class="heading"><a href="#">Most Popular Place In This World</a></h3>
-						<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-						<p><a href="#" class="btn btn-primary">Read more</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry">
-					<a href="blog-single.html" class="block-20" style="background-image: url('<?= base_url() ?>/public/frontend/images/image_3.jpg');">
-					</a>
-					<div class="text">
-						<div class="d-flex align-items-center mb-4 topp">
-							<div class="one">
-								<span class="day">11</span>
-							</div>
-							<div class="two">
-								<span class="yr">2020</span>
-								<span class="mos">September</span>
-							</div>
-						</div>
-						<h3 class="heading"><a href="#">Most Popular Place In This World</a></h3>
-						<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-						<p><a href="#" class="btn btn-primary">Read more</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <section class="ftco-intro ftco-section ftco-no-pt">
 	<div class="container">
@@ -781,6 +574,3 @@
 		</div>
 	</div>
 </section>
-
-
-  

@@ -19,164 +19,7 @@
 	</div>
 </div>
 
-<section class="ftco-section ftco-no-pb ftco-no-pt">
-	<div class="container">
-		<!-- <div class="row">
-				<div class="col-md-12">
-					<div class="ftco-search d-flex justify-content-center">
-						<div class="row">
-							<div class="col-md-12 nav-link-wrap">
-								<div class="nav nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-									<a class="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Search Tour</a>
 
-									<a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Hotel</a>
-
-								</div>
-							</div>
-							<div class="col-md-12 tab-wrap">
-								
-								<div class="tab-content" id="v-pills-tabContent">
-
-									<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-										<form action="#" class="search-property-1">
-											<div class="row no-gutters">
-												<div class="col-md d-flex">
-													<div class="form-group p-4 border-0">
-														<label for="#">Destination</label>
-														<div class="form-field">
-															<div class="icon"><span class="fa fa-search"></span></div>
-															<input type="text" class="form-control" placeholder="Search place">
-														</div>
-													</div>
-												</div>
-												<div class="col-md d-flex">
-													<div class="form-group p-4">
-														<label for="#">Check-in date</label>
-														<div class="form-field">
-															<div class="icon"><span class="fa fa-calendar"></span></div>
-															<input type="text" class="form-control checkin_date" placeholder="Check In Date">
-														</div>
-													</div>
-												</div>
-												<div class="col-md d-flex">
-													<div class="form-group p-4">
-														<label for="#">Check-out date</label>
-														<div class="form-field">
-															<div class="icon"><span class="fa fa-calendar"></span></div>
-															<input type="text" class="form-control checkout_date" placeholder="Check Out Date">
-														</div>
-													</div>
-												</div>
-												<div class="col-md d-flex">
-													<div class="form-group p-4">
-														<label for="#">Price Limit</label>
-														<div class="form-field">
-															<div class="select-wrap">
-																<div class="icon"><span class="fa fa-chevron-down"></span></div>
-																<select name="" id="" class="form-control">
-																	<option value="">$100</option>
-																	<option value="">$10,000</option>
-																	<option value="">$50,000</option>
-																	<option value="">$100,000</option>
-																	<option value="">$200,000</option>
-																	<option value="">$300,000</option>
-																	<option value="">$400,000</option>
-																	<option value="">$500,000</option>
-																	<option value="">$600,000</option>
-																	<option value="">$700,000</option>
-																	<option value="">$800,000</option>
-																	<option value="">$900,000</option>
-																	<option value="">$1,000,000</option>
-																	<option value="">$2,000,000</option>
-																</select>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-md d-flex">
-													<div class="form-group d-flex w-100 border-0">
-														<div class="form-field w-100 align-items-center d-flex">
-															<input type="submit" value="Search" class="align-self-stretch form-control btn btn-primary">
-														</div>
-													</div>
-												</div>
-											</div>
-										</form>
-									</div>
-
-									<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-performance-tab">
-										<form action="#" class="search-property-1">
-											<div class="row no-gutters">
-												<div class="col-lg d-flex">
-													<div class="form-group p-4 border-0">
-														<label for="#">Destination</label>
-														<div class="form-field">
-															<div class="icon"><span class="fa fa-search"></span></div>
-															<input type="text" class="form-control" placeholder="Search place">
-														</div>
-													</div>
-												</div>
-												<div class="col-lg d-flex">
-													<div class="form-group p-4">
-														<label for="#">Check-in date</label>
-														<div class="form-field">
-															<div class="icon"><span class="fa fa-calendar"></span></div>
-															<input type="text" class="form-control checkin_date" placeholder="Check In Date">
-														</div>
-													</div>
-												</div>
-												<div class="col-lg d-flex">
-													<div class="form-group p-4">
-														<label for="#">Check-out date</label>
-														<div class="form-field">
-															<div class="icon"><span class="fa fa-calendar"></span></div>
-															<input type="text" class="form-control checkout_date" placeholder="Check Out Date">
-														</div>
-													</div>
-												</div>
-												<div class="col-lg d-flex">
-													<div class="form-group p-4">
-														<label for="#">Price Limit</label>
-														<div class="form-field">
-															<div class="select-wrap">
-																<div class="icon"><span class="fa fa-chevron-down"></span></div>
-																<select name="" id="" class="form-control">
-																	<option value="">$100</option>
-																	<option value="">$10,000</option>
-																	<option value="">$50,000</option>
-																	<option value="">$100,000</option>
-																	<option value="">$200,000</option>
-																	<option value="">$300,000</option>
-																	<option value="">$400,000</option>
-																	<option value="">$500,000</option>
-																	<option value="">$600,000</option>
-																	<option value="">$700,000</option>
-																	<option value="">$800,000</option>
-																	<option value="">$900,000</option>
-																	<option value="">$1,000,000</option>
-																	<option value="">$2,000,000</option>
-																</select>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg d-flex">
-													<div class="form-group d-flex w-100 border-0">
-														<div class="form-field w-100 align-items-center d-flex">
-															<input type="submit" value="Search" class="align-self-stretch form-control btn btn-primary p-0">
-														</div>
-													</div>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-</section>
 
 <section class="ftco-section services-section">
 	<div class="container">
@@ -188,12 +31,12 @@
 					<h2 class="mb-4"><?= $slugdetails['title']; ?></h2>
 					<p><?= $slugdetails['short_description']; ?></p>
 					<p>यहाँ का नैनीताल, मसूरी, और रानीखेत जैसे हिल स्टेशन पर्यटकों के बीच बेहद लोकप्रिय हैं। राज्य का प्रमुख नगर देहरादून है, जो उत्तराखंड की राजधानी भी है। ऋषिकेश और हरिद्वार योग और अध्यात्म के केंद्र के रूप में विश्व प्रसिद्ध हैं।</p>
-					<p><a href="#" class="btn btn-primary py-3 px-4">Search Destination</a></p>
+					<p><a  class="btn btn-primary Searchbtn py-3 px-4">Search Destination</a></p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="row">
-					<!-- <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate"> -->
 						<div class="services services-1 color-1 d-block img" style="background-image: url(<?= base_url() ?>/public/frontend/images/services-1.jpg);">
 							<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-paragliding"></span></div>
 							<div class="media-body">
@@ -228,7 +71,7 @@
 								<p>A small river named Duden flows by their place and supplies it with the necessary</p>
 							</div>
 						</div>
-					</div> -->
+					</div> 
 				</div>
 			</div>
 		</div>
@@ -681,79 +524,7 @@
 	</div>
 </section>
 
-
-<section class="ftco-section">
-	<div class="container">
-		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Our Blog</span>
-				<h2 class="mb-4">Recent Post</h2>
-			</div>
-		</div>
-		<div class="row d-flex">
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-					<a href="blog-single.html" class="block-20" style="background-image: url('<?= base_url() ?>/public/frontend/images/image_1.jpg');">
-					</a>
-					<div class="text">
-						<div class="d-flex align-items-center mb-4 topp">
-							<div class="one">
-								<span class="day">11</span>
-							</div>
-							<div class="two">
-								<span class="yr">2020</span>
-								<span class="mos">September</span>
-							</div>
-						</div>
-						<h3 class="heading"><a href="#">Most Popular Place In This World</a></h3>
-						<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-						<p><a href="#" class="btn btn-primary">Read more</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-					<a href="blog-single.html" class="block-20" style="background-image: url('<?= base_url() ?>/public/frontend/images/image_2.jpg');">
-					</a>
-					<div class="text">
-						<div class="d-flex align-items-center mb-4 topp">
-							<div class="one">
-								<span class="day">11</span>
-							</div>
-							<div class="two">
-								<span class="yr">2020</span>
-								<span class="mos">September</span>
-							</div>
-						</div>
-						<h3 class="heading"><a href="#">Most Popular Place In This World</a></h3>
-						<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-						<p><a href="#" class="btn btn-primary">Read more</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry">
-					<a href="blog-single.html" class="block-20" style="background-image: url('<?= base_url() ?>/public/frontend/images/image_3.jpg');">
-					</a>
-					<div class="text">
-						<div class="d-flex align-items-center mb-4 topp">
-							<div class="one">
-								<span class="day">11</span>
-							</div>
-							<div class="two">
-								<span class="yr">2020</span>
-								<span class="mos">September</span>
-							</div>
-						</div>
-						<h3 class="heading"><a href="#">Most Popular Place In This World</a></h3>
-						<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-						<p><a href="#" class="btn btn-primary">Read more</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<?= view('section/currentblog'); ?>
 
 <section class="ftco-intro ftco-section ftco-no-pt">
 	<div class="container">
@@ -763,7 +534,7 @@
 					<div class="overlay"></div>
 					<h2>We Are Pacific A Travel Agency</h2>
 					<p>We can manage your dream building A small river named Duden flows by their place</p>
-					<p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Ask For A Quote</a></p>
+					<p class="mb-0"><a href="#" class="btn btn-primary Searchbtn px-4 py-3">Ask For A Quote</a></p>
 				</div>
 			</div>
 		</div>

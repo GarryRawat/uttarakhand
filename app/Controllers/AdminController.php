@@ -7,6 +7,8 @@ use App\Models\CitiesModel;
 use App\Models\ImageModel;
 use App\Models\AreaModel;
 use App\Models\FoodModel;
+use App\Models\ContactModel;
+use App\Models\SubscribersModel;
 
 class AdminController extends BaseController
 {
@@ -22,6 +24,8 @@ class AdminController extends BaseController
         $this->imageModel = new ImageModel();
         $this->areaModel = new AreaModel();
         $this->foodModel = new FoodModel();
+        $this->contact = new ContactModel();
+        $this->subscriber = new SubscribersModel();
     }
 
 
@@ -68,22 +72,13 @@ class AdminController extends BaseController
             'long_description' => $long_description,
 
         ];
-        //  echo "<pre>";
-        //  print_r($data);
-        //  echo "</pre>";
-        //  die();
-
         if ($this->uttarakhandModel->insert($data)) {
 
-            session()->setFlashdata('message', 'data insert successfully');
-            return redirect('insertDetails');
-            $response = array("status" => "success", "message" => "Data inserted successfully");
+            session()->setFlashdata('success', 'Record Added Successfully!');
         } else {
-            $response = array("status" => "error", "message" => "Product not added");
-            // session()->setFlashdata('message', 'product not add ');
+            session()->setFlashdata('error', 'Record Added Successfully!');
         }
-
-        echo json_encode($response);
+        return redirect('listpagedetails');
     }
 
     // add image section
@@ -92,24 +87,18 @@ class AdminController extends BaseController
     {
         $data['city'] = $this->citiesModel->Getcity();
         $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
-        // echo "<pre>";
-        // print_r($data['pages']);
-        // "</pre>";
-        // die;
+    
         return view('admin/includes/header')
             . view('admin/pages/addPhotos', $data)
             . view('admin/includes/footer');
     }
 
-    public function InsertimageData()
-    {
+    public function InsertimageData() {
 
         if (!empty($_FILES)) {
             $targetDir = "uploads/";
             $fileNames = [];
         }
-
-
         $option = $this->request->getVar('option');
         $city_page_id = $option === 'city' ? $this->request->getVar('city_id') : $this->request->getVar('place_id');
         foreach ($_FILES['file']['name'] as $key => $name) {
@@ -123,30 +112,42 @@ class AdminController extends BaseController
                 'image' => $name
             ];
         }
-        // print_r($data);
-        if ($this->imageModel->insertBatch($data)) {
-            $response = array("status" => "success", "message" => "file uploaded successfull");
-        } else {
-            $response = array("status" => "error", "message" => "not uploaded");
-        }
 
+        if ($this->imageModel->insertBatch($data)) {
+            $response = array("status" => "success", "message" => "File uploaded successfully");
+        } else {
+            $response = array("status" => "error", "message" => "Upload failed");
+        }
+        
         echo json_encode($response);
     }
 
+     /* listing pages photos  * */
+
+     public function photos_listing(){
+    
+      $data['image_data']=$this->imageModel->get_photos_pages_list();
+
+      echo "<pre>";
+      print_r($data['image_data']);
+      die;
+
+        return view('admin/includes/header')
+            . view('admin/pages/photos_listing')
+            . view('admin/includes/footer');
+     }
+
 
     //  show top food page
-     
-    public function ShowArea()
-    {
+
+    public function ShowArea()   {
 
         $data['city'] = $this->citiesModel->Getcity();
         $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
 
-
-
-        return view('admin/includes/header',$data)
-        . view('admin/pages/addarea')
-        . view('admin/includes/footer');
+        return view('admin/includes/header', $data)
+            . view('admin/pages/addarea')
+            . view('admin/includes/footer');
     }
 
 
@@ -154,13 +155,10 @@ class AdminController extends BaseController
 
     public function InsertareaData()
     {
-
         if (!empty($_FILES)) {
             $targetDir = "uploads/";
             $fileNames = [];
         }
-
-
         $option = $this->request->getVar('option');
         $top_food = $this->request->getVar('top_food');
         $city_page_id = $option === 'city' ? $this->request->getVar('city_id') : $this->request->getVar('place_id');
@@ -177,13 +175,8 @@ class AdminController extends BaseController
                 'top_food' => $top_food,
                 'area_images' => $name
             ];
-
-            
         }
-        // echo "<pre>";
-        // print_r($data);
-        //  "</pre>";
-        //  die;
+      
         if ($this->areaModel->insertBatch($data)) {
             $response = array("status" => "success", "message" => "file uploaded successfull");
         } else {
@@ -193,33 +186,27 @@ class AdminController extends BaseController
         echo json_encode($response);
     }
 
+    /** show admin food page */
+
+    public function Showfoodpage(){
 
 
+        $data['city'] = $this->citiesModel->Getcity();
+        $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
 
+        return view('admin/includes/header', $data)
+            . view('admin/pages/addfood')
+            . view('admin/includes/footer');
+    }
 
-
-public function Showfoodpage(){
-
-   
-    $data['city'] = $this->citiesModel->Getcity();
-    $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
-
-
-
-    return view('admin/includes/header',$data)
-    . view('admin/pages/addfood')
-    . view('admin/includes/footer');
-}
-
+    /** Add multyple food photos by places and city */
 
     public function InsertmultyData(){
-      
+
         if (!empty($_FILES)) {
             $targetDir = "uploads/";
             $fileNames = [];
         }
-
-
         $option = $this->request->getVar('option');
         $top_food = $this->request->getVar('top_food');
         $city_page_id = $option === 'city' ? $this->request->getVar('city_id') : $this->request->getVar('place_id');
@@ -234,13 +221,7 @@ public function Showfoodpage(){
                 'top_foods' => $top_food,
                 'food_images' => $name
             ];
-
-            
         }
-        // echo "<pre>";
-        // print_r($data);
-        //  "</pre>";
-        //  die;
         if ($this->foodModel->insertBatch($data)) {
             $response = array("status" => "success", "message" => "file uploaded successfull");
         } else {
@@ -249,4 +230,100 @@ public function Showfoodpage(){
 
         echo json_encode($response);
     }
+
+
+    /** listing content pages data in admin */
+
+    public function ListingPages() {
+
+
+        $data['listing'] = $this->uttarakhandModel->getallPagesDatabySlug();
+    
+        return view('admin/includes/header')
+            . view('admin/pages/ListingPages', $data)
+            . view('admin/includes/footer');
+    }
+
+     /** Edit content pages Data  */
+    public function Editallpages($id){
+        $data['cities'] = $this->citiesModel->Getcity();
+        $data['pagedata'] = $this->uttarakhandModel->getallpagesdatabyid($id);
+
+
+        return view('admin/includes/header')
+            . view('admin/pages/editallpages', $data)
+            . view('admin/includes/footer');
+    }
+
+
+    /** update content pages  */
+
+    public function updateallpages(){
+
+        $id = $this->request->getvar('id');
+        $city_name = $this->request->getvar('city_name');
+        $place = $this->request->getvar('place');
+        $title = $this->request->getvar('title');
+        $slug = str_replace(' ', '-', $this->request->getvar('title'));
+        $about_title = $this->request->getvar('about_title');
+        $long_description = $this->request->getvar('long_description');
+        $short_description = $this->request->getvar('short_description');
+
+        $data = [
+            'city_id' => $city_name,
+            'place' => $place,
+            'title' => $title,
+            'slug' => $slug,
+            'about_title' => $about_title,
+            'short_description' => $short_description,
+            'long_description' => $long_description,
+
+        ];
+        if ($this->uttarakhandModel->getAllPagesDataUpdateById($id, $data)) {
+            $response = array("status" => "success", "message" => "Data Updated");
+        } else {
+            $response = array("status" => "error", "message" => "Not Updated");
+        }
+
+        echo json_encode($response);
+    }
+
+    /** detele content pages */
+
+    public function deletepages() {
+
+        $id = $this->request->getvar('id');
+        if ($this->uttarakhandModel->delete($id)) {
+
+            $response = array("status" => "success", "message" => "Your Page was Deleted");
+        } else {
+            $response = array("status" => "error", "message" => "item not delete");
+        }
+
+        echo json_encode($response);
+    }
+
+
+    /** show comment page by  admin */
+
+    public function list_contact(){
+
+        $data['contact'] = $this->contact->get_contact_data();
+
+        return view('admin/includes/header')
+            . view('admin/pages/contact_listing', $data)
+            . view('admin/includes/footer');
+    }
+
+    /** show subscriber page by admin */
+
+    public function list_subscriber(){
+        $data['subscriber'] = $this->subscriber->get_subscribers();
+
+        return view('admin/includes/header')
+        . view('admin/pages/subscriber_listing', $data)
+        . view('admin/includes/footer');
+    }
+
+
 }

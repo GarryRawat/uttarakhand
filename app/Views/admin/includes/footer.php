@@ -18,6 +18,7 @@
     <!-- plugins:js -->
     
     <script src="<?= base_url() ?>/public/admin/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="<?= base_url() ?>/public/common/jquery-confirm-v3.3.4/js/jquery-confirm.js"></script>
 
     <!-- endinject -->
     <!-- Plugin js for this page -->
@@ -34,6 +35,12 @@
 
 
     <script>
+      
+      <?php if (session()->getFlashdata('message')): ?>
+    <div id="flash-message" class="alert alert-<?= session()->getFlashdata('status') ?>" role="alert">
+        <?= session()->getFlashdata('message') ?>
+    </div>
+<?php endif; ?>
       
     </script>
    

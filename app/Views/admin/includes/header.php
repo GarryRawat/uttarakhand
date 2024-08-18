@@ -6,6 +6,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Connect Plus</title>
+  
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Gupter:wght@400;500;700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
   <!-- plugins:css -->
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/flag-icon-css/css/flag-icon.min.css">
@@ -28,6 +32,7 @@
   <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/css/style.css">
+  <link rel="stylesheet" href="<?= base_url() ?>/public/common/jquery-confirm-v3.3.4/css/jquery-confirm.css">
   <!-- End layout styles -->
   <link rel="shortcut icon" href="<?= base_url() ?>/public/admin/assets/images/favicon.png" />
 </head>
@@ -259,7 +264,7 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
               <span class="menu-title">UI Elements</span>
@@ -272,7 +277,7 @@
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
               </ul>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="pages/icons/mdi.html">
               <span class="icon-bg"><i class="mdi mdi-contacts menu-icon"></i></span>
@@ -305,20 +310,71 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="<?= base_url('insertDetails') ?>">Add Details</a></li>
-                <li class="nav-item"> <a class="nav-link" href="<?= base_url('addPhotos') ?>">ADDPhotos</a></li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li> -->
+                <!-- <li class="nav-item"> <a class="nav-link" href="<?= base_url('insertDetails') ?>">Add Details</a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?= base_url('addPhotos') ?>">ADDPhotos</a></li> -->
                 <li class="nav-item"> <a class="nav-link" href="<?= base_url('addarea') ?>">ADDArea</a></li>
-                <li class="nav-item"> <a class="nav-link" href="<?= base_url('addfood') ?>">ADDFoodPhotos</a></li>
-                <li class="nav-item"> <a class="nav-link" href="<?= base_url('addblogs') ?>">AddBlogs</a></li>
-                <li class="nav-item"> <a class="nav-link" href="<?= base_url('listblog') ?>">BlogList</a></li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="<?= base_url('addfood') ?>">ADDFoodPhotos</a></li> -->
                 <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li> -->
               </ul>
             </div>
           </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic2" aria-expanded="false" aria-controls="ui-basic">
+              <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
+              <span class="menu-title">Add Pages</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic2">
+              <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('insertDetails') ?>">Pages</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('listpagedetails') ?>">Pages Listing</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('addPhotos') ?>">Pages-Photos</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('photoslisting') ?>">Pages-photos-List</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('addfood') ?>">Pages-Food-Photos</a></li>
+           
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
+              <span class="menu-title">BLogs</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('addblogs') ?>">Add Blogs</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('listblog') ?>">Listing</a></li>
+              </ul>
+            </div>
+          </li>
+
+          
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic3" aria-expanded="false" aria-controls="ui-basic">
+              <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
+              <span class="menu-title">Contact Us</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic3">
+              <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('listcontact') ?>">Contact List</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('listsubscriber') ?>">subscriber  List</a></li>
+              <!-- <li class="nav-item"> <a class="nav-link" href="<?= base_url('listpagedetails') ?>">Pages Listing</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('addPhotos') ?>">Pages-Photos</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('photoslisting') ?>">Pages-photos-List</a></li>
+              <li class="nav-item"> <a class="nav-link" href="<?= base_url('addfood') ?>">Pages-Food-Photos</a></li> -->
+           
+              </ul>
+            </div>
+          </li>
+        
           
           <!-- <li class="nav-item sidebar-user-actions">
             <div class="user-details">

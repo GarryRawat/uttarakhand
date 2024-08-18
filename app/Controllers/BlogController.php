@@ -5,6 +5,8 @@ namespace App\Controllers;
 use App\Models\BlogCategoryModel;
 use App\Models\BlogModel;
 use App\Models\CitiesModel;
+use App\Models\CommentModel;
+use App\Models\LikesModel;
 
 class BlogController extends BaseController
 {
@@ -19,6 +21,8 @@ class BlogController extends BaseController
         $this->blogcategoryModel = new BlogCategoryModel();
         $this->blogModel = new BlogModel();
         $this->citiesModel = new CitiesModel();
+        $this->commentModel = new CommentModel();
+        $this->likesModel = new LikesModel();
     }
 
     public function ShowBlogs()
@@ -63,14 +67,17 @@ class BlogController extends BaseController
                 'blog_image' => $blogImage
             ];
 
-
+        
+      
 
             if ($this->blogModel->insert($data)) {
+
+                // sendMailforsubscriber($data,'blog');
 
                 $response = array("status" => "success", "message" => "Data insert the table");
                 return redirect('listblog');
             } else {
-                $response = array("status" => "errir", "message" => "Data not inserted");
+                $response = array("status" => "error", "message" => "Data not inserted");
             }
         }
 
@@ -114,10 +121,7 @@ class BlogController extends BaseController
 
 
     public  function UpdateBlogs()
-    {
-
-
-       
+    { 
         $id = $this->request->getvar('id');
         $blog_category = $this->request->getvar('blog_category');
         $blog_title = $this->request->getvar('blog_title');
@@ -142,7 +146,6 @@ class BlogController extends BaseController
                 'blog_image' => $blogImage
             ];
         } else {
-            // Handle update without changing the image
             $data = [
                 'category_id' => $blog_category,
                 'blog_title' => $blog_title,
@@ -152,12 +155,6 @@ class BlogController extends BaseController
                 'long_description' => $long_description
             ];
         }
-
-            // echo "<pre>";
-            // print_r($data);
-            // die;
-
-
             $this->blogModel->UpdateBlogs($id, $data);
 
             $response = array("status" => "success", "message" => "Data insert the table");
@@ -166,19 +163,12 @@ class BlogController extends BaseController
             echo json_encode($response);
         }
     
-    
-
-
 
     // delete blogs
 
-    public function DeleteBlog()
-    {
-
+    public function DeleteBlog() {
 
         $id = $this->request->getvar('id');
-
-
         if ($this->blogModel->delete($id)) {
 
             $response = array("status" => "success", "message" => "blog Delete");
@@ -189,25 +179,62 @@ class BlogController extends BaseController
         echo json_encode($response);
     }
 
+    public function ShowBLogPage($pages=null){
 
+        $limit = 6;
+        $pages = $this->request->getGet('page') ? intval($this->request->getGet('page')) : 1; 
+        $offset = ($pages - 1) * $limit;
 
+        $citiesModel = new CitiesModel();
+        $blogModel = new BlogModel();
+        $blog_id= $this->request->getvar('id');
 
-
-
-
-    public function ShowBLogPage()
-    {
-
-
-
-        $data['cities'] = $this->citiesModel->Getcity();
-        $data['allblogs'] = $this->blogModel->GetAllBlog();
-        // echo "<pre>";
-        // print_r($data['allblogs']);
-        // die;
+        $data['cities'] = $citiesModel->Getcity();
+        $data['random_img'] = $blogModel->getBlogsRandomImg();
+        $data['allblogs'] = $blogModel->GetAllBlog();
+     
+        $data['limitblog'] = $blogModel->getlimtblogs($limit, $offset);
+        $data['blogcount'] = $blogModel->getCountallblog();
+        $data['totalPages'] = ceil($data['blogcount'] / $limit); 
+        $data['currentPage'] = $pages;
 
         return view('frontend/includes/header', $data)
-            . view('frontend/blog',$data)
-            . view('frontend/includes/footer');
+            .view('frontend/blog',$data)
+            .view('frontend/includes/footer');
     }
+
+    public function addcommnets(){
+
+        die('');
+    }
+
+
+    public function Showblogdetails($slug){
+
+        
+        $data['cities'] = $this->citiesModel->Getcity();
+        $data['blogsbyslug'] = $this->blogModel->getBlogsbyslug($slug);
+        $data['recentBlogs'] = $this->blogModel->getRecentBlogs(3);
+        $data['views_count'] =  $this->blogModel->incrementBlogView($slug);
+        $data['all_comment'] =  $this->commentModel->getcommentsbyid($data['blogsbyslug']['id']);
+        $data['is_blog_liked'] =  $this->likesModel->checkBlogLiked(getuserIpAddress(),$data['blogsbyslug']['id']);
+
+        $data['id']=$data['blogsbyslug']['id'];
+        $data['comment_count']=getcommencount($data['blogsbyslug']['id']);
+        $data['likes_count']=getBlogsLikescount($data['blogsbyslug']['id']);
+
+        // echo "<pre>";
+        // print_r($data['alllikes']);
+        // die;
+        return view('frontend/includes/header', $data)
+            . view('frontend/blogdetails',$data)
+            . view('frontend/includes/footer');
+        
+    }
+
+
+
+   
+
+    
 }

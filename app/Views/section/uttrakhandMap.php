@@ -167,6 +167,10 @@
 </section>
 
 <script>
+
+   
+
+  
     function GetPLacesData(el,id) {
       
 
@@ -285,7 +289,11 @@
     }
     }
 
-
+    window.onload = function() {
+        var el = $('.region1');
+     
+    GetPLacesData(el,1);
+  };
    
     // GetPLacesData();
 </script>

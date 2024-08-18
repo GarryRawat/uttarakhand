@@ -52,13 +52,57 @@ class UttarakhandModel extends Model
   {
 
     return $this->db->table($this->table)
-     ->select('explore_uttarakhand.*,images.image,cities.city_name')
+      ->select('explore_uttarakhand.*,images.image,cities.city_name')
       ->join('images', 'explore_uttarakhand.id = images.city_place_id')
       ->join('cities', 'explore_uttarakhand.city_id = cities.id')
-      ->where('explore_uttarakhand.city_id',$id)
+      ->where('explore_uttarakhand.city_id', $id)
       ->groupBy('explore_uttarakhand.place')
       ->get()
       ->getResultArray();
-      
   }
+
+
+  // public function get_tour_destination_for_homepage(){
+
+  //   return $this->db->table($this->table)
+  //   ->select('explore_uttarakhand.*,images.image,cities.city_name')
+  //   ->join('images', 'explore_uttarakhand.id = images.city_place_id')
+  //   ->join('cities', 'explore_uttarakhand.city_id = cities.id')
+  //   ->get()
+  //   ->getResultArray();
+  // }
+
+
+  // get all pages data by listing 
+
+
+  
+  public function getallPagesDatabySlug() {
+    return $this->db->table($this->table)
+        ->select($this->table . '.*, cities.city_name') 
+        ->join('cities', 'cities.id = ' . $this->table . '.city_id')
+        ->get()
+        ->getResultArray();
+}
+
+
+  // end
+
+  public function getallpagesdatabyid($id){
+
+    return $this->db->table($this->table)
+    ->where('id',$id)
+    ->get()
+    ->getRowArray();
+  }
+
+
+  
+  public function getAllPagesDataUpdateById($id, $data) {
+    return $this->db->table($this->table)
+                    ->where('id', $id)
+                    ->update($data);
+}
+
+ 
 }
