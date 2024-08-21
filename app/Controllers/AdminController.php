@@ -127,14 +127,23 @@ class AdminController extends BaseController
      public function photos_listing(){
     
       $data['image_data']=$this->imageModel->get_photos_pages_list();
+      $data['city'] = $this->citiesModel->Getcity();
+      $data['places'] = $this->uttarakhandModel->GetAllPlaces();
 
-      echo "<pre>";
-      print_r($data['image_data']);
-      die;
-
+// echo "<pre>";
+//       print_r($data['image_data']);
+//       die;
         return view('admin/includes/header')
-            . view('admin/pages/photos_listing')
+            . view('admin/pages/photos_listing',$data)
             . view('admin/includes/footer');
+     }
+
+
+     public function get_image_byid($id){
+
+        $get_photos = $this->imageModel->get_image_byid($id);
+        echo json_encode($get_photos);
+
      }
 
 

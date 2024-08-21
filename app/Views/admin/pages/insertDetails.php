@@ -31,16 +31,10 @@
             <input type="text" class="form-control" id="" name="title" required>
           </div>
 
-
           <div class="col-md-6">
             <label for="your-subject" class="form-label">About Title</label>
             <input type="text" class="form-control" id="" name="about_title">
           </div>
-
-         <!-- <div class="col-md-6">
-            <label for="your-subject" class="form-label">Add Image</label>
-            <input type="file" class="form-control" id="" name="file-image">
-          </div>  -->
 
           <div class="col-12 mt-5">
             <label for="your-message" class="form-label">Short Destination</label>
@@ -70,12 +64,12 @@
 
 <script>
   tinymce.init({
-      selector: '.mytextarea', // Select the textarea to initialize TinyMCE
+      selector: '.mytextarea',
       plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker', // List of plugins
       toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat', // Toolbar configuration
-      tinycomments_mode: 'embedded', // Commenting mode
-      tinycomments_author: 'Author name', // Author name for comments
-      mergetags_list: [ // List of merge tags
+      tinycomments_mode: 'embedded', 
+      tinycomments_author: 'Author name', 
+      mergetags_list: [ 
         {
           value: 'First.Name',
           title: 'First Name'

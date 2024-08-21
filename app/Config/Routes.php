@@ -25,6 +25,7 @@ $routes->get('/editblogs/(:num)', 'BlogController::EditBlogs/$1');
 $routes->get('/editallpages/(:num)', 'AdminController::Editallpages/$1');
 $routes->get('/listcontact', 'AdminController::list_contact');
 $routes->get('/listsubscriber', 'AdminController::list_subscriber');
+$routes->get('/get_image/(:num)', 'AdminController::get_image_byid/$1');
 
 
 $routes->post('/addpageData', 'AdminController::AddpageData');
