@@ -61,7 +61,6 @@
                                         <th>Image</th>
                                         <th>Category</th>
                                         <th>City/Place</th>
-
                                         <th>Action</th>
                                     </tr>
                                 </thead>
