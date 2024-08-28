@@ -125,14 +125,11 @@ class AdminController extends BaseController
      /* listing pages photos  * */
 
      public function photos_listing(){
-    
+
       $data['image_data']=$this->imageModel->get_photos_pages_list();
       $data['city'] = $this->citiesModel->Getcity();
       $data['places'] = $this->uttarakhandModel->GetAllPlaces();
 
-// echo "<pre>";
-//       print_r($data['image_data']);
-//       die;
         return view('admin/includes/header')
             . view('admin/pages/photos_listing',$data)
             . view('admin/includes/footer');
@@ -140,16 +137,50 @@ class AdminController extends BaseController
 
 
      public function get_image_byid($id){
-
         $get_photos = $this->imageModel->get_image_byid($id);
         echo json_encode($get_photos);
-
      }
+
+
+     /**
+      * update city and pages update
+      */
+
+      public function update_pages_image() {
+        // Retrieve POST data
+        $image_id = $this->request->getVar('image_id');
+        $city_place_id = $this->request->getVar('city_place_id');
+    
+        $file = $this->request->getFile('file');
+        
+        $newName = "";
+    
+        if ($file && $file->isValid() && !$file->hasMoved()) {
+            $newName = $file->getRandomName();
+            $file->move(ROOTPATH . 'uploads/', $newName);
+        }
+    
+        // Prepare data for update
+        $data = [
+            'city_place_id' => $city_place_id,
+            'image' => $newName
+        ];
+    
+    
+        if ($this->imageModel->update_record($image_id, $data)) {
+            $response = ["status" => "success", "message" => "Record Updated Successfully"];
+        } else {
+            $response = ["status" => "error", "message" => "Record Not Updated"];
+        }
+        
+        return $this->response->setJSON($response);
+    }
+    
 
 
     //  show top food page
 
-    public function ShowArea()   {
+    public function ShowArea() {
 
         $data['city'] = $this->citiesModel->Getcity();
         $data['pages'] = $this->uttarakhandModel->GetAllPlaces();

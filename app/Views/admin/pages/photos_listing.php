@@ -91,8 +91,7 @@
         </div>
     </div>
 
-
-
+    <!--  edit phtos model-->
     <div class="modal" id="edit_items_modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -103,12 +102,13 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form name="item_edit" id="item_edit" method="post" action="">
-                        <input type="hidden" name="items_id" id="items_id" class="form-control" />
+                    <form name="edit_image_form" id="edit_image_form" method="post" action="">
+                        <input type="hidden" name="image_id" id="image_id" class="form-control" />
+                        <input type="hidden" name="city_place_id" id="city_place_id" class="form-control" />
 
                         <div class="col-md-6  hidden" id="placeDropdown">
                             <label for="your-surname" class="form-label">place</label>
-                            <select class="js-example-placeholder-single js-states form-control" name="place_id">
+                            <select class="js-example-placeholder-single js-states places form-control" name="place_id">
                                 <?php foreach ($places as $place_deatils) { ?>
                                     <option class="form-control" value="<?= $place_deatils['id'] ?>"><?= $place_deatils['place'] ?></option>
                                 <?php } ?>
@@ -117,16 +117,25 @@
 
                         <div class="col-md-6  hidden" id="cityDropdown">
                             <label for="your-surname" class="form-label">City</label>
-                            <select class="js-example-placeholder-single js-states form-control" name="city_id">
+                            <select class="js-example-placeholder-single js-states city form-control" name="city_id">
                                 <?php foreach ($city as $city_deatils) { ?>
                                     <option class="form-control" value="<?= $city_deatils['id'] ?>"><?= $city_deatils['city_name'] ?></option>
                                 <?php } ?>
                             </select>
                         </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <lable>Image</lable>
+                                <div id="imageBox" style="border: 1px solid #ddd; padding: 10px; width: 200px; height: 200px;">
+                                    <img id="imagePreview" src="" alt="Image Preview" style="max-width: 100%; height: auto; display: none;">
+                                </div>
+                                <input type="file" name="file" id="file">
+                            </div>
+                        </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" id="update_image_form">Save changes</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -138,7 +147,9 @@
             var table = new DataTable('#myTable');
         });
 
-
+        /**
+         * delete pages photos
+         */
         $('.delete-btn').on('click', function(e) {
             e.preventDefault();
             let id = $(this).attr('id');
@@ -216,42 +227,84 @@
             });
         });
 
+        /**
+         * edit pages photos images
+         */
         function editPage(pageId) {
-
             console.log("Editing page with ID:", pageId);
-
-
             $('#edit_items_modal').modal('show');
-            $('#items_id').val(pageId);
-
+            $('#image_id').val(pageId);
             $.ajax({
                 type: 'GET',
                 url: '<?= base_url('get_image/') ?>' + pageId,
                 data: pageId,
                 dataType: 'json',
                 success: function(response) {
-
                     console.log(response);
-
                     $("#cityDropdown").hide();
                     $("#placeDropdown").hide();
                     $("#edit_modal_header").text('Edit Item(' + response.id + ')');
-                    $("#items_id").val(response.id);
-
+                    $("#image_id").val(response.id);
+                    $("#city_place_id").val(response.city_place_id);
                     if (response.category === 'city') {
                         $("#cityDropdown").show();
+                        $(".city").val(response.city_place_id).change();
                     } else if (response.category === 'place') {
                         $("#placeDropdown").show();
-                    }
-                    else{
+                        $(".places").val(response.city_place_id).change();
+                    } else {
                         $("#cityDropdown").hide();
                         $("#placeDropdown").hide();
                     }
-
-                    // $("#edit_category").val(response.category);
-
-                    // $("#edit_image").val(response.image);
+                    if (response.image) {
+                        $("#imagePreview").attr("src", "<?php echo base_url('uploads/'); ?>" + response.image).show();
+                    }
                 }
             })
         }
+
+        $('#update_image_form').click(function(event) {
+            event.preventDefault();
+            var data = $('#edit_image_form').serialize();
+            var form = $("#edit_image_form").closest("form");
+            var formData = new FormData(form[0]);
+
+            // console.log(formData);
+            // return;
+            $.ajax({
+                type: 'POST',
+                url: '<?= base_url('update-pages-image') ?>',
+                data: formData,
+                processData: false,
+                contentType: false,
+                dataType: 'json',
+                success: function(response) {
+                    if (response.status == "success") {
+                        new Notify({
+                            title: 'Notify Title',
+                            text: res.message,
+                            type: 'success',
+                            autoclose: true,
+                            autotimeout: 3000
+
+                            
+                        })
+                    } else {
+                        new Notify({
+                            title: 'Notify Title',
+                            text: res.message,
+                            type: 'error',
+                            autoclose: true,
+                            autotimeout: 3000
+
+                        })
+                    }
+                }
+            });
+        })
+
+        $('.city,.places').change(function(){
+            var city_place_id=$(this).val();
+            $('#city_place_id').val(city_place_id);
+        });
     </script>
