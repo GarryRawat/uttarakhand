@@ -50,4 +50,10 @@ class ImageModel extends Model
 
   }
 
+  public function update_record($id, $data) {
+    return $this->db->table($this->table) // Ensure this is your actual table name
+        ->where('id', $id)
+        ->update($data);
+}
+
 }

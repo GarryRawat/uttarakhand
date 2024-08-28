@@ -30,6 +30,7 @@ $routes->get('/get_image/(:num)', 'AdminController::get_image_byid/$1');
 
 $routes->post('/addpageData', 'AdminController::AddpageData');
 $routes->post('/addimageData', 'AdminController::InsertimageData');
+$routes->post('/update-pages-image', 'AdminController::update_pages_image');
 $routes->post('/addareaData', 'AdminController::InsertareaData');
 $routes->post('/addmultyData', 'AdminController::InsertmultyData');
 $routes->post('/addblogData', 'BlogController::AddBlogs');
