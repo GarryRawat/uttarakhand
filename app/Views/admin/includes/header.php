@@ -5,23 +5,15 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Connect Plus</title>
-  
-	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Gupter:wght@400;500;700&family=Teko:wght@300..700&display=swap" rel="stylesheet"> -->
-  <!-- plugins:css -->
+  <title>Wolve Admin Pannel</title>
+
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/flag-icon-css/css/flag-icon.min.css">
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/css/vendor.bundle.base.css">
-  <!-- endinject -->
-  <!-- Plugin css for this page -->
+
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
-  <!-- End plugin css for this page -->
-  <!-- inject:css -->
-  <!-- endinject -->
-  <!-- Layout styles -->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
@@ -31,8 +23,14 @@
   <script src="https://cdn.tiny.cloud/1/rzio6orcu8qplfrvev2yeyz648fa2fle5ou9gdc7fx2fubjh/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
   <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.css" />
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/css/style.css">
   <link rel="stylesheet" href="<?= base_url() ?>/public/common/jquery-confirm-v3.3.4/css/jquery-confirm.css">
+  <!-- <link rel="stylesheet" href="<?= base_url() ?>/public/common/dropzone-main/src/dropzone.js">
+  <link rel="stylesheet" href="<?= base_url() ?>/public/common/dropzone-main/src/dropzone."> -->
+
+ 
   <!-- End layout styles -->
   <link rel="shortcut icon" href="<?= base_url() ?>/public/admin/assets/images/favicon.png" />
 </head>

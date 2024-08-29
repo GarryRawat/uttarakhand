@@ -206,17 +206,12 @@
 						autotimeout: 3000
 					})
 					$('.Subscribe').text('Subscribe');
-
-
-					$('#myForm')[0].reset();
-
-
-
-
+				      $('#myForm')[0].reset();
 				} else {
 					new Notify({
 						title: 'Notify Title',
 						text: res.message,
+						status: 'error',
 						type: 'error',
 						autoclose: true,
 						autotimeout: 3000
@@ -244,7 +239,6 @@
     $.confirm({
       title: 'Destination!',
       content: '' +
-
         '<form action="" class="formName">' +
         '<div class="form-group">' +
         '<label>Search Your Destination</label>' +
@@ -255,11 +249,9 @@
        '</div>'+
         '</form>',
         buttons: {
-        
         close: {
             text: 'Close',
-            action: function() {
-               
+            action: function() {    
             }
         }
     }
@@ -280,10 +272,7 @@
       },
       dataType: 'JSON',
       success: function(response) {
-        // console.log(response); 
-
         var html='';
-
         if (response.length > 0) { 
         $.each(response, function(key, value) {
             html += `<li class="search-history"><a href="${value.url}">${value.name}</a></li>`;

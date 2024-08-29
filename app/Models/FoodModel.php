@@ -13,9 +13,7 @@ class FoodModel extends Model
 
 
 
-  public function GetimagebyFood($category, $id)
-  {
-
+  public function GetimagebyFood($category, $id){
     $imagesArr = [];
     $foodImages = $this->db->table($this->table)
       ->select('*')
@@ -41,4 +39,32 @@ class FoodModel extends Model
 
 
   }
+
+  /** 
+   * fectch food photos
+   */
+
+   public function get_foods_pages_list(){
+    $city_data = $this->db->table($this->table)
+      ->select('foods.*,cities.city_name as title')
+      ->join('cities', 'cities.id = foods.city_place_id')
+      ->where('foods.category', 'city')
+      ->get()
+      ->getResultArray();
+
+    $place_data = $this->db->table($this->table)
+      ->select('foods.*,explore_uttarakhand.id as place_id,explore_uttarakhand.title')
+      ->join('explore_uttarakhand', 'explore_uttarakhand.id = foods.city_place_id', 'left')
+      ->where('foods.category', 'place')
+      ->get()
+      ->getResultArray();
+
+    $combined_arr = array_merge($city_data, $place_data);
+
+    return $combined_arr;
+  }
+
+
+
+
 }

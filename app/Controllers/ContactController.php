@@ -217,6 +217,28 @@ class ContactController extends BaseController
 
 
 
+     /** show comment page by  admin */
+
+     public function list_contact(){
+
+        $data['contact'] = $this->contactModel->get_contact_data();
+
+        return view('admin/includes/header')
+            . view('admin/pages/contact_listing', $data)
+            . view('admin/includes/footer');
+    }
+
+    /**
+     * suscriber list show by admin
+     */
+    public function list_subscriber(){
+        $data['subscriber'] = $this->subscribersModel->get_subscribers();
+
+        return view('admin/includes/header')
+        . view('admin/pages/subscriber_listing', $data)
+        . view('admin/includes/footer');
+    }
+
 
 
 
