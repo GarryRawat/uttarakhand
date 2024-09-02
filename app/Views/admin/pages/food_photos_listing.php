@@ -61,16 +61,18 @@
                                         <th>Image</th>
                                         <th>Category</th>
                                         <th>City/Place</th>
+                                        <th>Food-Name</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php foreach ($image_data as $pages) { ?>
+                                    <?php foreach ($food_img as $pages) { ?>
                                         <tr class="id_<?php echo $pages['id']; ?>">
 
-                                            <td><img src="<?= base_url('uploads/' . $pages['image']) ?>" alt="User Image" style="width:50px; height:50px;"></td>
+                                            <td><img src="<?= base_url('uploads/' . $pages['food_images']) ?>" alt="User Image" style="width:50px; height:50px;"></td>
                                             <td class=""><?= $pages['category'] ?></td>
                                             <td class=""><?= $pages['title'] ?></td>
+                                            <td class=""><?= $pages['top_foods'] ?></td>
                                             <td><button onclick="editPage(<?= $pages['id'] ?>)" class="edit-button">
                                                     <i class="fa fa-pencil edit-icon fa-lg" style="color: blue;"></i>
                                                 </button>
@@ -123,13 +125,19 @@
                                 <?php } ?>
                             </select>
                         </div>
+                        <div class="col-md-6 mt-4">
+                            <div class="form-group">
+                                <lable  for="your-surname" class="form-label">Food-Name</lable>
+                                <input type="text" name="top_foods" id="top_foods" class="form-control">
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <lable>Image</lable>
+                                <lable  for="your-surname" class="form-label">Image</lable>
                                 <div id="imageBox" style="border: 1px solid #ddd; padding: 10px; width: 200px; height: 200px;">
                                     <img id="imagePreview" src="" alt="Image Preview" style="max-width: 100%; height: auto; display: none;">
                                 </div>
-                                <input type="file" name="file" id="file">
+                                <input type="file" name="file" id="file"  class="form-control">
                             </div>
                         </div>
                     </form>
@@ -174,7 +182,7 @@
                         }).then((result) => {
                             if (result.isConfirmed) {
                                 $.ajax({
-                                    url: '<?= base_url('deletepages') ?>',
+                                    url: '<?= base_url('delete-food-images') ?>',
                                     type: 'POST',
                                     data: {
                                         id: id
@@ -231,20 +239,23 @@
          * edit pages photos images
          */
         function editPage(pageId) {
-            console.log("Editing page with ID:", pageId);
+       
             $('#edit_items_modal').modal('show');
             $('#image_id').val(pageId);
+            console.log("Editing page with ID:", pageId);
             $.ajax({
                 type: 'GET',
-                url: '<?= base_url('get_image/') ?>' + pageId,
+                url: '<?= base_url('get-food-image/') ?>' + pageId,
                 data: pageId,
                 dataType: 'json',
                 success: function(response) {
                     console.log(response);
+                    // return;
                     $("#cityDropdown").hide();
                     $("#placeDropdown").hide();
                     $("#edit_modal_header").text('Edit Item(' + response.id + ')');
                     $("#image_id").val(response.id);
+                    $("#top_foods").val(response.top_foods);
                     $("#city_place_id").val(response.city_place_id);
                     if (response.category === 'city') {
                         $("#cityDropdown").show();
@@ -256,8 +267,8 @@
                         $("#cityDropdown").hide();
                         $("#placeDropdown").hide();
                     }
-                    if (response.image) {
-                        $("#imagePreview").attr("src", "<?php echo base_url('uploads/'); ?>" + response.image).show();
+                    if (response.food_images) {
+                        $("#imagePreview").attr("src", "<?php echo base_url('uploads/'); ?>" + response.food_images).show();
                     }
                 }
             })
@@ -273,7 +284,7 @@
             // return;
             $.ajax({
                 type: 'POST',
-                url: '<?= base_url('update-pages-image') ?>',
+                url: '<?= base_url('update-food-image') ?>',
                 data: formData,
                 processData: false,
                 contentType: false,

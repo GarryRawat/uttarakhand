@@ -39,16 +39,96 @@ class FoodController extends BaseController
             . view('admin/includes/footer');
     }
 
-
+    /**
+     * Show food listing page 
+     */
     public function get_food_listing(){
 
-        $data['food_data']=$this->foodModel->get_foods_pages_list();
-        
+        $data['food_img']=$this->foodModel->get_foods_pages_list();
+        $data['city'] = $this->citiesModel->Getcity();
+        $data['places'] = $this->uttarakhandModel->GetAllPlaces();
+            
         return view('admin/includes/header', $data)
-            . view('admin/pages/food_listing')
+            . view('admin/pages/food_photos_listing',$data)
             . view('admin/includes/footer');
 
     }
+
+    /**
+     * get food photos by id 
+     */
+
+     public function get_food_image_by_id($id) {
+        $food_photos = $this->foodModel->get_food_photos_by_id($id);
+    
+        if ($food_photos) {
+            return $this->response->setJSON($food_photos);
+        } else {
+            return $this->response->setJSON(['error' => 'No data found'])->setStatusCode(404);
+        }
+    }
+
+    /**
+     * update food photos in city and places
+     */
+
+     public function update_food_image() {
+
+        $id = $this->request->getVar('image_id');
+        $top_foods= $this->request->getVar('top_foods');
+        $city_place_id = $this->request->getVar('city_place_id');
+        $file = $this->request->getFile('file');
+
+        // print_r($_POST);
+        // die;
+     
+            if ($file && $file->isValid() && !$file->hasMoved()) {
+                $newName = $file->getRandomName();
+                $file->move(FCPATH . 'uploads/', $newName);
+            }else{
+                $newName="";
+            }
+     
+        $data = [
+            'id'=>$id,
+            'top_foods'=>$top_foods,
+            'city_place_id' => $city_place_id,
+            'food_images' => $newName
+        ];
+
+        // print_r($data);
+        // die;
+
+    
+
+        if ($this->foodModel->update_record($id, $data)) {
+            $response = ["status" => "success", "message" => "Record Updated Successfully"];
+     
+        } else {
+            $response = ["status" => "error", "message" => "Record Not Updated"];
+        }   
+       echo json_encode($response);
+  }
+
+   /**
+   * delete pages photos
+   */
+
+   public function delete_food_images(){
+
+    $id = $this->request->getvar('id');
+    if ($this->foodModel->delete($id)) {
+
+        $response = array("status" => "success", "message" => "food Delete");
+    } else {
+        $response = array("status" => "error", "message" => "item not delete");
+    }
+
+    echo json_encode($response);
+
+   }
+
+    
 
      /*
       * Add multyple food photos by places and city

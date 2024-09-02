@@ -93,15 +93,8 @@ class AdminController extends BaseController
             . view('admin/includes/footer');
     }
 
-
-     /* listing pages photos  * */
-
-
-
-     public function get_image_byid($id){
-        $get_photos = $this->imageModel->get_image_byid($id);
-        echo json_encode($get_photos);
-     }
+    
+    
    
     //  show top food page
 
