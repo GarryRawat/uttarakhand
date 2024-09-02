@@ -287,12 +287,13 @@
                             icon: "success",
                             autotimeout: 3000
                         });
+                        $('#photos_list').DataTable().ajax.reload();
                     } else {
                         new Notify({
                             title: 'Notify Title',
                             text: response.message,
                             type: 'error',
-                            autoclose: true,
+                            autoclose:N true,
                             autotimeout: 3000
                         });
                     }

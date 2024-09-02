@@ -11,21 +11,8 @@ $routes->get('/insertDetails', 'AdminController::InsertDetails');
 $routes->get('/addPhotos', 'AdminController::AddimageData');
 $routes->get('/addarea', 'AdminController::ShowArea');
 $routes->get('/listpagedetails', 'AdminController::ListingPages');
-
 $routes->get('/editallpages/(:num)', 'AdminController::Editallpages/$1');
 $routes->get('/get_image/(:num)', 'AdminController::get_image_byid/$1');
-<<<<<<< HEAD
-=======
-
-
-$routes->post('/addpageData', 'AdminController::AddpageData');
-$routes->post('/addimageData', 'AdminController::InsertimageData');
-$routes->post('/addareaData', 'AdminController::InsertareaData');
-$routes->post('/addmultyData', 'AdminController::InsertmultyData');
-$routes->post('/addblogData', 'BlogController::AddBlogs');
-$routes->post('/updateblog', 'BlogController::UpdateBlogs');
-$routes->post('/itemDelete', 'BlogController::DeleteBlog');
->>>>>>> 1f7044727f61d0a53467e3f3e26f685c7f2288dd
 $routes->post('/updateallpages', 'AdminController::updateallpages');
 $routes->post('/deletepages', 'AdminController::deletepages');
 $routes->post('/addpageData', 'AdminController::AddpageData');
