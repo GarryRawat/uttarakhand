@@ -31,6 +31,10 @@ class HomeController extends BaseController
         $data['cities'] = $this->citiesModel->Getcity();
         $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
         $data['recentBlogs'] = $this->blogModel->getRecentBlogs(3);
+        // $data['random_city'] = $this->citiesModel->get_random_cities();
+        // echo "<pre>";
+        // print_r($data['random_city'] );
+        // die;
 
         return view('frontend/includes/header', $data)
             . view('frontend/home', $data)
@@ -97,4 +101,7 @@ class HomeController extends BaseController
             . view('frontend/allpages/mainpages', $data)
             . view('frontend/includes/footer');
     }
+
+
+
 }

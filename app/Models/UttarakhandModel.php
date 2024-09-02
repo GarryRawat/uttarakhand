@@ -8,12 +8,10 @@ class UttarakhandModel extends Model
 {
   protected $table = 'explore_uttarakhand';
   protected $primaryKey = 'id';
-  protected $allowedFields = ['city_id', 'place', 'title', 'slug', 'about_title', 'long_description', 'short_description', 'all_image'];
+  protected $allowedFields = ['city_id', 'place', 'title', 'slug', 'about_title', 'long_description', 'short_description','meta_title','meta_keyword','meta_description','all_image'];
 
 
-  public function GetCityByid($id)
-  {
-
+  public function GetCityByid($id){
     return $this->db->table($this->table)
       ->join('cities', 'cities.id = explore_uttarakhand.city_id')
       ->where('city_id', $id)
@@ -22,16 +20,16 @@ class UttarakhandModel extends Model
   }
 
 
-  public function GetDatabyslug($slug)
-  {
+  public function GetDatabyslug($slug){
 
     return $this->db->table($this->table)
       ->where('slug', $slug)
       ->get()
       ->getRowArray();
   }
-  public function GetAllPlaces()
-  {
+
+
+  public function GetAllPlaces() {
 
     return $this->db->table($this->table)
       ->get()
@@ -39,8 +37,7 @@ class UttarakhandModel extends Model
   }
 
 
-  public function GetCityDatabyid($id)
-  {
+  public function GetCityDatabyid($id){
     return $this->db->table($this->table)
       ->where('city_id', $id)
       ->get()
@@ -48,9 +45,7 @@ class UttarakhandModel extends Model
   }
 
 
-  public function GetDataByPlaceCity($id)
-  {
-
+  public function GetDataByPlaceCity($id) {
     return $this->db->table($this->table)
       ->select('explore_uttarakhand.*,images.image,cities.city_name')
       ->join('images', 'explore_uttarakhand.id = images.city_place_id')
@@ -62,18 +57,6 @@ class UttarakhandModel extends Model
   }
 
 
-  // public function get_tour_destination_for_homepage(){
-
-  //   return $this->db->table($this->table)
-  //   ->select('explore_uttarakhand.*,images.image,cities.city_name')
-  //   ->join('images', 'explore_uttarakhand.id = images.city_place_id')
-  //   ->join('cities', 'explore_uttarakhand.city_id = cities.id')
-  //   ->get()
-  //   ->getResultArray();
-  // }
-
-
-  // get all pages data by listing 
 
 
   
@@ -86,7 +69,7 @@ class UttarakhandModel extends Model
 }
 
 
-  // end
+
 
   public function getallpagesdatabyid($id){
 

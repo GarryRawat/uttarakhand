@@ -31,6 +31,8 @@
             <input type="text" class="form-control" id="" name="title" required>
           </div>
 
+        
+
           <div class="col-md-6">
             <label for="your-subject" class="form-label">About Title</label>
             <input type="text" class="form-control" id="" name="about_title">
@@ -44,13 +46,22 @@
           <div class="col-12 mt-4" >
             <label for="your-message" class="form-label">Long Destination</label>
             <textarea  class="mytextarea" name="long_description"></textarea>
-
           </div>
-
-       
-          <div class="col-12 " >
-            <div class="row">
-              <div class="col-md-6 mt-2">
+          <div class="col-md-6 mt-4">
+            <label for="your-surname" class="form-label">Meta Title</label>
+            <input type="text" class="form-control" id="" name="meta_title" required>
+          </div>
+          <div class="col-md-6 mt-4">
+            <label for="your-surname" class="form-label">Meta Keywords</label>
+            <input type="text" class="form-control" id="" name="meta_keywords" required>
+          </div>
+          <div class="col-12">
+            <label for="your-message" class="form-label">Meta Description</label>
+            <input type="text" class="form-control" id="" name="meta_description" required>
+          </div>
+          <div class="col-12 mt-2" >
+            <div class="row" style="justify-content:center">
+              <div class="col-md-4 mt-2">
                 <button data-res="" type="submit" class="btn btn-dark w-100 fw-bold">Add</button>
               </div>
             </div>

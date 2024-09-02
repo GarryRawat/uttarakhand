@@ -26,6 +26,18 @@ class CitiesModel extends Model
       ->get()
       ->getRowArray();
     }
+
+    
+    // public function get_random_cities(){
+
+    //   return $this->db->table($this->table)
+    //   ->select('explore_uttarakhand.city_id')
+    //   ->join('images.city_place_id=explore_uttarakhand.city_id')
+    //   ->orderBy('Rand()')
+    //   ->get()
+    //   ->getResultArray();
+
+    // }
     
   }
     

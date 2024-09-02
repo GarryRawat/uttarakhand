@@ -34,12 +34,6 @@
             <label for="your-subject" class="form-label">author</label>
             <input type="text" class="form-control" id="" name="author">
           </div>
-
-          <!-- <div class="col-md-6">
-            <label for="your-subject" class="form-label">Add Image</label>
-            <input type="file" class="form-control" id="" name="file-image">
-          </div>  -->
-
           <div class="col-12 mt-5">
             <label for="your-message" class="form-label">Short Destination</label>
             <textarea class="mytextarea" name="short_description"></textarea>
@@ -48,17 +42,27 @@
           <div class="col-12 mt-4">
             <label for="your-message" class="form-label">Long Destination</label>
             <textarea class="mytextarea" name="long_description"></textarea>
-
           </div>
-
-          <div class="col-md-6">
+          <div class="col-md-6 mt-4">
             <label for="your-subject" class="form-label">Blog-Image</label>
-            <input type="file" class="form-control" id="" name="blog_image">
+            <input type="file" class="form-control" id="" name="blog_image" required>
+          </div>
+          <div class="col-md-6 mt-4">
+            <label for="your-surname" class="form-label">Meta Title</label>
+            <input type="text" class="form-control" id="" name="meta_title" required>
+          </div>
+          <div class="col-md-6 mt-3 ">
+            <label for="your-surname" class="form-label">Meta Keywords</label>
+            <input type="text" class="form-control" id="" name="meta_keywords" required>
+          </div>
+          <div class="col-md-6 mt-3">
+            <label for="your-message" class="form-label">Meta Description</label>
+            <input type="text" class="form-control" id="" name="meta_description" required>
           </div>
 
-          <div class="col-12 ">
-            <div class="row">
-              <div class="col-md-6 mt-2">
+          <div class="col-12 mt-2">
+            <div class="row" style="justify-content:center">
+              <div class="col-md-4 mt-2">
                 <button data-res="" type="submit" class="btn btn-dark w-100 fw-bold">Add</button>
               </div>
             </div>

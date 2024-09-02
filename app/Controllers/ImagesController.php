@@ -12,10 +12,7 @@ use App\Models\SubscribersModel;
 
 class ImagesController extends BaseController
 {
-    // public function index(): string
-    // {
-    //     return view('welcome_message');
-    // }
+ 
 
     public function __construct()
     {
@@ -70,7 +67,10 @@ class ImagesController extends BaseController
         echo json_encode($response);
     }
 
-     /* listing pages photos  * */
+     /* 
+     listing pages photos
+       * 
+       * */
 
      public function photos_listing(){
 
@@ -178,18 +178,7 @@ class ImagesController extends BaseController
         echo json_encode($response);
     }
 
-    /** show admin food page */
-
-    public function Showfoodpage(){
-
-
-        $data['city'] = $this->citiesModel->Getcity();
-        $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
-
-        return view('admin/includes/header', $data)
-            . view('admin/pages/addfood')
-            . view('admin/includes/footer');
-    }
+  
 
     /** Add multyple food photos by places and city */
 
@@ -225,97 +214,4 @@ class ImagesController extends BaseController
 
 
     /** listing content pages data in admin */
-
-    public function ListingPages() {
-
-
-        $data['listing'] = $this->uttarakhandModel->getallPagesDatabySlug();
-    
-        return view('admin/includes/header')
-            . view('admin/pages/ListingPages', $data)
-            . view('admin/includes/footer');
-    }
-
-     /** Edit content pages Data  */
-    public function Editallpages($id){
-        $data['cities'] = $this->citiesModel->Getcity();
-        $data['pagedata'] = $this->uttarakhandModel->getallpagesdatabyid($id);
-
-
-        return view('admin/includes/header')
-            . view('admin/pages/editallpages', $data)
-            . view('admin/includes/footer');
-    }
-
-
-    /** update content pages  */
-
-    public function updateallpages(){
-
-        $id = $this->request->getvar('id');
-        $city_name = $this->request->getvar('city_name');
-        $place = $this->request->getvar('place');
-        $title = $this->request->getvar('title');
-        $slug = str_replace(' ', '-', $this->request->getvar('title'));
-        $about_title = $this->request->getvar('about_title');
-        $long_description = $this->request->getvar('long_description');
-        $short_description = $this->request->getvar('short_description');
-
-        $data = [
-            'city_id' => $city_name,
-            'place' => $place,
-            'title' => $title,
-            'slug' => $slug,
-            'about_title' => $about_title,
-            'short_description' => $short_description,
-            'long_description' => $long_description,
-
-        ];
-        if ($this->uttarakhandModel->getAllPagesDataUpdateById($id, $data)) {
-            $response = array("status" => "success", "message" => "Data Updated");
-        } else {
-            $response = array("status" => "error", "message" => "Not Updated");
-        }
-
-        echo json_encode($response);
-    }
-
-    /** detele content pages */
-
-    public function deletepages() {
-
-        $id = $this->request->getvar('id');
-        if ($this->uttarakhandModel->delete($id)) {
-
-            $response = array("status" => "success", "message" => "Your Page was Deleted");
-        } else {
-            $response = array("status" => "error", "message" => "item not delete");
-        }
-
-        echo json_encode($response);
-    }
-
-
-    /** show comment page by  admin */
-
-    public function list_contact(){
-
-        $data['contact'] = $this->contact->get_contact_data();
-
-        return view('admin/includes/header')
-            . view('admin/pages/contact_listing', $data)
-            . view('admin/includes/footer');
-    }
-
-    /** show subscriber page by admin */
-
-    public function list_subscriber(){
-        $data['subscriber'] = $this->subscriber->get_subscribers();
-
-        return view('admin/includes/header')
-        . view('admin/pages/subscriber_listing', $data)
-        . view('admin/includes/footer');
-    }
-
-
 }

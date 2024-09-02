@@ -8,7 +8,7 @@ class BlogModel extends Model
 {
   protected $table = 'blogs';
   protected $primaryKey = 'id';
-  protected $allowedFields = ['category_id', 'blog_title', 'slug', 'short_description', 'long_description', 'author', 'views', 'likes', 'blog_image'];
+  protected $allowedFields = ['category_id', 'blog_title', 'slug', 'short_description', 'long_description', 'author', 'views', 'likes','meta_title','meta_keyword','meta_description', 'blog_image'];
 
 
 
@@ -99,10 +99,11 @@ class BlogModel extends Model
 
   public function incrementBlogView($slug)
   {
-     - $this->db->table($this->table)
+    return   $this->db->table($this->table)
       ->set('views', 'views + 1', FALSE)
       ->where('slug', $slug)
       ->update();
+    //  $this->db->getLastQuery()->getQuery();
   }
 
 

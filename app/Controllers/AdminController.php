@@ -61,6 +61,9 @@ class AdminController extends BaseController
         $about_title = $this->request->getvar('about_title');
         $long_description = $this->request->getvar('long_description');
         $short_description = $this->request->getvar('short_description');
+        $meta_title = $this->request->getvar('meta_title');
+        $meta_keywords = $this->request->getvar('meta_keywords');
+        $meta_description = $this->request->getvar('meta_description');
 
         $data = [
             'city_id' => $city_name,
@@ -70,17 +73,80 @@ class AdminController extends BaseController
             'about_title' => $about_title,
             'short_description' => $short_description,
             'long_description' => $long_description,
+            'meta_title' => $meta_title,
+            'meta_keyword' => $meta_keywords,
+            'meta_description' => $meta_description
 
         ];
-        if ($this->uttarakhandModel->insert($data)) {
-
-            session()->setFlashdata('success', 'Record Added Successfully!');
+         if ($this->uttarakhandModel->insert($data)) {
+          session()->setFlashdata('success', 'Record Added Successfully!');
         } else {
             session()->setFlashdata('error', 'Record Added Successfully!');
         }
         return redirect('listpagedetails');
     }
 
+    /*
+    * listing content pages data in admin
+     */
+    public function ListingPages() {
+
+
+        $data['listing'] = $this->uttarakhandModel->getallPagesDatabySlug();
+    
+        return view('admin/includes/header')
+            . view('admin/pages/ListingPages', $data)
+            . view('admin/includes/footer');
+    }
+
+     /*
+     * Edit content pages Data  */
+     public function Editallpages($id){
+        $data['cities'] = $this->citiesModel->Getcity();
+        $data['pagedata'] = $this->uttarakhandModel->getallpagesdatabyid($id);
+
+
+        return view('admin/includes/header')
+            . view('admin/pages/editallpages', $data)
+            . view('admin/includes/footer');
+    }
+
+    /** update content pages  */
+
+    public function updateallpages(){
+
+        $id = $this->request->getvar('id');
+        $city_name = $this->request->getvar('city_name');
+        $place = $this->request->getvar('place');
+        $title = $this->request->getvar('title');
+        $slug = str_replace(' ', '-', $this->request->getvar('title'));
+        $about_title = $this->request->getvar('about_title');
+        $long_description = $this->request->getvar('long_description');
+        $short_description = $this->request->getvar('short_description');
+        $meta_title = $this->request->getvar('meta_title');
+        $meta_keywords = $this->request->getvar('meta_keywords');
+        $meta_description = $this->request->getvar('meta_description');
+
+        $data = [
+            'city_id' => $city_name,
+            'place' => $place,
+            'title' => $title,
+            'slug' => $slug,
+            'about_title' => $about_title,
+            'short_description' => $short_description,
+            'long_description' => $long_description,
+            'meta_title' => $meta_title,
+            'meta_keyword' => $meta_keywords,
+            'meta_description' => $meta_description
+
+        ];
+        if ($this->uttarakhandModel->getAllPagesDataUpdateById($id, $data)) {
+            $response = array("status" => "success", "message" => "Data Updated");
+        } else {
+            $response = array("status" => "error", "message" => "Not Updated");
+        }
+        echo json_encode($response);
+    }
     // add image section
 
     public function AddimageData()
@@ -94,15 +160,6 @@ class AdminController extends BaseController
     }
 
 
-     /* listing pages photos  * */
-
-
-
-     public function get_image_byid($id){
-        $get_photos = $this->imageModel->get_image_byid($id);
-        echo json_encode($get_photos);
-     }
-   
     //  show top food page
 
     public function ShowArea() {
@@ -114,10 +171,7 @@ class AdminController extends BaseController
             . view('admin/pages/addarea')
             . view('admin/includes/footer');
     }
-
-
     // add area data
-
     public function InsertareaData()
     {
         if (!empty($_FILES)) {
@@ -150,64 +204,6 @@ class AdminController extends BaseController
 
         echo json_encode($response);
     }
-
-    /*
-    * listing content pages data in admin
-     */
-    public function ListingPages() {
-
-
-        $data['listing'] = $this->uttarakhandModel->getallPagesDatabySlug();
-    
-        return view('admin/includes/header')
-            . view('admin/pages/ListingPages', $data)
-            . view('admin/includes/footer');
-    }
-
-     /** Edit content pages Data  */
-    public function Editallpages($id){
-        $data['cities'] = $this->citiesModel->Getcity();
-        $data['pagedata'] = $this->uttarakhandModel->getallpagesdatabyid($id);
-
-
-        return view('admin/includes/header')
-            . view('admin/pages/editallpages', $data)
-            . view('admin/includes/footer');
-    }
-
-
-    /** update content pages  */
-
-    public function updateallpages(){
-
-        $id = $this->request->getvar('id');
-        $city_name = $this->request->getvar('city_name');
-        $place = $this->request->getvar('place');
-        $title = $this->request->getvar('title');
-        $slug = str_replace(' ', '-', $this->request->getvar('title'));
-        $about_title = $this->request->getvar('about_title');
-        $long_description = $this->request->getvar('long_description');
-        $short_description = $this->request->getvar('short_description');
-
-        $data = [
-            'city_id' => $city_name,
-            'place' => $place,
-            'title' => $title,
-            'slug' => $slug,
-            'about_title' => $about_title,
-            'short_description' => $short_description,
-            'long_description' => $long_description,
-
-        ];
-        if ($this->uttarakhandModel->getAllPagesDataUpdateById($id, $data)) {
-            $response = array("status" => "success", "message" => "Data Updated");
-        } else {
-            $response = array("status" => "error", "message" => "Not Updated");
-        }
-
-        echo json_encode($response);
-    }
-
     /** detele content pages */
 
     public function deletepages() {
@@ -220,11 +216,5 @@ class AdminController extends BaseController
         }
         echo json_encode($response);
     }
-
-
-    
-
-   
-
 
 }

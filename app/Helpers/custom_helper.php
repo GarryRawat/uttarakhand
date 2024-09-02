@@ -257,9 +257,7 @@ function sendMail($email, $content)
   $mail->Password = 'vghzkrfevvgjnani';
   $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
   $mail->Port = 465;
-
-
-
+  
   // Set the sender and recipient email addresses
   $mail->setFrom('rwtgaurav40@gmail.com', 'Wolves Travel');
   $mail->addAddress($email);

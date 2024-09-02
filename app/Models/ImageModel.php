@@ -21,6 +21,10 @@ class ImageModel extends Model
       ->getResultArray();
   }
 
+  /**
+   * get listing admin food pages
+   */
+
   public function get_photos_pages_list(){
     $city_data = $this->db->table($this->table)
       ->select('images.*,cities.city_name as title')

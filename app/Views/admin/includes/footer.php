@@ -19,6 +19,7 @@
     
     <script src="<?= base_url() ?>/public/admin/assets/vendors/js/vendor.bundle.base.js"></script>
     <script src="<?= base_url() ?>/public/common/jquery-confirm-v3.3.4/js/jquery-confirm.js"></script>
+    <script src="<?= base_url() ?>/public/common/DataTables/datatables.min.js"></script>
 
     <!-- endinject -->
     <!-- Plugin js for this page -->

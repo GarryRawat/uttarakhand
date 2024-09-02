@@ -64,6 +64,25 @@ class FoodModel extends Model
     return $combined_arr;
   }
 
+  /**
+   * get food pages by id 
+   */
+
+   public function get_food_photos_by_id($id){
+  return  $this->db->table($this->table)
+    ->where('id', $id)
+    ->get()
+    ->getRowArray();
+  }
+
+
+  public function update_record($id, $data) {
+    return $this->db->table($this->table) 
+        ->where('id', $id)
+        ->update($data);
+}
+
+
 
 
 

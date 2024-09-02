@@ -57,14 +57,24 @@
           <div class="col-12 mt-4">
             <label for="your-message" class="form-label">Long Destination</label>
             <textarea class="mytextarea" value="" name="long_description"><?= $pagedata['long_description'] ?></textarea>
-
           </div>
 
-
+          <div class="col-md-6 mt-4">
+            <label for="your-surname" class="form-label">Meta Title</label>
+            <input type="text" class="form-control" id="" value="<?= $pagedata['meta_title'] ?> " name="meta_title" required>
+          </div>
+          <div class="col-md-6 mt-4">
+            <label for="your-surname" class="form-label">Meta Keywords</label>
+            <input type="text" class="form-control" id="" value="<?= $pagedata['meta_keyword'] ?> " name="meta_keywords" required>
+          </div>
+          <div class="col-12">
+            <label for="your-message" class="form-label">Meta Description</label>
+            <input type="text" class="form-control" id="" value="<?= $pagedata['meta_description'] ?> " name="meta_description" required>
+          </div>
           <div class="col-12 ">
-            <div class="row">
-              <div class="col-md-6 mt-2">
-                <button data-res="" type="submit" class="btn btn-dark w-100 fw-bold">Add</button>
+            <div class="row" style="justify-content: center;">
+              <div class="col-md-4 mt-2">
+                <button data-res="" type="submit" class="btn btn-dark w-100 fw-bold">Update</button>
               </div>
             </div>
           </div>

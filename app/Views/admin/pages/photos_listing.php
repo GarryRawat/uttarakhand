@@ -20,22 +20,24 @@
                 <div class="alert_div">
                     <?php
                     if (session()->getFlashdata('error')) { // for error
-                    ?>
+                        ?>
                         <div class="alert  alert-danger alert-dismissible fade show" role="alert">
-                            <span class="badge badge-pill badge-danger">Error</span>&emsp;<span><?= session()->getFlashdata('error') ?></span>
+                            <span
+                                class="badge badge-pill badge-danger">Error</span>&emsp;<span><?= session()->getFlashdata('error') ?></span>
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
-                    <?php
+                        <?php
                     } else if (session()->getFlashdata('success')) { //for success
-                    ?>
-                        <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                            <span class="badge badge-pill badge-success">Success</span>&emsp;<span><?= session()->getFlashdata('success') ?></span>
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                        </div>
+                        ?>
+                            <div class="alert  alert-success alert-dismissible fade show" role="alert">
+                                <span
+                                    class="badge badge-pill badge-success">Success</span>&emsp;<span><?= session()->getFlashdata('success') ?></span>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
                     <?php } ?>
                 </div>
 
@@ -43,8 +45,10 @@
                 <div clas="add-pages-btn">
                     <a href="<?= base_url('insertDetails') ?>" style="display: flex;
                     justify-content: flex-end; text-decoration: none;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm-.5 3a.5.5 0 0 1 .5.5V7h2V4.5a.5.5 0 0 1 1 0V7h2a.5.5 0 0 1 0 1H11v2.5a.5.5 0 0 1-1 0V8H8v2.5a.5.5 0 0 1-1 0V8H5a.5.5 0 0 1 0-1h2V4.5a.5.5 0 0 1 .5-.5z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm-.5 3a.5.5 0 0 1 .5.5V7h2V4.5a.5.5 0 0 1 1 0V7h2a.5.5 0 0 1 0 1H11v2.5a.5.5 0 0 1-1 0V8H8v2.5a.5.5 0 0 1-1 0V8H5a.5.5 0 0 1 0-1h2V4.5a.5.5 0 0 1 .5-.5z" />
                         </svg>&emsp;Add pages
                     </a>
                 </div>
@@ -55,7 +59,7 @@
                         $i = 1;
                         ?>
                         <div class="col-md-12 mt-3">
-                            <table id="photos_list" class="display">
+                            <table id="table" class="display">
                                 <thead>
                                     <tr>
                                         <th>Image</th>
@@ -68,7 +72,8 @@
                                     <?php foreach ($image_data as $pages) { ?>
                                         <tr class="id_<?php echo $pages['id']; ?>">
 
-                                            <td><img src="<?= base_url('uploads/' . $pages['image']) ?>" alt="User Image" style="width:50px; height:50px;"></td>
+                                            <td><img src="<?= base_url('uploads/' . $pages['image']) ?>" alt="User Image"
+                                                    style="width:50px; height:50px;"></td>
                                             <td class=""><?= $pages['category'] ?></td>
                                             <td class=""><?= $pages['title'] ?></td>
                                             <td><button onclick="editPage(<?= $pages['id'] ?>)" class="edit-button">
@@ -110,7 +115,8 @@
                             <label for="your-surname" class="form-label">place</label>
                             <select class="js-example-placeholder-single js-states places form-control" name="place_id">
                                 <?php foreach ($places as $place_deatils) { ?>
-                                    <option class="form-control" value="<?= $place_deatils['id'] ?>"><?= $place_deatils['place'] ?></option>
+                                    <option class="form-control" value="<?= $place_deatils['id'] ?>">
+                                        <?= $place_deatils['place'] ?></option>
                                 <?php } ?>
                             </select>
                         </div>
@@ -119,15 +125,18 @@
                             <label for="your-surname" class="form-label">City</label>
                             <select class="js-example-placeholder-single js-states city form-control" name="city_id">
                                 <?php foreach ($city as $city_deatils) { ?>
-                                    <option class="form-control" value="<?= $city_deatils['id'] ?>"><?= $city_deatils['city_name'] ?></option>
+                                    <option class="form-control" value="<?= $city_deatils['id'] ?>">
+                                        <?= $city_deatils['city_name'] ?></option>
                                 <?php } ?>
                             </select>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <lable>Image</lable>
-                                <div id="imageBox" style="border: 1px solid #ddd; padding: 10px; width: 200px; height: 200px;">
-                                    <img id="imagePreview" src="" alt="Image Preview" style="max-width: 100%; height: auto; display: none;">
+                                <div id="imageBox"
+                                    style="border: 1px solid #ddd; padding: 10px; width: 200px; height: 200px;">
+                                    <img id="imagePreview" src="" alt="Image Preview"
+                                        style="max-width: 100%; height: auto; display: none;">
                                 </div>
                                 <input type="file" name="file" id="file">
                             </div>
@@ -143,14 +152,16 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var table = new DataTable('#photos_list');
-        });
 
+        $(document).ready(function(){
+
+            $('#table').DataTable();
+        })
+    
         /**
          * delete pages photos
          */
-        $('.delete-btn').on('click', function(e) {
+        $('.delete-btn').on('click', function (e) {
             e.preventDefault();
             let id = $(this).attr('id');
 
@@ -161,7 +172,7 @@
                     id: id
                 },
                 dataType: "JSON",
-                success: function(response) {
+                success: function (response) {
                     if (response.status == "success") {
                         Swal.fire({
                             title: "Are you sure?",
@@ -180,7 +191,7 @@
                                         id: id
                                     },
                                     dataType: "JSON",
-                                    success: function(deleteResponse) {
+                                    success: function (deleteResponse) {
                                         if (deleteResponse.status == "success") {
                                             Swal.fire({
                                                 title: "Deleted!",
@@ -197,7 +208,7 @@
                                             });
                                         }
                                     },
-                                    error: function(xhr, status, error) {
+                                    error: function (xhr, status, error) {
                                         console.error(xhr.responseText);
                                         Swal.fire({
                                             title: "Error!",
@@ -216,7 +227,7 @@
                         });
                     }
                 },
-                error: function(xhr, status, error) {
+                error: function (xhr, status, error) {
                     console.error(xhr.responseText);
                     Swal.fire({
                         title: "Error!",
@@ -239,7 +250,7 @@
                 url: '<?= base_url('get_image/') ?>' + pageId,
                 data: pageId,
                 dataType: 'json',
-                success: function(response) {
+                success: function (response) {
                     console.log(response);
                     $("#cityDropdown").hide();
                     $("#placeDropdown").hide();
@@ -263,7 +274,7 @@
             })
         }
 
-        $('#update_image_form').click(function(event) {
+        $('#update_image_form').click(function (event) {
             event.preventDefault();
             var data = $('#edit_image_form').serialize();
             var form = $("#edit_image_form").closest("form");
@@ -278,31 +289,35 @@
                 processData: false,
                 contentType: false,
                 dataType: 'json',
-                success: function(response) {
+                success: function (response) {
                     if (response.status === "success") {
                         $('#edit_items_modal').modal('hide');
+
                         Swal.fire({
                             type: 'success',
                             text: "response.message",
                             icon: "success",
                             autotimeout: 3000
                         });
-                        $('#photos_list').DataTable().ajax.reload();
+                        setInterval(function () {
+                            window.location.reload()
+                        }, 1500);
+
                     } else {
                         new Notify({
                             title: 'Notify Title',
                             text: response.message,
                             type: 'error',
-                            autoclose:N true,
+                            autoclose:  true,
                             autotimeout: 3000
                         });
                     }
                 }
 
-            }); 
+            });
         })
 
-        $('.city,.places').change(function() {
+        $('.city,.places').change(function () {
             var city_place_id = $(this).val();
             $('#city_place_id').val(city_place_id);
         });
