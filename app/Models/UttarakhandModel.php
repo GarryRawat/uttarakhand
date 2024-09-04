@@ -78,8 +78,6 @@ class UttarakhandModel extends Model
     ->get()
     ->getRowArray();
   }
-
-
   
   public function getAllPagesDataUpdateById($id, $data) {
     return $this->db->table($this->table)
@@ -87,5 +85,5 @@ class UttarakhandModel extends Model
                     ->update($data);
 }
 
- 
+
 }

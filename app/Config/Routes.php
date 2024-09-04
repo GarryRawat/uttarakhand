@@ -70,7 +70,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/home', 'HomeController::home');
 $routes->get('/about', 'AboutController::About');
 $routes->get('/destination', 'DestinationController::Destination');
-$routes->get('/Places', 'PlacesController::Places');
+$routes->get('/Places', 'PlacesController::get_place_page');
 $routes->get('/blog', 'blogController::ShowBLogPage');
 $routes->get('/blogdetails/(:any)', 'blogController::Showblogdetails/$1');
 $routes->get('/contact', 'ContactController::contact');

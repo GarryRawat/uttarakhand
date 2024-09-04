@@ -25,7 +25,11 @@ class AboutController extends BaseController
 
     {
         $data['cities'] = $this->citiesModel->Getcity();
-
+        $data['seo']=[
+            'meta_title'=>'about',
+            'meta_description'=>'about',
+            'meta_keywords'=>'about'
+        ];
 
         return view('frontend/includes/header',$data)
         .view('frontend/about')

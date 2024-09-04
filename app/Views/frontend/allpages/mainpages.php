@@ -79,75 +79,6 @@
 	</div>
 </section>
 
-<section class="ftco-section img ftco-select-destination">
-	<div class="container">
-		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Pacific Provide Places</span>
-				<h2 class="mb-4">Select Your Destination In <?= $city['city_name']; ?></h2>
-			</div>
-		</div>
-	</div>
-	<div class="container container-2">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="carousel-destination owl-carousel ftco-animate">
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-1.jpg);">
-								<div class="text">
-									<h3>Philippines</h3>
-									<span>8 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-2.jpg);">
-								<div class="text">
-									<h3>Canada</h3>
-									<span>2 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-3.jpg);">
-								<div class="text">
-									<h3>Thailand</h3>
-									<span>5 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-4.jpg);">
-								<div class="text">
-									<h3>Autralia</h3>
-									<span>5 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-5.jpg);">
-								<div class="text">
-									<h3>Greece</h3>
-									<span>7 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
 <?= view('section/topTravelPlaces'); ?>	
 
 <section class="ftco-section mt-5">
@@ -184,32 +115,30 @@
 	</div>
 </section>
 
-<section class="fico-section rounded-cards mt-5">
+<section class="fico-section rounded-cards">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-12 heading-section text-center ftco-animate">
 				<span class="subheading">Destination</span>
-				<h2 class="mb-4">Best Food in Places</h2>
+				<h2 class="mb-4">Best Food in<?= $city['city_name']; ?></h2>
 			</div>
 		</div>
 		<div class="row">
-			<?php
-			// echo "<pre>";
-			// print_r($allfoodimg);
-			// die;
-			?>
 			<?php foreach ($allfoodimg as $topFood => $images) : ?>
 				<?php if (!empty($images)) : ?>
 					<div class="col-lg-4" onclick="ShowImage(<?= htmlspecialchars(json_encode($images))?>)">
 						<div class="food-cards">
-							<div class="food-card">
+							<div class="food-card mt-4">
 								<img class="food-card__image glightbox "  data-effect="zoomOut" data-zoomable="true" data-draggable="true" src="<?= base_url('uploads/') . ($images[0]['food_images']); ?>" alt="">
 								<div class="food-card__content">
 									<div class="food-card__header">
 										<h4 class="food-card__title"><?= ($images[0]['top_foods']); ?></h4>
-
+										<span class="food-card__price">$10.50</span>
 									</div>
-				
+									<p class="food-card__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+									<div class="cllick-btn-phots">
+										<button class="btn btn-success">clickMe</button>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -218,18 +147,10 @@
 			<?php endforeach; ?>
 			<div id="gallery-container" style="display: none;"></div>
 		</div>
-
-
 	</div>
-
 </section>
 
-
-
-
-
-
-<section class="ftco-section ftco-about img">
+<section class="ftco-section ftco-about mt-5 img">
 	<video autoplay muted loop class="section-video">
 		<source src="<?= base_url() ?>/public/frontend/images/homebackground2.mp4" type="video/mp4">
 		Your browser does not support the video tag.

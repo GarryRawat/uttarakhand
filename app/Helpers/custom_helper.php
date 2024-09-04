@@ -36,33 +36,22 @@ require APPPATH . 'Libraries/PHPMailer/vendor/autoload.php';
 
 // work in local server
 
-function getuserIpAddress()
-{
-
+function getuserIpAddress(){
   $ip_address = 'Unable to determine IP address';
-
-
   if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-
     $command = 'ipconfig';
     $output = shell_exec($command);
-
-
     if (preg_match('/IPv4 Address.*?: ([\d\.]+)/', $output, $matches)) {
       $ip_address = $matches[1];
     }
   } else {
-
     $command = 'hostname -I';
     $output = shell_exec($command);
-
-
     $ip_addresses = explode(' ', trim($output));
     if (!empty($ip_addresses[0])) {
       $ip_address = $ip_addresses[0];
     }
   }
-
   return $ip_address;
 }
 
@@ -73,10 +62,7 @@ function getcommencount($id)
     ->where('blog_id', $id)
     ->countAllResults();
 }
-
-
-function getBlogsLikescount($id)
-{
+function getBlogsLikescount($id){
   $db = db_connect();
   return $db->table('blog_likes')
     ->where('blog_id', $id)
@@ -84,8 +70,7 @@ function getBlogsLikescount($id)
 }
 // end in local server
 
-function getEmailTemplate($content)
-{
+function getEmailTemplate($content){
   $html = '<!-- Free to use, HTML email template designed & built by FullSphere. Learn more about us at www.fullsphere.co.uk -->
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -232,21 +217,14 @@ function getEmailTemplate($content)
         </tbody>
       </table>
       <!-- End footer -->
-    
-      
-  
   </div>
-
   </body>
-
 </html>';
 
   return $html;
 }
 
-
-function sendMail($email, $content)
-{
+function sendMail($email, $content){
 
   $mail = new PHPMailer(true);
   $mail->isSMTP();
@@ -257,18 +235,12 @@ function sendMail($email, $content)
   $mail->Password = 'vghzkrfevvgjnani';
   $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
   $mail->Port = 465;
-  
-  // Set the sender and recipient email addresses
   $mail->setFrom('rwtgaurav40@gmail.com', 'Wolves Travel');
   $mail->addAddress($email);
-
-  // Set email subject and message
   $mail->Subject = 'Wolve Travel';
   $mail->Body = $content;
 
-  // Send the email
   if ($mail->send()) {
-    // echo 'Email sent successfully';
     return true;
   } else {
     return false;
@@ -283,8 +255,6 @@ function sendMailforsubscriber($content, $type)
   $query = $db->table('subscribers')
     ->get()
     ->getResultArray();
-
-
   if ($type == 'blog') {
     $content = '
     <h2>Check Out Our Latest Blog!</h2>
@@ -296,13 +266,7 @@ function sendMailforsubscriber($content, $type)
     <p>Wolves Travel Team</p>
 ';
   }
-
-
-
   // else if(ty)
-
-
-
 
   $email_content = getEmailTemplate($content);
   // $subscribeArr = [];
@@ -310,9 +274,6 @@ function sendMailforsubscriber($content, $type)
 
     $emailSent = sendMail($allsubscribers['email'], $email_content);
   }
-
-
-
 
   if ($emailSent) {
     return true;
@@ -322,8 +283,7 @@ function sendMailforsubscriber($content, $type)
 }
 
 
-function getAllDataBySearch($searchTerm)
-{
+function getAllDataBySearch($searchTerm){
   $db = db_connect();
   $blogItems = $db->table('blogs')
     ->select('blogs.slug,blogs.blog_title')
@@ -336,22 +296,18 @@ function getAllDataBySearch($searchTerm)
 
     foreach ($blogItems as $blog) {
       $combinedResults[] = [
-
         'name' => $blog['blog_title'],
         'url' => base_url() . 'blogdetails/' . $blog['slug'],
-
-
       ];
     }
   }
-
   $uttarakhadArray = $db->table('explore_uttarakhand')
     ->select('explore_uttarakhand.slug,explore_uttarakhand.place,cities.city_name')
     ->join('cities', 'cities.id = explore_uttarakhand.city_id')
     ->like('place', $searchTerm)
     ->get()
     ->getResultArray();
-  
+
   $ukArr = [];
   if ($uttarakhadArray) {
 
@@ -363,14 +319,14 @@ function getAllDataBySearch($searchTerm)
     endforeach;
   }
 
- 
+
   $citiesArray = $db->table('cities')
 
-  ->like('city_name', $searchTerm)
-  ->get()
-  ->getResultArray();
+    ->like('city_name', $searchTerm)
+    ->get()
+    ->getResultArray();
 
-  $cityArr=[];
+  $cityArr = [];
 
   if ($citiesArray) {
 
@@ -381,21 +337,13 @@ function getAllDataBySearch($searchTerm)
       ];
     endforeach;
   }
+  return json_encode($combinedResults);
+}
+
+function get_pages_meta_header(){
+
+  $db = db_connect();
 
 
 
-  // $combinedResults = [
-  //   'blogs' => $blogArr,
-  //   'uttarakhadArray' => $ukArr,
-  //   'cities' => $cityArr,
-  // ];
-
-//  echo "<pre>";
-//   print_r($combinedResults);
-//   die;
-
-
-
-return  json_encode($combinedResults);
- 
 }

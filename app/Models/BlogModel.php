@@ -12,8 +12,7 @@ class BlogModel extends Model
 
 
 
-  public function GetAllBlog()
-  {
+  public function GetAllBlog(){
       return $this->db->table($this->table)
           ->select('blogs.*, COUNT(DISTINCT user_comments.id) as comment_count, COUNT(DISTINCT blog_likes.id) as like_count')
           ->join('user_comments', 'user_comments.blog_id = blogs.id', 'left')
@@ -22,14 +21,8 @@ class BlogModel extends Model
           ->get()
           ->getResultArray();
   }
-  
-  
-  
 
-  public function GetBlogsById($id)
-  {
-
-
+  public function GetBlogsById($id){
     return $this->db->table($this->table)
       ->where('id', $id)
       ->get()
@@ -37,8 +30,7 @@ class BlogModel extends Model
   }
 
 
-  public function UpdateBlogs($id, $data)
-  {
+  public function UpdateBlogs($id, $data) {
 
     return $this->db->table($this->table)
       ->where('id', $id)
@@ -46,8 +38,7 @@ class BlogModel extends Model
   }
 
 
-  public function getlimtblogs($limit, $offset)
-  {
+  public function getlimtblogs($limit, $offset){
 
     return $this->db->table($this->table)
       ->select('*')

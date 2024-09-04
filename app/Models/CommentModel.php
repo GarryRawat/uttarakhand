@@ -13,15 +13,11 @@ class CommentModel extends Model
 
 
 
-  public function getcommentsbyid($id)
-  {
-
+  public function getcommentsbyid($id){
     return $this->db->table($this->table)
                     ->where('blog_id', $id)
                     ->get()
                     ->getResultArray();
-
-     
   }
 
 

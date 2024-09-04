@@ -78,6 +78,9 @@ class BlogController extends BaseController
     }
 
 
+    /**
+     * edit blogs
+     */
     public function EditBlogs($id){
 
         $data['blog_category'] = $this->blogcategoryModel->GetBlogCategories();
@@ -88,8 +91,11 @@ class BlogController extends BaseController
             . view('admin/includes/footer');
     }
 
-  
+  /**
+   * update blog
+   */
     public function UpdateBlogs(){
+        
     $id = $this->request->getVar('id');
     $blog_category = $this->request->getVar('blog_category');
     $blog_title = $this->request->getVar('blog_title');
@@ -142,9 +148,9 @@ class BlogController extends BaseController
   
 }
 
-
-    // delete blogs
-
+   /**
+    * delete blogs
+    */
     public function DeleteBlog() {
 
         $id = $this->request->getvar('id');
@@ -158,6 +164,10 @@ class BlogController extends BaseController
         echo json_encode($response);
     }
 
+
+    /**
+     * show blogs in frontend 
+     */
     public function ShowBLogPage($pages=null){
 
         $limit = 6;
@@ -174,6 +184,12 @@ class BlogController extends BaseController
         $data['totalPages'] = ceil($data['blogcount'] / $limit); 
         $data['currentPage'] = $pages;
 
+        $data['seo']=[
+            'meta_title'=>'blog',
+            'meta_description'=>'blog',
+            'meta_keywords'=>'blog'
+        ];
+
         return view('frontend/includes/header', $data)
             .view('frontend/blog',$data)
             .view('frontend/includes/footer');
@@ -183,21 +199,23 @@ class BlogController extends BaseController
 
         // die('');
     }
+    /**
+     * blog details page 
+     */
     public function Showblogdetails($slug){
 
-        // print_r($slug);
-        // die;
         $data['cities'] = $this->citiesModel->Getcity();
         $data['blogsbyslug'] = $this->blogModel->getBlogsbyslug($slug);
         $data['recentBlogs'] = $this->blogModel->getRecentBlogs(3);
         $data['views_count'] =  $this->blogModel->incrementBlogView($slug);
-        //  print_r($data['views_count']);
-        // die;
         $data['all_comment'] =  $this->commentModel->getcommentsbyid($data['blogsbyslug']['id']);
         $data['is_blog_liked'] =  $this->likesModel->checkBlogLiked(getuserIpAddress(),$data['blogsbyslug']['id']);
         $data['id']=$data['blogsbyslug']['id'];
         $data['comment_count']=getcommencount($data['blogsbyslug']['id']);
         $data['likes_count']=getBlogsLikescount($data['blogsbyslug']['id']);
+
+
+        $data['seo'] = $data['blogsbyslug'];
 
         return view('frontend/includes/header', $data)
             . view('frontend/blogdetails',$data)

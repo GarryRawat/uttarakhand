@@ -10,9 +10,6 @@ class ContactModel extends Model
   protected $primaryKey = 'id';
   protected $allowedFields = ['name', 'email', 'subject', 'message', 'created_at', 'updated-on'];
 
-
-
-
  
   public function get_contact_data(){
 

@@ -37,32 +37,29 @@
 							<h4><?= $formattedDate ?></h4>
 						</div>&emsp;
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-							<li class="ftco-animate fadeInUp ftco-animated"><a href=""><span class="fa fa-twitter"></span></a></li>
-							<li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.instagram.com/garryrt_/"><span class="fa fa-instagram"></span></a></li>
-							<!-- <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.instagram.com/garryrt_/"><span class="fa fa-eye"></span></a></li> -->
+							<li class="ftco-animate fadeInUp ftco-animated"><a href=""><span
+										class="fa fa-twitter"></span></a></li>
+							<li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span
+										class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate fadeInUp ftco-animated"><a
+									href="https://www.instagram.com/garryrt_/"><span class="fa fa-instagram"></span></a>
+							</li>
+
 						</ul>
-
-
-						<!-- <div class="author">
-						
-						</div> -->
 					</div>
 					<div class="views-icon">
-						<span><i class="fa fa-eye fa-lg"></i></span>&emsp13;<span class="m-r-0"><?= $blogsbyslug['views'] ?></span>
+						<span><i class="fa fa-eye fa-lg"></i></span>&emsp13;<span
+							class="m-r-0"><?= $blogsbyslug['views'] ?></span>
 						&emsp;&emsp;<span class="fa fa-comment fa-lg"> <?php $cmtcount = getcommencount($id);
-																		if (isset($cmtcount)) {
-																			echo $cmtcount;
-																		} else {
-																			echo 0;
-																		} ?></span>
-
-
+						if (isset($cmtcount)) {
+							echo $cmtcount;
+						} else {
+							echo 0;
+						} ?></span>
 						&emsp;&emsp;&emsp;
-
-
 						<div class='control-group'>
-							<input class='red-heart-checkbox' id='red-check2-<?= $blogsbyslug['id'] ?>' type='checkbox' <?php if (isset($is_blog_liked) && $is_blog_liked == 1): ?>checked<?php endif; ?>>
+							<input class='red-heart-checkbox' id='red-check2-<?= $blogsbyslug['id'] ?>' type='checkbox'
+								<?php if (isset($is_blog_liked) && $is_blog_liked == 1): ?>checked<?php endif; ?>>
 							<label for='red-check2-<?= $blogsbyslug['id'] ?>'>
 								<?= $likes_count ?>
 							</label>
@@ -88,22 +85,22 @@
 
 		<!-- commnet section blog -->
 
-
-
 		<div class="container mt-4">
 			<div class="row">
 				<div class="col-md-6">
 					<h4 class="text-center">Leave a comment</h4>
-					<form action="#" method="POST" id="myForm" enctype="multipart/form-data" class="bg-light contact-form">
+					<form action="#" method="POST" id="myForm" enctype="multipart/form-data"
+						class="bg-light contact-form">
 						<div class="form-group">
-							<input type="text" class="form-control" name="name" placeholder="Your Name" required >
+							<input type="text" class="form-control" name="name" placeholder="Your Name" required>
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" name="email" placeholder="Your Email" >
+							<input type="text" class="form-control" name="email" placeholder="Your Email">
 						</div>
 
 						<div class="form-group">
-							<textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+							<textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"
+								required></textarea>
 						</div>
 						<input type="hidden" name="act" value="user_comment">
 						<div class="form-group">
@@ -118,7 +115,7 @@
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-md-12 mt-5">
-							<div class="card text-body">
+							<div class="card text-body" id="comment-box">
 								<?php if (!empty($all_comment)) { ?>
 									<div class="headibf-and-para">
 										<h4 class="mb-0">Recent comments</h4>
@@ -128,22 +125,27 @@
 									<div id="comment-carousel " class="owl-carousel owl-theme">
 										<?php
 										foreach ($all_comment as $comment) {
-										?>
+											?>
 											<div class="item commentbox-card-body">
 												<div class="comment-boxex-cmt-img">
 													<img class="rounded-circle shadow-1-strong me-3"
 														src="<?= htmlspecialchars(base_url() . '/public/frontend/images/verticalshotriver.jpg', ENT_QUOTES, 'UTF-8') ?>"
 														alt="avatar" width="70" height="70" />
 													<div class="comment-date-time">
-														<h6 class="fw-bold mb-1"><?= htmlspecialchars($comment['name'], ENT_QUOTES, 'UTF-8') ?></h6>
+														<h6 class="fw-bold mb-1">
+															<?= htmlspecialchars($comment['name'], ENT_QUOTES, 'UTF-8') ?>
+														</h6>
 														<div class="d-flex align-items-center mb-3">
 															<p class="mb-0 comment-dateandtime">
 																<?= htmlspecialchars($comment['created_at'], ENT_QUOTES, 'UTF-8') ?>
 																<span class="badge bg-primary">Pending</span>
 															</p>
-															<a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-															<a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-															<a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+															<a href="#!" class="link-muted"><i
+																	class="fas fa-pencil-alt ms-2"></i></a>
+															<a href="#!" class="link-muted"><i
+																	class="fas fa-redo-alt ms-2"></i></a>
+															<a href="#!" class="link-muted"><i
+																	class="fas fa-heart ms-2"></i></a>
 														</div>
 														<p class="comment-para mb-0">
 															<?= htmlspecialchars($comment['comment'], ENT_QUOTES, 'UTF-8') ?>
@@ -154,19 +156,13 @@
 										<?php } ?>
 
 									</div>
-
-							</div>
-
-						<?php } else {
+								</div>
+							<?php } else {
 									echo '<div class="p-2"><h4>No Comments this POST</h4></div>';
 								} ?>
 						</div>
-
 					</div>
-
 				</div>
-
-
 			</div>
 		</div>
 	</div>
@@ -177,16 +173,13 @@
 
 
 <script>
-	$(document).ready(function() {
-
-		$(".red-heart-checkbox").on("change", function(event) {
+	$(document).ready(function () {
+		$(".red-heart-checkbox").on("change", function (event) {
 			event.preventDefault();
 			let checkboxId = $(this).attr('id');
 			let blog_id = checkboxId.split('-').pop();
 			let like = $(this).is(':checked') ? 1 : 0;
-
-			// console.log('Blog ID:', blog_id);
-			// console.log('Checked Value:', like);
+			
 			let userlikes = {
 				blog_id: blog_id,
 				like: like
@@ -197,10 +190,8 @@
 				type: 'POST',
 				data: userlikes,
 				dataType: 'JSON',
-
-				success: function(res) {
+				success: function (res) {
 					if (res.status == 'success') {
-
 						new Notify({
 							title: 'Notify Title',
 							text: res.message,
@@ -208,11 +199,8 @@
 							autoclose: true,
 							autotimeout: 3000
 						})
-
 						$('#myForm')[0].reset();
-
-
-
+					
 					} else {
 						new Notify({
 							title: 'Notify Title',
@@ -222,32 +210,20 @@
 							autotimeout: 3000
 						})
 					}
-
-
 				},
-
 			})
-
 		})
-
-
-		$('#myForm').submit(function(event) {
-
+		$('#myForm').submit(function (event) {
 			event.preventDefault();
-
 			var form = $(this).closest('form');
-			// $(form).submit();
 			var formData = form.serialize();
-
-
 			$.ajax({
 				url: '<?= base_url('addusercommnets') ?>',
 				type: 'POST',
 				data: formData,
 				dataType: 'JSON',
-				success: function(res) {
+				success: function (res) {
 					if (res.status == 'success') {
-
 						new Notify({
 							title: 'Notify Title',
 							text: res.message,
@@ -255,11 +231,11 @@
 							autoclose: true,
 							autotimeout: 3000
 						})
-
 						$('#myForm')[0].reset();
-
-
-
+						setTimeout(function() {
+							window.location.reload()
+                     }, 3000);
+					
 					} else {
 						new Notify({
 							title: 'Notify Title',
@@ -269,10 +245,8 @@
 							autotimeout: 3000
 						})
 					}
-
-
 				},
-				error: function(err) {
+				error: function (err) {
 					console.log(err);
 				}
 			})
@@ -280,7 +254,7 @@
 
 	})
 
-	$(document).ready(function() {
+	$(document).ready(function () {
 		$(".owl-carousel").owlCarousel({
 
 			loop: false,

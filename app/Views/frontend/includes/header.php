@@ -5,7 +5,21 @@
 	<title>Explore Uttarakhand</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<meta name="description" content="">
+    <meta name="keywords" content="<?= isset($seo['meta_keyword']) && $seo['meta_keyword'] !== null ? $seo['meta_keyword'] : ''; ?>
+">
+    <meta name="author" content="Your Name or Company Name">
+    <title><?= isset($seo['meta_title']) && $seo['meta_title'] !== null ? $seo['meta_title'] : ''; ?></title>
+    <link rel="canonical" href="https://www.yourwebsite.com/page-url">
+    <meta property="og:title" content="Your Page Title | Relevant Keyword">
+    <meta property="og:description" content="<?= isset($seo['meta_description']) && $seo['meta_description'] !== null ? $seo['meta_description'] : ''; ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com/page-url">
+    <meta property="og:image" content="https://www.yourwebsite.com/path-to-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Page Title | Relevant Keyword">
+    <meta name="twitter:description" content="A brief description for Twitter.">
+    <meta name="twitter:image" content="https://www.yourwebsite.com/path-to-image.jpg">
 	
 
 	<!-- end font -->
@@ -42,10 +56,6 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-
-
-
-
 </head>
 
 <body>
@@ -66,7 +76,7 @@
 					<li class="nav-item"><a href="<?= base_url('destination') ?>" class="nav-link">Destination</a></li>
 					<li class="nav-item"><a href="<?= base_url('hotel') ?>" class="nav-link">Hotel</a></li>
 					<li class="nav-item">
-						<a href="<?= base_url('places') ?>" class="nav-link">Places</a>
+						<a href="<?= base_url('Places') ?>" class="nav-link">Places</a>
 						<div class="dropdown-menu">
 							<div class="mega-menu">
 								<ul class="first-ul">

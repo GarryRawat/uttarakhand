@@ -10,7 +10,8 @@
 			<div class="col-md-7 ftco-animate">
 				<span class="subheading">Welcome to <?= $slugdetails['place']; ?> </span>
 				<h1 class="mb-4">Explore <?= $slugdetails['place']; ?> Cultural Heritage</h1>
-				<p class="caps">Embark on a journey of discovery and adventure to <?= $slugdetails['place']; ?> picturesque destinations</p>
+				<p class="caps">Embark on a journey of discovery and adventure to <?= $slugdetails['place']; ?>
+					picturesque destinations</p>
 			</div>
 			<!-- <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
 					<span class="fa fa-play"></span>
@@ -30,15 +31,19 @@
 					<!-- <h2 class="mb-4">It's time to start your adventure</h2> -->
 					<h2 class="mb-4"><?= $slugdetails['title']; ?></h2>
 					<p><?= $slugdetails['short_description']; ?></p>
-					<p>यहाँ का नैनीताल, मसूरी, और रानीखेत जैसे हिल स्टेशन पर्यटकों के बीच बेहद लोकप्रिय हैं। राज्य का प्रमुख नगर देहरादून है, जो उत्तराखंड की राजधानी भी है। ऋषिकेश और हरिद्वार योग और अध्यात्म के केंद्र के रूप में विश्व प्रसिद्ध हैं।</p>
-					<p><a  class="btn btn-primary Searchbtn py-3 px-4">Search Destination</a></p>
+					<p>यहाँ का नैनीताल, मसूरी, और रानीखेत जैसे हिल स्टेशन पर्यटकों के बीच बेहद लोकप्रिय हैं। राज्य का
+						प्रमुख नगर देहरादून है, जो उत्तराखंड की राजधानी भी है। ऋषिकेश और हरिद्वार योग और अध्यात्म के
+						केंद्र के रूप में विश्व प्रसिद्ध हैं।</p>
+					<p><a class="btn btn-primary Searchbtn py-3 px-4">Search Destination</a></p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate"> -->
-						<div class="services services-1 color-1 d-block img" style="background-image: url(<?= base_url() ?>/public/frontend/images/services-1.jpg);">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-paragliding"></span></div>
+						<div class="services services-1 color-1 d-block img"
+							style="background-image: url(<?= base_url() ?>/public/frontend/images/services-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center"><span
+									class="flaticon-paragliding"></span></div>
 							<div class="media-body">
 								<h3 class="heading mb-3">Activities</h3>
 								<p>A small river named Duden flows by their place and supplies it with the necessary</p>
@@ -46,8 +51,10 @@
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-						<div class="services services-1 color-2 d-block img" style="background-image: url(<?= base_url() ?>/public/frontend/images/services-2.jpg);">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
+						<div class="services services-1 color-2 d-block img"
+							style="background-image: url(<?= base_url() ?>/public/frontend/images/services-2.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center"><span
+									class="flaticon-route"></span></div>
 							<div class="media-body">
 								<h3 class="heading mb-3">Travel Arrangements</h3>
 								<p>A small river named Duden flows by their place and supplies it with the necessary</p>
@@ -55,8 +62,10 @@
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-						<div class="services services-1 color-3 d-block img" style="background-image: url(<?= base_url() ?>/public/frontend/images/services-3.jpg);">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-tour-guide"></span></div>
+						<div class="services services-1 color-3 d-block img"
+							style="background-image: url(<?= base_url() ?>/public/frontend/images/services-3.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center"><span
+									class="flaticon-tour-guide"></span></div>
 							<div class="media-body">
 								<h3 class="heading mb-3">Private Guide</h3>
 								<p>A small river named Duden flows by their place and supplies it with the necessary</p>
@@ -64,89 +73,21 @@
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-						<div class="services services-1 color-4 d-block img" style="background-image: url(<?= base_url() ?>/public/frontend/images/services-4.jpg);">
-							<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-map"></span></div>
+						<div class="services services-1 color-4 d-block img"
+							style="background-image: url(<?= base_url() ?>/public/frontend/images/services-4.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center"><span
+									class="flaticon-map"></span></div>
 							<div class="media-body">
 								<h3 class="heading mb-3">Location Manager</h3>
 								<p>A small river named Duden flows by their place and supplies it with the necessary</p>
 							</div>
 						</div>
-					</div> 
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="ftco-section img ftco-select-destination" >
-	<div class="container">
-		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Pacific Provide Places</span>
-				<h2 class="mb-4">Select Your Destination</h2>
-			</div>
-		</div>
-	</div>
-	<div class="container container-2">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="carousel-destination owl-carousel ftco-animate">
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-1.jpg);">
-								<div class="text">
-									<h3>Philippines</h3>
-									<span>8 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-2.jpg);">
-								<div class="text">
-									<h3>Canada</h3>
-									<span>2 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-3.jpg);">
-								<div class="text">
-									<h3>Thailand</h3>
-									<span>5 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-4.jpg);">
-								<div class="text">
-									<h3>Autralia</h3>
-									<span>5 Tours</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="item">
-						<div class="project-destination">
-							<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/place-5.jpg);">
-								<div class="text">
-									<h3>Greece</h3>
-									<span>7 Tours</span>
-								</div>
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
 <section class="fico-section rounded-cards">
 	<div class="container">
 		<div class="row justify-content-center pb-4">
@@ -160,38 +101,44 @@
 				<div class="col-lg-4 mt-4">
 					<div class="imagesection">
 						<a href="<?= base_url() ?>uploads/<?= $image['image'] ?>" class="">
-							<img width="" height="" src="<?= base_url() ?>uploads/<?= $image['image'] ?>" class="glightbox page_img" data-effect="zoomOut" data-zoomable="true" data-draggable="true" />
+							<img width="" height="" src="<?= base_url() ?>uploads/<?= $image['image'] ?>"
+								class="glightbox page_img" data-effect="zoomOut" data-zoomable="true"
+								data-draggable="true" />
 						</a>
 					</div>
 				</div>
 			<?php } ?>
 		</div>
-
 	</div>
-
 </section>
 
 <section class="fico-section rounded-cards mt-5">
-			<div class="container">
-				<div class="row justify-content-center pb-4">
-					<div class="col-md-12 heading-section text-center ftco-animate">
-						<span class="subheading">Destination</span>
-						<h2 class="mb-4">Best Food in <?= $slugdetails['place']; ?> </h2>
-					</div>
-				</div>
-				<div class="row">
-			<?php foreach ($allfoodimg as $topFood => $images) : ?>
-				<?php if (!empty($images)) : ?>
-					<div class="col-lg-4" onclick="ShowImage(<?= htmlspecialchars(json_encode($images))?>)">
+	<div class="container">
+		<div class="row justify-content-center pb-4">
+			<div class="col-md-12 heading-section text-center ftco-animate">
+				<span class="subheading">Foods</span>
+				<h2 class="mb-4">Best Food in <?= $slugdetails['place']; ?> </h2>
+			</div>
+		</div>
+		<div class="row">
+			<?php foreach ($allfoodimg as $topFood => $images): ?>
+				<?php if (!empty($images)): ?>
+					<div class="col-lg-4" onclick="ShowImage(<?= htmlspecialchars(json_encode($images)) ?>)">
 						<div class="food-cards">
 							<div class="food-card">
-								<img class="food-card__image" class="" src="<?= base_url('uploads/') . htmlspecialchars($images[0]['food_images']); ?>" alt="<?= htmlspecialchars($images[0]['top_foods']); ?>">
+								<img class="food-card__image" class="glightbox2"
+									src="<?= base_url('uploads/') . htmlspecialchars($images[0]['food_images']); ?>"
+									alt="<?= htmlspecialchars($images[0]['top_foods']); ?>"  data-glightbox="title: My title; description: .custom-desc1">
 								<div class="food-card__content">
 									<div class="food-card__header">
 										<h4 class="food-card__title"><?= htmlspecialchars($images[0]['top_foods']); ?></h4>
-										<!-- <span class="food-card__price">$10.50</span> -->
+										<span class="food-card__price">$10.50</span>
 									</div>
-									<!-- <p class="food-card__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p> -->
+									<p class="food-card__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+
+									<div class="cllick-btn-phots">
+										<button class="btn btn-success">clickMe</button>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -199,131 +146,9 @@
 				<?php endif; ?>
 			<?php endforeach; ?>
 		</div>
-
-			</div>
-
-		</section>
-
-
-<section class="ftco-section">
-	<div class="container">
-		<div class="row justify-content-center pb-4">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Destination</span>
-				<h2 class="mb-4">Tour Destination</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-1.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">8 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-mountains"></span>Near Mountain</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-2.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">10 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-3.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">7 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-4.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">8 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-5.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">10 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url('<?= base_url() ?>/public/frontend/images/destination-6.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">7 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 </section>
-
-
-
-<section class="ftco-section ftco-about img">
+<section class="ftco-section ftco-about mt-5 img">
 	<video autoplay muted loop class="section-video">
 		<source src="<?= base_url() ?>/public/frontend/images/homebackground2.mp4" type="video/mp4">
 		Your browser does not support the video tag.
@@ -333,8 +158,8 @@
 		<div class="row py-md-5">
 			<div class="col-md d-flex align-items-center justify-content-center">
 				<!-- <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
-                    <span class="fa fa-play"></span>
-                </a> -->
+					<span class="fa fa-play"></span>
+				</a> -->
 			</div>
 		</div>
 	</div>
@@ -355,7 +180,9 @@
 							<div class="col-md-12 heading-section ftco-animate">
 								<span class="subheading">About Us</span>
 								<h2 class="mb-4">Make Your Tour Memorable and Safe With Us</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and
+									Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
+									at the coast of the Semantics, a large language ocean.</p>
 								<p><a href="#" class="btn btn-primary">Book Your Destination</a></p>
 							</div>
 						</div>
@@ -365,12 +192,8 @@
 		</div>
 	</div>
 </section>
-
 <section class="ftco-section ftco-about ftco-no-pt img">
 	<div class="container">
-
-	
-
 		<div class="row d-flex">
 			<div class="col-md-12 about-intro">
 				<div class="row">
@@ -379,13 +202,16 @@
 							<div class="col-md-12 heading-section ftco-animate">
 								<span class="subheading">About Us</span>
 								<h2 class="mb-4">Make Your Tour Memorable and Safe With Us</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and
+									Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
+									at the coast of the Semantics, a large language ocean.</p>
 								<p><a href="#" class="btn btn-primary">Book Your Destination</a></p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 d-flex align-items-stretch">
-						<div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(<?= base_url() ?>/public/frontend/images/about-1.jpg);">
+						<div class="img d-flex w-100 align-items-center justify-content-center"
+							style="background-image:url(<?= base_url() ?>/public/frontend/images/about-1.jpg);">
 						</div>
 					</div>
 
@@ -394,14 +220,8 @@
 		</div>
 	</div>
 </section>
-
-
-
-
-
-
-
-<section class="ftco-section testimony-section bg-bottom" style="background-image: url('<?= base_url() ?>/public/frontend/images/bg_1.jpg);">
+<section class="ftco-section testimony-section bg-bottom"
+	style="background-image: url('<?= base_url() ?>/public/frontend/images/bg_1.jpg);">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center pb-4">
@@ -423,9 +243,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -444,9 +267,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -465,9 +291,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_3.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_3.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -486,9 +315,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -507,9 +339,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -549,7 +384,6 @@
 		openEffect: 'zoom',
 		closeEffect: 'fade',
 		cssEfects: {
-			// This are some of the animations included, no need to overwrite
 			fade: {
 				in: 'fadeIn',
 				out: 'fadeOut'
@@ -560,34 +394,25 @@
 			}
 		}
 	});
-
 	const glightbox = GLightbox({
-
 	});
 
 	function ShowImage(images) {
-    let imageArr = [];
+		let imageArr = [];
+		$.each(images, function (key, value) {
 
-  
-    $.each(images, function(key, value) {
-     
-        imageArr.push({
-            href: '<?php echo base_url("uploads/") ?>' + value.food_images
-        });
-    });
-
-    console.log(images);
-    console.log(imageArr);
-
- 
-    const myGallery = GLightbox({
-        elements: imageArr,
-        autoplayVideos: true,
-        touchNavigation: true,
-        loop: true
-    });
-
-
-    myGallery.open();
-}
+			imageArr.push({
+				href: '<?php echo base_url("uploads/") ?>' + value.food_images
+			});
+		});
+		console.log(images);
+		console.log(imageArr);
+		const myGallery = GLightbox({
+			elements: imageArr,
+			autoplayVideos: true,
+			touchNavigation: true,
+			loop: true
+		});
+		myGallery.open();
+	}
 </script>
