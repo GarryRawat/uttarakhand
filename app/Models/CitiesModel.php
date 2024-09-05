@@ -11,7 +11,6 @@ class CitiesModel extends Model
     protected $allowedFields = ['city_name'];
 
     public function Getcity(){
-
       return $this->db->table($this->table)
       ->get()
       ->getResultArray();
@@ -25,56 +24,44 @@ class CitiesModel extends Model
     }
 
     
-    // public function get_random_cities() {
-    // return $this->db->table('cities')
-    //       ->select('cities.*, images.*')  
-    //       ->join('images', 'images.city_place_id = cities.id')
-    //       ->where('images.category', 'city')
-    //       ->limit()
-    //       ->get()
-    //       ->getResultArray();   
-    
-    //  $subquery = $this->db->table('images')
-    //     ->select('id')
-    //     ->where('category', 'city')
-    //     ->groupBy('city_place_id')
-    //     ->orderBy('RAND()') // Random order
-    //     ->limit(1)
-    //     ->getCompiledSelect();
 
-    // Main query to get city details and join with the random image
-  //   return $this->db->table('cities')
-  //       ->select('cities.*, images.*')
-  //       ->join('images', 'images.id IN (' . $subquery . ')')
-  //       ->join('images', 'images.city_place_id = cities.id')
-  //       ->get()
-  //       ->getResultArray();
-               
-  // }
-
+    /**
+     * random cities for places page 
+     */
   public function get_random_cities() {
-    $builder = $this->db->table('cities');
-    
-    $subQuery = $this->db->table('images')
-        ->select('images.city_place_id, images.image')
-        ->where('images.category', 'city')
-        ->groupBy('images.city_place_id')
-        // ->orderBy('RAND()')
-        ->limit(1)
-        ->getCompiledSelect();
+    $query= $this->db->table('cities')
+                     ->select('cities.id,cities.city_name,cities.meta_description')
+                     ->get()
+                     ->getResultArray();
 
-  
-    $query = $builder->select('cities.*, images.image')
-        ->join("($subQuery) as images", 'images.city_place_id = cities.id', 'left')
+                    $arr=[];
+                    
+     foreach($query as $data):
+        $img=$this->db->table('images')
+        ->select('image')
+        ->where('category','city')
+        ->where('city_place_id',$data['id'])
+        ->orderBy('RAND()')
         ->get()
-        ->getResultArray();
+        ->getRowArray();
+       
+        if($img){
+          $image=$img['image'];
+        }
+        else{
+          $image='no_image.jpg';
+        }
+          $arr[]=[
+            'city_id'=>$data['id'],
+            'city'=>$data['city_name'],
+            'city_description'=>$data['meta_description'],
+            'city_image'=>$image
+          ];
+        
+      endforeach;
+    return $arr;  
+   }
 
-    return $query;
 }
-
-  
-  
-    
-  }
     
 

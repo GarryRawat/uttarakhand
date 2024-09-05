@@ -18,122 +18,40 @@
 <?= view('section/topTravelPlaces'); ?>
 
 
-
-
-
-<section class="ftco-section" style="padding-top:45px">
+<section class="ftco-intro ftco-section ftco-no-pt mt-5">
 	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-12 heading-section text-center ftco-animate">
-				<span class="subheading">Destination</span>
-				<h2 class="mb-4">Tour Cities		</div>
-		<div class="row">
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-1.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">8 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-mountains"></span>Near Mountain</li>
-						</ul>
+		<div class="gt-heading"></div>
+		<div class="gt-blog-content-4">
+			<div class="row">
+				<?php foreach ($random_city as $cities) {?>
+				<div class="col-md-4  wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms"
+					style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInUp;">
+					<div class="gt-blog-item-4 position-relative">
+						<div class="blog-img">
+							<img loading="lazy" decoding="async" width="100%" height="490"
+								src="<?= base_url('uploads/' . $cities['city_image']) ?>"
+								class="attachment-goyto-img-size-5 size-goyto-img-size-5 wp-post-image" alt="">
+						</div>
+						<div class="blog-text headline">
+							<a class="read_more position-absolute"
+								href="https://themexriver.com/wp/goyto/2024/03/18/hello-world/">Read more</a>
+							<h3 class="blog_title"><a
+									href="https://themexriver.com/wp/goyto/2024/03/18/hello-world/">Beach Days, Long
+									Hikes, And</a></h3>
+							<div class="blog-meta">
+								<a class="author-meta" href="#">Emma Mark</a>
+								<a class="date-meta" href="#">September 5, 2024</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-2.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">10 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-3.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">7 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-4.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">8 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url(<?= base_url() ?>/public/frontend/images/destination-5.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">10 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-				<div class="project-wrap">
-					<a href="#" class="img" style="background-image: url('<?= base_url() ?>/public/frontend/images/destination-6.jpg);">
-						<span class="price">$550/person</span>
-					</a>
-					<div class="text p-4">
-						<span class="days">7 Days Tour</span>
-						<h3><a href="#">Banaue Rice Terraces</a></h3>
-						<p class="location"><span class="fa fa-map-marker"></span> Banaue, Ifugao, Philippines</p>
-						<ul>
-							<li><span class="flaticon-shower"></span>2</li>
-							<li><span class="flaticon-king-size"></span>3</li>
-							<li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
-						</ul>
-					</div>
-				</div>
+				<?php }?>
 			</div>
 		</div>
 	</div>
 </section>
+
+
 <?= view('section/uttrakhandMap'); ?>
 
 <section class="ftco-section ftco-about img">
@@ -151,7 +69,8 @@
 </section>
 
 
-<section class="ftco-section testimony-section bg-bottom" style="background-image: url('<?= base_url() ?>/public/frontend/images/bg_1.jpg);">
+<section class="ftco-section testimony-section bg-bottom"
+	style="background-image: url('<?= base_url() ?>/public/frontend/images/bg_1.jpg);">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center pb-4">
@@ -173,9 +92,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -194,9 +116,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -215,9 +140,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_3.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_3.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -236,9 +164,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_1.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
@@ -257,9 +188,12 @@
 									<span class="fa fa-star"></span>
 									<span class="fa fa-star"></span>
 								</p>
-								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+									and Consonantia, there live the blind texts.</p>
 								<div class="d-flex align-items-center">
-									<div class="user-img" style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)"></div>
+									<div class="user-img"
+										style="background-image: url('<?= base_url() ?>/public/frontend/images/person_2.jpg)">
+									</div>
 									<div class="pl-3">
 										<p class="name">Roger Scott</p>
 										<span class="position">Marketing Manager</span>
