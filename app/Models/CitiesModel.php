@@ -30,7 +30,7 @@ class CitiesModel extends Model
      */
   public function get_random_cities() {
     $query= $this->db->table('cities')
-                     ->select('cities.id,cities.city_name,cities.meta_description')
+                     ->select('cities.id,cities.city_name,cities.meta_title')
                      ->get()
                      ->getResultArray();
 
@@ -54,7 +54,7 @@ class CitiesModel extends Model
           $arr[]=[
             'city_id'=>$data['id'],
             'city'=>$data['city_name'],
-            'city_description'=>$data['meta_description'],
+            'meta_title'=>$data['meta_title'],
             'city_image'=>$image
           ];
         

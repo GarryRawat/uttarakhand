@@ -56,9 +56,17 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css">
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+<!-- <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css"> -->
+
+
+
 </head>
 
 <body>
+	<div id="main-web" data-scroll-container >
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
 			<!-- <a class="navbar-brand" href="index.html"></span></a> -->
@@ -111,10 +119,8 @@
 
 	<script>
 		function mtlist() {
-			// alert('calling');
 			var submenu = document.querySelector('.menu2');
 		}
-
 		function Getcity(id) {
 
 			$.ajax({
@@ -124,13 +130,11 @@
 					id: id
 				},
 				success: function(response) {
-					console.log(response);
-					// return;
+					// console.log(response);
 					let html = '';
 					$.each(response.cityDetails, function(key, value) {
 						html += `<li class="mega-item-inner"><a href="<?= base_url() ?>${value.city_name}/${value.slug}">${value.place}</a></li>`;
 					});
-
 					// console.log(html);
 					$('.menu2').html(html);
 				},

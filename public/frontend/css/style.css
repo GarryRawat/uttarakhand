@@ -47,6 +47,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -15441,8 +15442,8 @@ strong {
   transform: scale(1.1);
 }
 
-.gt-blog-item-4 .blog-text .blog-meta .author-meta {
-  color: ;
+.gt-blog-item-4:hover .blog-text .blog-meta .author-meta{
+  color: white ;  
 }
 
 .gt-blog-item-4 .blog-text .blog-meta a {
@@ -15458,5 +15459,31 @@ strong {
   font-weight: 700;
   padding-bottom: 10px;
 }
+
+.ftco-intro .span-svg{
+  gap: 21px
+}
+
+.cities_title-sub-heading h3{
+  color: #2B2A30;
+  font-size: 56px;
+  font-weight: 900;
+  width: 389px;
+}
+
+.sub-para-places h2{
+    color: #363539;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.787;
+}
+
+/*********Smouth scrolling for body***********/
+
+
+
+
+
+/*********Smouth scrolling for body***********/
 
 
