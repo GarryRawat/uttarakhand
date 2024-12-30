@@ -14,19 +14,28 @@
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaY4yJwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- sweetalert -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+  <!-- datatable cdn -->
   <link rel="stylesheet" href="<?= base_url() ?>/public/common/DataTables/datatables.min.css" rel="stylesheet">
-  <script src="https://cdn.tiny.cloud/1/rzio6orcu8qplfrvev2yeyz648fa2fle5ou9gdc7fx2fubjh/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
-  <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.css" />
+  <!-- tinymce editors --> 
+  <script src="https://cdn.tiny.cloud/1/rzio6orcu8qplfrvev2yeyz648fa2fle5ou9gdc7fx2fubjh/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+  <!-- simple notify cdn -->
+	<link rel="stylesheet" href="<?= base_url() ?>/public/common/simple-notify/simple-notify.css">
+	<script src="<?= base_url() ?>/public/common/simple-notify/simple-notify.min.js"></script>
+
   <link rel="stylesheet" href="<?= base_url() ?>/public/admin/assets/css/style.css">
+  
+  <!-- jquery confrim -->
   <link rel="stylesheet" href="<?= base_url() ?>/public/common/jquery-confirm-v3.3.4/css/jquery-confirm.css">
-  <!-- <link rel="stylesheet" href="<?= base_url() ?>/public/common/dropzone-main/src/dropzone.js">
-  <link rel="stylesheet" href="<?= base_url() ?>/public/common/dropzone-main/src/dropzone."> -->
+
+  <!-- dropzone cdn -->
+  <link rel="stylesheet" href="<?= base_url() ?>/public/common/dropzone-main/dropzone.min.css">
+	<script src="<?= base_url() ?>/public/common/dropzone-main/dropzone.min.js"></script>
 
  
   <!-- End layout styles -->
@@ -38,7 +47,6 @@
 			</div> -->
 <body>
   <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
     

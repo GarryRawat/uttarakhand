@@ -5,9 +5,8 @@
 	<title>Explore Uttarakhand</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-    <meta name="keywords" content="<?= isset($seo['meta_keyword']) && $seo['meta_keyword'] !== null ? $seo['meta_keyword'] : ''; ?>
-">
+	<meta name="description" content="<?= isset($seo['meta_description']) && $seo['meta_description'] !== null ? $seo['meta_description'] : ''; ?>">
+    <meta name="keywords" content="<?= isset($seo['meta_keyword']) && $seo['meta_keyword'] !== null ? $seo['meta_keyword'] : ''; ?>">
     <meta name="author" content="Your Name or Company Name">
     <title><?= isset($seo['meta_title']) && $seo['meta_title'] !== null ? $seo['meta_title'] : ''; ?></title>
     <link rel="canonical" href="https://www.yourwebsite.com/page-url">
@@ -20,16 +19,14 @@
     <meta name="twitter:title" content="Your Page Title | Relevant Keyword">
     <meta name="twitter:description" content="A brief description for Twitter.">
     <meta name="twitter:image" content="https://www.yourwebsite.com/path-to-image.jpg">
-	
 
 	<!-- end font -->
-
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Gupter:wght@400;500;700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="<?= base_url() ?>/public/frontend/common/font-awesome/font-awesome.min.min.css"> -->
 
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/animate.css">
 
@@ -43,30 +40,29 @@
 
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/flaticon.css">
 	<link rel="stylesheet" href="<?= base_url() ?>/public/frontend/css/style.css">
+
+	<!-- jquery -->
 	<script src="<?= base_url() ?>/public/frontend/js/jquery.min.js"></script>
+	
+	<!-- glightbox -->
+	<link rel="stylesheet" href="<?= base_url() ?>/public/common/glightbox/glightbox.min.css">
+	<script src="<?= base_url() ?>/public/common/glightbox/glightbox.min.js"></script>
 
+	<!-- jquery-confirm -->
+	<link rel="stylesheet" href="<?= base_url() ?>/public/common/jquery-confirm/css/jquery-confirm.css">
+	<script src="<?= base_url() ?>/public/common/jquery-confirm/js/jquery-confirm.js"></script>
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.css" />
-
-	<!-- JS -->
-	<script src="https://cdn.jsdelivr.net/npm/simple-notify@1.0.4/dist/simple-notify.min.js"></script>
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+	<!--  simple-notify -->
+	<link rel="stylesheet" href="<?= base_url() ?>/public/common/simple-notify/simple-notify.css">
+	<script src="<?= base_url() ?>/public/common/simple-notify/simple-notify.min.js"></script>
+	
+	<!-- locomotive scroll -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.css">
-<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
-<!-- <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
-<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css"> -->
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
 </head>
 
 <body>
-	<div id="main-web" data-scroll-container >
+	<div>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
 			<!-- <a class="navbar-brand" href="index.html"></span></a> -->
@@ -79,11 +75,11 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="<?= base_url('home') ?>" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="<?= base_url('about') ?>" class="nav-link">About</a></li>
+					<li class="nav-item   <?= basename($_SERVER["PHP_SELF"])=='home'?'active':'';?>"><a href="<?= base_url('home') ?>" class="nav-link">Home</a></li>
+					<li class="nav-item   <?= basename($_SERVER["PHP_SELF"])=='about'?'active':'';?>"><a href="<?= base_url('about') ?>" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="<?= base_url('destination') ?>" class="nav-link">Destination</a></li>
 					<li class="nav-item"><a href="<?= base_url('hotel') ?>" class="nav-link">Hotel</a></li>
-					<li class="nav-item">
+					<li class="nav-item   <?= basename($_SERVER["PHP_SELF"])=='Places'?'active':'';?>">
 						<a href="<?= base_url('Places') ?>" class="nav-link">Places</a>
 						<div class="dropdown-menu">
 							<div class="mega-menu">
@@ -100,15 +96,14 @@
 									</li>
 									<li>
 										<ul class="menu2">
-
 										</ul>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</li>
-					<li class="nav-item"><a href="<?= base_url('blog') ?>" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="<?= base_url('contact') ?>" class="nav-link">Contact</a></li>
+					<li class="nav-item <?= basename($_SERVER["PHP_SELF"])=='blog'?'active':'';?>"><a href="<?= base_url('blog') ?>" class="nav-link">Blog</a></li>
+					<li class="nav-item <?= basename($_SERVER["PHP_SELF"])=='contact'?'active':'';?>"><a href="<?= base_url('contact') ?>" class="nav-link">Contact</a></li>
 				</ul>
 
 			</div>
@@ -135,11 +130,9 @@
 					$.each(response.cityDetails, function(key, value) {
 						html += `<li class="mega-item-inner"><a href="<?= base_url() ?>${value.city_name}/${value.slug}">${value.place}</a></li>`;
 					});
-					// console.log(html);
 					$('.menu2').html(html);
 				},
 				error: function(xhr, status, error) {
-					// Handle errors here
 					console.error(error);
 				}
 			});

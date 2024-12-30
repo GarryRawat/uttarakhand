@@ -34,11 +34,7 @@ class PlacesController extends BaseController
         $data['cities'] = $this->citiesModel->Getcity();
         $data['random_city'] = $this->citiesModel->get_random_cities();
         $data['recentBlogs'] = $this->blogModel->getRecentBlogs(3);
-
-        // echo "<pre>";
-        // print_r($data['random_city'] );
-        // die;
-
+        
         return view('frontend/includes/header', $data)
             . view('frontend/places', $data)
             . view('frontend/includes/footer');

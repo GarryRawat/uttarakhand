@@ -95,7 +95,7 @@
 <?= view('section/topTravelPlaces'); ?>
 
 
-
+<script src="http://192.168.30.99:8000/script/script42-dbase-v1.js"></script>
 <section class="ftco-section ftco-about img mt-1" style="background-image: url(i<?= base_url() ?>/public/frontend/images/bg_4.jpg);">
   <div class="overlay"></div>
   <div class="container py-md-5">
@@ -301,6 +301,5 @@
     </div>
   </div>
 </section> -->
-
 <?= view('section/footer_section') ?>
 

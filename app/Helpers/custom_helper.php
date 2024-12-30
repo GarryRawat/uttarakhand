@@ -34,7 +34,7 @@ require APPPATH . 'Libraries/PHPMailer/vendor/autoload.php';
 // end in online 
 
 
-// work in local server
+// Genrate Ip address  work in local server
 
 function getuserIpAddress(){
   $ip_address = 'Unable to determine IP address';
@@ -55,6 +55,9 @@ function getuserIpAddress(){
   return $ip_address;
 }
 
+/**
+ * Blog comment Count
+ */
 function getcommencount($id)
 {
   $db = db_connect();
@@ -62,6 +65,10 @@ function getcommencount($id)
     ->where('blog_id', $id)
     ->countAllResults();
 }
+
+/**
+ * Blogs Likes Count
+ */
 function getBlogsLikescount($id){
   $db = db_connect();
   return $db->table('blog_likes')
@@ -70,6 +77,10 @@ function getBlogsLikescount($id){
 }
 // end in local server
 
+
+/*
+ * email template for all Enquery
+ */
 function getEmailTemplate($content){
   $html = '<!-- Free to use, HTML email template designed & built by FullSphere. Learn more about us at www.fullsphere.co.uk -->
 
@@ -177,10 +188,7 @@ function getEmailTemplate($content){
         <tbody>
           <tr>
             <td style="width: 596px; vertical-align: top; padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 40px;" width="596">
-
-              ' . $content . '           
-
-
+              ' . $content . '          
             </td>
           </tr>
         </tbody>
@@ -191,27 +199,21 @@ function getEmailTemplate($content){
       <img style="width: 600px; max-width: 600px; height: 240px; max-height: 240px; text-align: center;" alt="Image" src="https://fullsphere.co.uk/misc/free-template/images/image-2.jpg" align="center" width="600" height="240">
       <!-- End image -->
 
-      
-    
       <!-- Start footer -->
       <table align="center" style="text-align: center; vertical-align: top; width: 600px; max-width: 600px; background-color: #000000;" width="600">
         <tbody>
           <tr>
             <td style="width: 596px; vertical-align: top; padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 30px;" width="596">
-
               <!-- Your inverted logo is here -->
               <img style="width: 180px; max-width: 180px; height: 85px; max-height: 85px; text-align: center; color: #ffffff;" alt="Logo" src="http://localhost/uttrakhand//public/frontend/images/DeVELOPERS3.png" align="center" width="180" height="85">
-
               <p style="font-size: 13px; line-height: 24px; font-family: "Helvetica", Arial, sans-serif; font-weight: 400; text-decoration: none; color: #ffffff;">
                 Address line 1, London, L2 4LN
               </p>
-
               <p style="margin-bottom: 0; font-size: 13px; line-height: 24px; font-family: "Helvetica", Arial, sans-serif; font-weight: 400; text-decoration: none; color: #ffffff;">
                 <a target="_blank" style="text-decoration: underline; color: #ffffff;" href="https://fullsphere.co.uk">
                   www.fullsphere.co.uk
                 </a>
               </p>
-
             </td>
           </tr>
         </tbody>
@@ -224,6 +226,9 @@ function getEmailTemplate($content){
   return $html;
 }
 
+/**
+ * Send Mails
+ */
 function sendMail($email, $content){
 
   $mail = new PHPMailer(true);
@@ -249,6 +254,9 @@ function sendMail($email, $content){
   }
 }
 
+/**
+ * Send Mail For Subscriber's
+ */
 function sendMailforsubscriber($content, $type)
 {
   $db = db_connect();
@@ -274,7 +282,6 @@ function sendMailforsubscriber($content, $type)
 
     $emailSent = sendMail($allsubscribers['email'], $email_content);
   }
-
   if ($emailSent) {
     return true;
   } else {
@@ -282,7 +289,9 @@ function sendMailforsubscriber($content, $type)
   }
 }
 
-
+/**
+ * Search destination by user
+ */
 function getAllDataBySearch($searchTerm){
   $db = db_connect();
   $blogItems = $db->table('blogs')
@@ -293,7 +302,6 @@ function getAllDataBySearch($searchTerm){
 
   $combinedResults = [];
   if ($blogItems) {
-
     foreach ($blogItems as $blog) {
       $combinedResults[] = [
         'name' => $blog['blog_title'],
@@ -307,10 +315,9 @@ function getAllDataBySearch($searchTerm){
     ->like('place', $searchTerm)
     ->get()
     ->getResultArray();
+     $ukArr = [];
 
-  $ukArr = [];
   if ($uttarakhadArray) {
-
     foreach ($uttarakhadArray as $uttrakhand):
       $combinedResults[] = [
         'name' => $uttrakhand['place'],
@@ -318,8 +325,6 @@ function getAllDataBySearch($searchTerm){
       ];
     endforeach;
   }
-
-
   $citiesArray = $db->table('cities')
 
     ->like('city_name', $searchTerm)
@@ -329,7 +334,6 @@ function getAllDataBySearch($searchTerm){
   $cityArr = [];
 
   if ($citiesArray) {
-
     foreach ($citiesArray as $city):
       $combinedResults[] = [
         'name' => $city['city_name'],

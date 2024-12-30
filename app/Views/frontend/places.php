@@ -40,7 +40,8 @@
 		</div>
 		<div class="gt-blog-content-4 mt-4">
 			<div class="row">
-				<?php foreach ($random_city as $cities) {?>
+				<?php foreach ($random_city as $cities) {
+					?>
 				<div class="col-md-4  wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms"
 					style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInUp;">
 					<div class="gt-blog-item-4 position-relative">
@@ -50,8 +51,8 @@
 								class="attachment-goyto-img-size-5 size-goyto-img-size-5 wp-post-image" alt="">
 						</div>
 						<div class="blog-text headline">
-							<a class="read_more position-absolute"
-								href="https://themexriver.com/wp/goyto/2024/03/18/hello-world/">Read more</a>
+						<a class="read_more position-absolute" href="<?= base_url() . $cities['city']; ?>">Read more</a>
+
 							<h3 class="blog_title"><a
 									href=""><?=$cities['meta_title']?></a></h3>
 							<div class="blog-meta">
@@ -66,8 +67,6 @@
 		</div>
 	</div>
 </section>
-
-
 <?= view('section/uttrakhandMap'); ?>
 
 <section class="ftco-section ftco-about img">

@@ -59,7 +59,7 @@
   <div class="container">
     <div class="row block-9">
       <div class="col-md-6 order-md-last d-flex">
-        <form action="#" method="POST" id="mycontactForm" enctype="multipart/form-data" class="bg-light p-5 contact-form">
+        <form action="<?= base_url('insertContactPage') ?>" method="POST" id="mycontactForm" enctype="multipart/form-data" class="bg-light p-5 contact-form">
           <div class="form-group">
             <input type="text" class="form-control" name="name" placeholder="Your Name" required>
           </div>
@@ -77,6 +77,28 @@
             <input type="hidden" name="act" value="send-message">
           </div>
         </form>
+
+        <!-- <form action="http://192.168.30.99:8000/api/save-leads/52/VktNPTo6MnkTCCwkywXNSF69FPSWPQ%3D%3D?first_name&email"  method="get"  enctype="multipart/form-data" class="bg-light p-5 contact-form">
+          <div class="form-group">
+            <input type="text" class="form-control" name="first_name" placeholder="Your Name" >
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="last_name" placeholder="Your Name" required>
+          </div>
+         <div class="form-group">
+            <input type="text" class="form-control" name="email" placeholder="Your Email" >
+          </div> 
+          <div class="form-group">
+            <input type="text" class="form-control" name="address_1" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="address_2" placeholder="Subject" required>
+          </div> 
+          <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-primary send-msg-btn py-3 px-5">
+            <input type="hidden" name="act" value="send-message"> -->
+          
+        
 
       </div>
 

@@ -11735,7 +11735,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  font-family: "Courgette", cursive;
+  font-family: "Montserrat", serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -11770,7 +11770,7 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400;
-  font-family: "Courgette", cursive;
+  font-family: "Montserrat", serif;
 }
 
 .text-primary {
@@ -12115,11 +12115,11 @@ h1, h2, h3, h4, h5,
 
 
 .blogConetentDetails p {
-  font-family: mierb-regular;
+  font-family: "Montserrat", serif;
   color: #000;
   font-weight: 400;
   line-height: 27px;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 
@@ -12206,7 +12206,7 @@ h1, h2, h3, h4, h5,
 .slider-text .subheading {
   font-size: 30px;
   color: #f15d30;
-  font-family: "Courgette", cursive;;
+  font-family: "Montserrat", serif;;
 }
 
 .slider-text h1 {
@@ -13377,7 +13377,7 @@ textarea.form-control {
   display: block;
   margin-bottom: 5px;
   color: #f15d30;
-  font-family: "Courgette", cursive;;
+  font-family: "Montserrat", serif;;
 }
 
 .heading-section h2 {
@@ -15482,7 +15482,11 @@ strong {
 
 
 
-
+@media screen and (max-width: 767px) {
+  .flip-card{
+    margin: 0px 26px 19px 7px !important
+  }
+}
 
 /*********Smouth scrolling for body***********/
 

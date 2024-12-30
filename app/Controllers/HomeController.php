@@ -29,6 +29,7 @@ class HomeController extends BaseController
         $this->request->setLocale('en');
         $data['cities'] = $this->citiesModel->Getcity();
         $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
+        $data['random_city'] = $this->citiesModel->get_random_cities();
         $data['recentBlogs'] = $this->blogModel->getRecentBlogs(3);
         
         $data['seo']=[
@@ -95,7 +96,6 @@ class HomeController extends BaseController
         $searchItem = getAllDataBySearch($searchItem);
 
         return $this->response->setJSON($searchItem);
-     
     }
 
 
