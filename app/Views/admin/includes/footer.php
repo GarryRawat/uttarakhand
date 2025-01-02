@@ -16,6 +16,12 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
+
+
+    
+
+
+
     
     <script src="<?= base_url() ?>/public/admin/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- jquey -->

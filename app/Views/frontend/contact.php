@@ -103,7 +103,7 @@
       </div>
 
       <div class="col-md-6 d-flex">
-        <div id="map" class="bg-white"></div>
+      <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Aman%20Vihar,%20Dehradun,%20Danda%20Dhoran,%20Uttarakhand%20248013+(travling)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe></div>
       </div>
     </div>
   </div>
