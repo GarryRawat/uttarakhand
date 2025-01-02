@@ -55,4 +55,17 @@ abstract class BaseController extends Controller
 
         // E.g.: $this->session = \Config\Services::session();
     }
-}
+
+
+
+    public function check_userlogin(){
+
+        if (Route::currentRouteName() == 'index') {
+          
+            return view('frontend/login');
+        }
+    }
+
+    
+
+    }

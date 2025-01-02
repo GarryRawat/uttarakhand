@@ -13,6 +13,8 @@ $routes->get('/addarea', 'AdminController::ShowArea');
 $routes->get('/listpagedetails', 'AdminController::ListingPages');
 $routes->get('/editallpages/(:num)', 'AdminController::Editallpages/$1');
 
+$routes->get('/login', 'BaseController::Login');
+
 /**
  * admin post routes
  */
