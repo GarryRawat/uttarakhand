@@ -51,7 +51,7 @@
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
     
         <a class="navbar-brand brand-logo" href="index.html"><img src="<?= base_url() ?>/public/frontend/images/DeVELOPERS3.png " style="    height: 59px;
-    width: 141px;" alt="logo" /></a>
+        width: 141px;" alt="logo" /></a>
         <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-stretch">
@@ -82,45 +82,8 @@
                 <i class="mdi mdi-file-word mr-2"></i>doc </a>
             </div>
           </li>
-          <li class="nav-item  dropdown d-none d-md-block">
-            <a class="nav-link dropdown-toggle" id="projectDropdown" href="#" data-toggle="dropdown" aria-expanded="false"> Projects </a>
-            <div class="dropdown-menu navbar-dropdown" aria-labelledby="projectDropdown">
-              <a class="dropdown-item" href="#">
-                <i class="mdi mdi-eye-outline mr-2"></i>View Project </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">
-                <i class="mdi mdi-pencil-outline mr-2"></i>Edit Project </a>
-            </div>
-          </li>
-          <li class="nav-item nav-language dropdown d-none d-md-block">
-            <a class="nav-link dropdown-toggle" id="languageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <div class="nav-language-icon">
-                <i class="flag-icon flag-icon-us" title="us" id="us"></i>
-              </div>
-              <div class="nav-language-text">
-                <p class="mb-1 text-black">English</p>
-              </div>
-            </a>
-            <div class="dropdown-menu navbar-dropdown" aria-labelledby="languageDropdown">
-              <a class="dropdown-item" href="#">
-                <div class="nav-language-icon mr-2">
-                  <i class="flag-icon flag-icon-ae" title="ae" id="ae"></i>
-                </div>
-                <div class="nav-language-text">
-                  <p class="mb-1 text-black">Arabic</p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">
-                <div class="nav-language-icon mr-2">
-                  <i class="flag-icon flag-icon-gb" title="GB" id="gb"></i>
-                </div>
-                <div class="nav-language-text">
-                  <p class="mb-1 text-black">English</p>
-                </div>
-              </a>
-            </div>
-          </li>
+         
+     
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
               <div class="nav-profile-img">
@@ -160,10 +123,12 @@
                   <span>Lock Account</span>
                   <i class="mdi mdi-lock ml-1"></i>
                 </a>
-                <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
-                  <span>Log Out</span>
-                  <i class="mdi mdi-logout ml-1"></i>
-                </a>
+                <form action="<?= base_url('logout') ?>" method="POST" id="logoutForm">
+                  <button type="submit" class="dropdown-item py-1 d-flex align-items-center justify-content-between">
+                      <span>Log Out</span>
+                      <i class="mdi mdi-logout ml-1"></i>
+                  </button>
+              </form>
               </div>
             </div>
           </li>

@@ -4,6 +4,8 @@ namespace App\Controllers;
 
 use App\Models\UttarakhandModel;
 use App\Models\CitiesModel;
+use App\Models\AdminModel;
+use App\Models\Admin;
 use App\Models\ImageModel;
 use App\Models\AreaModel;
 use App\Models\FoodModel;
@@ -26,6 +28,8 @@ class AdminController extends BaseController
         $this->foodModel = new FoodModel();
         $this->contact = new ContactModel();
         $this->subscriber = new SubscribersModel();
+        $this->adminModel = new AdminModel();
+
     }
 
 
@@ -36,6 +40,32 @@ class AdminController extends BaseController
             . view('admin/includes/footer');
     }
 
+    public function Login(){
+        return view('frontend/login');
+    }
+
+    public function Checklogin(){
+
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
+        $user = $this->adminModel->where('username', $username)->first();
+
+        if($user && password_verify($password, $user['password'])) {
+
+            session()->set('username', $user['username']);
+            session()->set('id', $user['id']); 
+            return redirect()->to('index'); 
+        } else {
+        
+            return redirect()->to('frontend/login')->with('error', 'Invalid username or password');
+        }
+    }
+
+
+    public function logout_session(){
+        session()->destroy();
+        return redirect()->to('admin/login');
+    }
 
 
     // show page all data

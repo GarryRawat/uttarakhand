@@ -9,6 +9,7 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 
+
 /**
  * Class BaseController
  *
@@ -50,22 +51,25 @@ abstract class BaseController extends Controller
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
-
+        $this->check_userlogin();
         // Preload any models, libraries, etc, here.
-
+    
         // E.g.: $this->session = \Config\Services::session();
     }
-
-
-
+    
     public function check_userlogin(){
-
-        if (Route::currentRouteName() == 'index') {
-          
-            return view('frontend/login');
-        }
+    
+        if (session('id')) {
+            $user_id = session('id');
+        } else {
+            if($_SERVER['PATH_INFO'] !='/login'){
+                // echo '<script>window.location.href="'.base_url('login').'";</script>';
+            }
+            }
+            
     }
+    
 
     
 
-    }
+}

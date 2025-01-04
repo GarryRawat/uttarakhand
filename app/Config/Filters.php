@@ -8,6 +8,7 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\AuthFilter;  // Import the filter class
 
 class Filters extends BaseConfig
 {
@@ -24,6 +25,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'auth' => AuthFilter::class,  // Define the 'auth' alias
     ];
 
     /**
@@ -37,12 +39,14 @@ class Filters extends BaseConfig
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
+        
         ],
         'after' => [
             'toolbar',
             // 'honeypot',
             // 'secureheaders',
         ],
+        
     ];
 
     /**
@@ -65,5 +69,11 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+        'auth' => [
+            'before' => [
+                'admin/*',  // Apply the filter to all routes under /admin/*
+            ]
+        ]
+    ];
 }
