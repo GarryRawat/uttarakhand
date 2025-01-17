@@ -46,9 +46,13 @@ class AdminController extends BaseController
 
     public function Checklogin(){
 
+        
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
         $user = $this->adminModel->where('username', $username)->first();
+
+        // print_r( $user);
+        // die;
 
         if($user && password_verify($password, $user['password'])) {
 

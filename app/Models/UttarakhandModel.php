@@ -56,19 +56,13 @@ class UttarakhandModel extends Model
       ->getResultArray();
   }
 
-
-
-
-  
   public function getallPagesDatabySlug() {
     return $this->db->table($this->table)
         ->select($this->table . '.*, cities.city_name') 
         ->join('cities', 'cities.id = ' . $this->table . '.city_id')
         ->get()
         ->getResultArray();
-}
-
-
+  }
 
 
   public function getallpagesdatabyid($id){
@@ -80,10 +74,20 @@ class UttarakhandModel extends Model
   }
   
   public function getAllPagesDataUpdateById($id, $data) {
+    return $this->db->table($this->table)->where('id', $id)->update($data);
+  }
+
+  public function get_all_places(){
     return $this->db->table($this->table)
-                    ->where('id', $id)
-                    ->update($data);
-}
+    ->select('explore_uttarakhand.*, images.image, cities.city_name')  
+        ->join('images', 'explore_uttarakhand.id = images.city_place_id', 'left') 
+        ->join('cities', 'explore_uttarakhand.city_id = cities.id') 
+        ->get()
+        ->getResultArray();
+  }
+
+
+
 
 
 }

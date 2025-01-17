@@ -15,7 +15,7 @@ $routes->get('/addarea', 'AdminController::ShowArea',['filter' => 'auth']);
 $routes->get('/listpagedetails', 'AdminController::ListingPages',['filter' => 'auth']);
 $routes->get('/editallpages/(:num)', 'AdminController::Editallpages/$1',['filter' => 'auth']);
 $routes->get('/login', 'AdminController::Login');
-$routes->post('/store-login', 'AdminController::Checklogin',['filter' => 'auth']);
+$routes->post('/store-login', 'AdminController::Checklogin');
 $routes->post('/logout', 'AdminController::logout_session',['filter' => 'auth']);
 
 /**
@@ -74,12 +74,14 @@ $routes->get('/', 'Home::index');
 $routes->get('/home', 'HomeController::home');
 $routes->get('/about', 'AboutController::About');
 $routes->get('/destination', 'DestinationController::Destination');
+$routes->get('/hotel', 'DestinationController::list');
 $routes->get('/Places', 'PlacesController::get_place_page');
 $routes->get('/blog', 'blogController::ShowBLogPage');
 $routes->get('/blogdetails/(:any)', 'blogController::Showblogdetails/$1');
 $routes->get('/contact', 'ContactController::contact');
 $routes->get('/(:segment)/(:segment)', 'HomeController::page/$1/$2');
 $routes->get('/(:segment)', 'HomeController::Mainpage/$1');
+
 
 /**
  * post frontend  routes

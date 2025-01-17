@@ -75,8 +75,8 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item   <?= basename($_SERVER["PHP_SELF"])=='home'?'active':'';?>"><a href="<?= base_url('home') ?>" class="nav-link">Home</a></li>
-					<li class="nav-item   <?= basename($_SERVER["PHP_SELF"])=='about'?'active':'';?>"><a href="<?= base_url('about') ?>" class="nav-link">About</a></li>
+					<li class="nav-item <?= basename($_SERVER["PHP_SELF"])=='home'?'active':'';?>"><a href="<?= base_url('home') ?>" class="nav-link">Home</a></li>
+					<li class="nav-item <?= basename($_SERVER["PHP_SELF"])=='about'?'active':'';?>"><a href="<?= base_url('about') ?>" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="<?= base_url('destination') ?>" class="nav-link">Destination</a></li>
 					<li class="nav-item"><a href="<?= base_url('hotel') ?>" class="nav-link">Hotel</a></li>
 					<li class="nav-item   <?= basename($_SERVER["PHP_SELF"])=='Places'?'active':'';?>">

@@ -63,7 +63,7 @@ abstract class BaseController extends Controller
             $user_id = session('id');
         } else {
             if($_SERVER['PATH_INFO'] !='/login'){
-                // echo '<script>window.location.href="'.base_url('login').'";</script>';
+                
             }
             }
             

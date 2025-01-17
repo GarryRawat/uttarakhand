@@ -43,7 +43,7 @@
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+								<li><span class="icon fa fa-map-marker"></span><span class="text">It Parck, Dehradun, Uttarakahnd, India</span></li>
 								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">7248454392</span></a></li>
 								<li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">inf.com</span></a></li>
 
@@ -64,7 +64,7 @@
 					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						Copyright &copy;<script>
 							document.write(new Date().getFullYear());
-						</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						</script> All rights reserved |  <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank">Garry</a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 				</div>
 			</div>
@@ -89,7 +89,6 @@
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 	<script src="<?= base_url() ?>/public/frontend/js/jquery.magnific-popup.min.js"></script>
 	<!-- <script src="<?= base_url() ?>/public/frontend/js/owl.carousel.min.js"></script> -->
-
 	<script src="<?= base_url() ?>/public/frontend/js/jquery.animateNumber.min.js"></script>
 	<script src="<?= base_url() ?>/public/frontend/js/bootstrap-datepicker.js"></script>
 	<script src="<?= base_url() ?>/public/frontend/js/scrollax.min.js"></script>
@@ -222,8 +221,6 @@
 
 		}
 	</script>
-	
-<script src="http://192.168.30.99:8000/script/script55-dbase-v1.js"></script>
 	</body>
 
 	</html>
