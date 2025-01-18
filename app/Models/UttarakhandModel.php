@@ -8,7 +8,7 @@ class UttarakhandModel extends Model
 {
   protected $table = 'explore_uttarakhand';
   protected $primaryKey = 'id';
-  protected $allowedFields = ['city_id', 'place', 'title', 'slug', 'about_title', 'long_description', 'short_description','meta_title','meta_keyword','meta_description','all_image'];
+  protected $allowedFields = ['city_id', 'place', 'title', 'slug', 'about_title', 'long_description', 'short_description','meta_title','meta_keyword','page_type','meta_description','all_image'];
 
 
   public function GetCityByid($id){
@@ -73,17 +73,23 @@ class UttarakhandModel extends Model
     ->getRowArray();
   }
   
+  /**
+   * Update Pages Data
+   */
   public function getAllPagesDataUpdateById($id, $data) {
     return $this->db->table($this->table)->where('id', $id)->update($data);
   }
 
+  /**
+   * get all place for destination page   
+  */
   public function get_all_places(){
     return $this->db->table($this->table)
     ->select('explore_uttarakhand.*, images.image, cities.city_name')  
-        ->join('images', 'explore_uttarakhand.id = images.city_place_id', 'left') 
-        ->join('cities', 'explore_uttarakhand.city_id = cities.id') 
-        ->get()
-        ->getResultArray();
+    ->join('images', 'explore_uttarakhand.id = images.city_place_id', 'left') 
+    ->join('cities', 'explore_uttarakhand.city_id = cities.id') 
+    ->get()
+    ->getResultArray();
   }
 
 

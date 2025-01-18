@@ -22,20 +22,27 @@
 
 
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 ">
             <label for="your-name" class="form-label">Place</label>
             <input type="text" class="form-control" id="" name="place" required>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mt-3">
             <label for="your-surname" class="form-label">Title</label>
             <input type="text" class="form-control" id="" name="title" required>
           </div>
-
-        
-
-          <div class="col-md-6">
+          <div class="col-md-6 mt-3">
             <label for="your-subject" class="form-label">About Title</label>
             <input type="text" class="form-control" id="" name="about_title">
+          </div>
+          <div class="col-md-6 mt-3">
+               <label for="your-surname" class="form-label">Page Type</label>
+              <select name="" class="form-control" id="">
+                <option value="adventure">Adventure</option>
+                <option value="nature">Nature</option>
+                <option value="beach">Beach</option>
+                <option value="camping">Camping</option>
+                <option value="party">Party</option>
+              </select>
           </div>
 
           <div class="col-12 mt-5">

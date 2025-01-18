@@ -135,14 +135,13 @@ class AdminController extends BaseController
 
      /*
      * Edit content pages Data  */
-     public function Editallpages($id){
+    public function Editallpages($id){
         $data['cities'] = $this->citiesModel->Getcity();
         $data['pagedata'] = $this->uttarakhandModel->getallpagesdatabyid($id);
 
-
         return view('admin/includes/header')
-            . view('admin/pages/editallpages', $data)
-            . view('admin/includes/footer');
+        . view('admin/pages/editallpages', $data)
+        . view('admin/includes/footer');
     }
 
     /** update content pages  */
@@ -183,8 +182,7 @@ class AdminController extends BaseController
     }
     // add image section
 
-    public function AddimageData()
-    {
+    public function AddimageData() {
         $data['city'] = $this->citiesModel->Getcity();
         $data['pages'] = $this->uttarakhandModel->GetAllPlaces();
     
@@ -192,8 +190,6 @@ class AdminController extends BaseController
             . view('admin/pages/addPhotos', $data)
             . view('admin/includes/footer');
     }
-
-
     //  show top food page
 
     public function ShowArea() {
@@ -206,8 +202,7 @@ class AdminController extends BaseController
             . view('admin/includes/footer');
     }
     // add area data
-    public function InsertareaData()
-    {
+    public function InsertareaData() {
         if (!empty($_FILES)) {
             $targetDir = "uploads/";
             $fileNames = [];
