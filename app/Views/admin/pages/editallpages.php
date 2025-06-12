@@ -6,81 +6,81 @@
 </style>
 
 <div id="flash-message"></div>
-
-<div class="container my-5">
-  <div class="row justify-content-center">
+<div class="main-pannel container">
+<div class="content-wrapper">
+  <div class="page-header">
+    <h1 class="page-title">Edit AllPages Details</h1>
+  </div>
+  <div class="row">
     <div class="col-lg-9">
-      <h1 class="mb-3">Edit AllPages Details</h1>
-      <form id="updatepagesform" method="POST" enctype="multipart/form-data">
-        <div class="row g-3">
+      <div class="card">
+        <div class="card-body">
+          <form id="updatepagesform" method="POST" enctype="multipart/form-data">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="your-surname" class="form-label">City</label>
+                <select class="form-control" id="" name="city_name">
+                  <?php foreach ($cities as $city_name) { ?>
+                    <option class="form-control" value="<?= $city_name['id'] ?>"
+                      <?= ($city_name['id'] == $pagedata['city_id']) ? 'selected' : '' ?>>
+                      <?= $city_name['city_name'] ?>
+                    </option>
 
-          <div class="col-md-6">
-            <label for="your-surname" class="form-label">City</label>
-            <select class="form-control" id="" name="city_name">
-              <?php foreach ($cities as $city_name) { ?>
-                <option class="form-control" value="<?= $city_name['id'] ?>"
-                  <?= ($city_name['id'] == $pagedata['city_id']) ? 'selected' : '' ?>>
-                  <?= $city_name['city_name'] ?>
-                </option>
-
-              <?php } ?>
-            </select>
-
-
-          </div>
-          <div class="col-md-6">
-            <label for="your-name" class="form-label">Place</label>
-            <input type="text" class="form-control" id="" value="<?= $pagedata['place'] ?>" name="place" required>
-            <input type="hidden" name="id" value="<?= $pagedata['id'] ?>">
-          </div>
-          <div class="col-md-6">
-            <label for="your-surname" class="form-label">Title</label>
-            <input type="text" class="form-control" id="" value="<?= $pagedata['title'] ?>" name="title" required>
-          </div>
+                  <?php } ?>
+                </select>
 
 
-          <div class="col-md-6">
-            <label for="your-subject" class="form-label">About Title</label>
-            <input type="text" class="form-control" id="" value="<?= $pagedata['about_title'] ?>" name="about_title">
-          </div>
+              </div>
+              <div class="col-md-6">
+                <label for="your-name" class="form-label">Place</label>
+                <input type="text" class="form-control" id="" value="<?= $pagedata['place'] ?>" name="place" required>
+                <input type="hidden" name="id" value="<?= $pagedata['id'] ?>">
+              </div>
+              <div class="col-md-6">
+                <label for="your-surname" class="form-label">Title</label>
+                <input type="text" class="form-control" id="" value="<?= $pagedata['title'] ?>" name="title" required>
+              </div>
 
-          <!-- <div class="col-md-6">
-            <label for="your-subject" class="form-label">Add Image</label>
-            <input type="file" class="form-control" id="" name="file-image">
-          </div>  -->
 
-          <div class="col-12 mt-5">
-            <label for="your-message" class="form-label">Short Destination</label>
-            <textarea class="mytextarea" value="" name="short_description"><?= $pagedata['short_description'] ?></textarea>
-          </div>
+              <div class="col-md-6">
+                <label for="your-subject" class="form-label">About Title</label>
+                <input type="text" class="form-control" id="" value="<?= $pagedata['about_title'] ?>" name="about_title">
+              </div>
 
-          <div class="col-12 mt-4">
-            <label for="your-message" class="form-label">Long Destination</label>
-            <textarea class="mytextarea" value="" name="long_description"><?= $pagedata['long_description'] ?></textarea>
-          </div>
 
-          <div class="col-md-6 mt-4">
-            <label for="your-surname" class="form-label">Meta Title</label>
-            <input type="text" class="form-control" id="" value="<?= $pagedata['meta_title'] ?> " name="meta_title" required>
-          </div>
-          <div class="col-md-6 mt-4">
-            <label for="your-surname" class="form-label">Meta Keywords</label>
-            <input type="text" class="form-control" id="" value="<?= $pagedata['meta_keyword'] ?> " name="meta_keywords" required>
-          </div>
-          <div class="col-12">
-            <label for="your-message" class="form-label">Meta Description</label>
-            <input type="text" class="form-control" id="" value="<?= $pagedata['meta_description'] ?> " name="meta_description" required>
-          </div>
-          <div class="col-12 ">
-            <div class="row" style="justify-content: center;">
-              <div class="col-md-4 mt-2">
-                <button data-res="" type="submit" class="btn btn-dark w-100 fw-bold">Update</button>
+              <div class="col-12 mt-5">
+                <label for="your-message" class="form-label">Short Destination</label>
+                <textarea class="mytextarea" value="" name="short_description"><?= $pagedata['short_description'] ?></textarea>
+              </div>
+
+              <div class="col-12 mt-4">
+                <label for="your-message" class="form-label">Long Destination</label>
+                <textarea class="mytextarea" value="" name="long_description"><?= $pagedata['long_description'] ?></textarea>
+              </div>
+
+              <div class="col-md-6 mt-4">
+                <label for="your-surname" class="form-label">Meta Title</label>
+                <input type="text" class="form-control" id="" value="<?= $pagedata['meta_title'] ?> " name="meta_title" required>
+              </div>
+              <div class="col-md-6 mt-4">
+                <label for="your-surname" class="form-label">Meta Keywords</label>
+                <input type="text" class="form-control" id="" value="<?= $pagedata['meta_keyword'] ?> " name="meta_keywords" required>
+              </div>
+              <div class="col-12">
+                <label for="your-message" class="form-label">Meta Description</label>
+                <input type="text" class="form-control" id="" value="<?= $pagedata['meta_description'] ?> " name="meta_description" required>
+              </div>
+              <div class="col-12 ">
+                <div class="row" style="justify-content: center;">
+                  <div class="col-md-4 mt-2">
+                    <button data-res="" type="submit" class="btn btn-dark w-100 fw-bold">Update</button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </form>
         </div>
-      </form>
-    </div>
+      </div>
   </div>
 </div>
 </div>

@@ -40,6 +40,7 @@ class ImagesController extends BaseController
 
     public function InsertimageData() {
 
+      
         if (!empty($_FILES)) {
             $targetDir = "uploads/";
             $fileNames = [];

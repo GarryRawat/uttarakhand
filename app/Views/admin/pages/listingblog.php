@@ -13,33 +13,10 @@
 
     }
 </style>
-
-<div class="container my-5">
-    <div class="row justify-content-center">
-   
-        <div class="col-lg-12">
-        <div class="alert_div">
-                <?php
-                if (session()->getFlashdata('error')) { // for error
-                ?>
-                    <div class="alert  alert-danger alert-dismissible fade show" role="alert">
-                        <span class="badge badge-pill badge-danger">Error</span>&emsp;<span><?= session()->getFlashdata('error') ?></span>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                <?php
-                } else if (session()->getFlashdata('success')) { //for success
-                ?>
-                    <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                        <span class="badge badge-pill badge-success">Success</span>&emsp;<span><?= session()->getFlashdata('success') ?></span>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                <?php } ?>
-            </div>
-            <h1 class="mb-3"> Blogs listing page </h1>
+<div class="main-pannel container">
+<div class="content-wrapper">
+       <div class="page-header">
+            <h1 class="page-title"> Blogs listing page </h1>
             <div clas="add-pages-btn">
                 <a href="<?= base_url('addblogs') ?>" style="display: flex;
                     justify-content: flex-end; text-decoration: none;">
@@ -48,51 +25,82 @@
                     </svg>&emsp;Add Blogs
                 </a>
             </div>
-         
-                <div class="row g-3">
-                   <?php
-                   $i=1;
-                   ?>
-                    <div class="col-md-12">
+        </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <div class="alert_div">
+                    <?php
+                    if (session()->getFlashdata('error')) { // for error
+                    ?>
+                        <div class="alert  alert-danger alert-dismissible fade show" role="alert">
+                            <span class="badge badge-pill badge-danger">Error</span>&emsp;<span><?= session()->getFlashdata('error') ?></span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                    <?php
+                    } else if (session()->getFlashdata('success')) { //for success
+                    ?>
+                        <div class="alert  alert-success alert-dismissible fade show" role="alert">
+                            <span class="badge badge-pill badge-success">Success</span>&emsp;<span><?= session()->getFlashdata('success') ?></span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                    <?php } ?>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row g-3">
+                    <?php
+                    $i=1;
+                    ?>
+                        <div class="col-md-12">
 
-                        <table id="myTable" class="display">
-                            <thead>
-                                <tr>
-                                    <th>Sr.no</th>
-                                    <th>Blog Image</th>
-                                    <th>Blog Title</th>
-                                    <th>views</th>
-                                    <th>Like</th>
-                                    <th>Comment</th>
-                                
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php foreach ($allblogs as $blogs) { ?>
-                                    <tr class="id_<?php echo $blogs['id']; ?>">
-                                        <td class="text-center"><?php echo $i++?></td>
-                                        <td><img src="<?= base_url('uploads/' . $blogs['blog_image']) ?>" alt="User Image" style="width:50px; height:50px;"></td>
-                                        <td><?= $blogs['blog_title'] ?></td>
-                                        <td class="text-center"><?= $blogs['views']?></td>
-                                        <td class="text-center"><?= $blogs['like_count']?></td>
-                                        <td class="text-center"><i class="fa fa-eye fa-sm eye-btn" style="cursor: pointer;" aria-hidden="true"></i><?= $blogs['comment_count'] ?></td>
+                            <table id="myTable" class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Sr.no</th>
+                                        <th>Blog Image</th>
+                                        <th>Blog Title</th>
+                                        <th>views</th>
+                                        <th>Like</th>
+                                        <th>Comment</th>
                                     
-                                        <td><a href="<?= base_url() ?>/editblogs/<?= $blogs['id'] ?>"> <i class="fa fa-pencil edit-icon fa-lg" style="color: blue;"></i></a>
-                                            &emsp; <a href="" class=" delete-btn" id="<?= $blogs['id'] ?>">
-                                                <i class="fa fa-trash delete-icon fa-lg" style="color: red;"></i>
-                                            </a>
-
-                                        </td>
+                                        <th>Action</th>
                                     </tr>
-                                <?php } ?>
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody>
+                                    <?php foreach ($allblogs as $blogs) { ?>
+                                        <tr class="id_<?php echo $blogs['id']; ?>">
+                                            <td class="text-center"><?php echo $i++?></td>
+                                         
+                                            <td class="py-1">
+                                                    <img src="<?= base_url('uploads/' . $blogs['blog_image']) ?>" alt="image">
+                                            </td>
+                                            <td><?= $blogs['blog_title'] ?></td>
+                                            <td class="text-center"><?= $blogs['views']?></td>
+                                            <td class="text-center"><?= $blogs['like_count']?></td>
+                                            <td class="text-center"><i class="fa fa-eye fa-sm eye-btn" style="cursor: pointer;" aria-hidden="true"></i><?= $blogs['comment_count'] ?></td>
+                                        
+                                            <td><a href="<?= base_url() ?>/editblogs/<?= $blogs['id'] ?>"> <i class="fa fa-pencil edit-icon fa-lg" style="color: blue;"></i></a>
+                                                &emsp; <a href="" class=" delete-btn" id="<?= $blogs['id'] ?>">
+                                                    <i class="fa fa-trash delete-icon fa-lg" style="color: red;"></i>
+                                                </a>
 
+                                            </td>
+                                        </tr>
+                                    <?php } ?>
+                                </tbody>
+                            </table>
+
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
+ </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var table = new DataTable('#myTable');

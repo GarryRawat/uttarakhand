@@ -8,7 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 // admin routes
 
 
-$routes->get('/index', 'AdminController::Adminindex',['filter' => 'auth']);
+$routes->get('/dashboard', 'AdminController::Adminindex',['filter' => 'auth']);
 $routes->get('/insertDetails', 'AdminController::InsertDetails',['filter' => 'auth']);
 $routes->get('/addPhotos', 'AdminController::AddimageData',['filter' => 'auth']);
 $routes->get('/addarea', 'AdminController::ShowArea',['filter' => 'auth']);
@@ -22,7 +22,6 @@ $routes->post('/logout', 'AdminController::logout_session',['filter' => 'auth'])
  * admin post routes
  */
 $routes->post('/addpageData', 'AdminController::AddpageData',['filter' => 'auth']);
-$routes->post('/addimageData', 'AdminController::InsertimageData',['filter' => 'auth']);
 $routes->post('/addareaData', 'AdminController::InsertareaData',['filter' => 'auth']);
 $routes->post('/addmultyData', 'AdminController::InsertmultyData',['filter' => 'auth']);
 $routes->post('/updateallpages', 'AdminController::updateallpages',['filter' => 'auth']);

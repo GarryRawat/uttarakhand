@@ -41,27 +41,25 @@ class AdminController extends BaseController
     }
 
     public function Login(){
-        return view('frontend/login');
+     
+        return view('admin/login');
     }
 
     public function Checklogin(){
 
         
-        $username = $this->request->getPost('username');
-        $password = $this->request->getPost('password');
-        $user = $this->adminModel->where('username', $username)->first();
+         $username = $this->request->getPost('username');echo  "<br>";
+         $password = $this->request->getPost('password');
+        $user = $this->adminModel->GetAdminDetails($username);
+        if($user && password_verify($password, $user->password)) {
+            session()->set('username', $user->username);
+            session()->set('id', $user->id); 
 
-        // print_r( $user);
-        // die;
-
-        if($user && password_verify($password, $user['password'])) {
-
-            session()->set('username', $user['username']);
-            session()->set('id', $user['id']); 
-            return redirect()->to('index'); 
+            return redirect()->to('dashboard'); 
         } else {
-        
-            return redirect()->to('frontend/login')->with('error', 'Invalid username or password');
+     
+          session()->setFlashdata('error', 'Invalid username or password');
+              return view('admin/login');
         }
     }
 
@@ -86,24 +84,24 @@ class AdminController extends BaseController
 
     // add page data
 
-    public function AddpageData()
-    {
+    public function AddpageData() {
         $city_name = $this->request->getvar('city_name');
         $place = $this->request->getvar('place');
         $title = $this->request->getvar('title');
         $slug = str_replace(' ', '-', $this->request->getvar('title'));
         $about_title = $this->request->getvar('about_title');
+        $page_type = $this->request->getvar('page_type');
         $long_description = $this->request->getvar('long_description');
         $short_description = $this->request->getvar('short_description');
         $meta_title = $this->request->getvar('meta_title');
         $meta_keywords = $this->request->getvar('meta_keywords');
         $meta_description = $this->request->getvar('meta_description');
-
         $data = [
             'city_id' => $city_name,
             'place' => $place,
             'title' => $title,
             'slug' => $slug,
+            'page_type' => $page_type,
             'about_title' => $about_title,
             'short_description' => $short_description,
             'long_description' => $long_description,

@@ -112,7 +112,7 @@
 						<a class="read_more position-absolute" href="<?= base_url() . $cities['city']; ?>">Read more</a>
 
 							<h3 class="blog_title"><a
-									href=""><?=$cities['meta_title']?></a></h3>
+									href="<?= base_url() . $cities['city']; ?>"><?=$cities['meta_title']?></a></h3>
 							<div class="blog-meta">
 								<a class="author-meta" href="#"><?=$cities['city']?></a>
 								<a class="date-meta" href="#">September 5, 2024</a>

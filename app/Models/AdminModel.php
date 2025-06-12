@@ -12,4 +12,9 @@ class AdminModel extends Model
 
 
 
+
+  public function GetAdminDetails($username){
+     return $this->db->table('admin')->where('username',$username)->get()->getRow();
+  }
 }
+

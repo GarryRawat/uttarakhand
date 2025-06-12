@@ -12,86 +12,90 @@
         color: white;
 
     }
+
+  
 </style>
-<div class="content-wrapper">
-    <div class="container my-5">
+<div class="main-pannel container">
+    <div class="content-wrapper">
+        <div class="page-header">
+            <h1 class="page-title">Foods Listing</h1>
+            <div class="add-pages-btn" style="display: flex; justify-content: flex-end;">
+                 <a href="<?= base_url('addfood') ?>" class="btn btn-dark btn-lg btn-block" >
+                  Add Foods    
+                </a>
+            </div>
+        </div>
+
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="alert_div">
-                    <?php
-                    if (session()->getFlashdata('error')) { // for error
-                    ?>
-                        <div class="alert  alert-danger alert-dismissible fade show" role="alert">
-                            <span class="badge badge-pill badge-danger">Error</span>&emsp;<span><?= session()->getFlashdata('error') ?></span>
+                    <?php if (session()->getFlashdata('error')): ?>
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <span class="badge badge-pill badge-danger">Error</span>&emsp;
+                            <span><?= session()->getFlashdata('error') ?></span>
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
-                    <?php
-                    } else if (session()->getFlashdata('success')) { //for success
-                    ?>
-                        <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                            <span class="badge badge-pill badge-success">Success</span>&emsp;<span><?= session()->getFlashdata('success') ?></span>
+                    <?php elseif (session()->getFlashdata('success')): ?>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <span class="badge badge-pill badge-success">Success</span>&emsp;
+                            <span><?= session()->getFlashdata('success') ?></span>
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
-                    <?php } ?>
+                    <?php endif; ?>
                 </div>
 
-                <h1 class="mb-3">List Pages Details </h1>
-                <div clas="add-pages-btn">
-                    <a href="<?= base_url('insertDetails') ?>" style="display: flex;
-                    justify-content: flex-end; text-decoration: none;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm-.5 3a.5.5 0 0 1 .5.5V7h2V4.5a.5.5 0 0 1 1 0V7h2a.5.5 0 0 1 0 1H11v2.5a.5.5 0 0 1-1 0V8H8v2.5a.5.5 0 0 1-1 0V8H5a.5.5 0 0 1 0-1h2V4.5a.5.5 0 0 1 .5-.5z" />
-                        </svg>&emsp;Add pages
-                    </a>
-                </div>
                 <div class="card">
-
-                    <div class="row g-3">
-                        <?php
-                        $i = 1;
-                        ?>
-                        <div class="col-md-12 mt-3">
-                            <table id="photos_list" class="display">
-                                <thead>
-                                    <tr>
-                                        <th>Image</th>
-                                        <th>Category</th>
-                                        <th>City/Place</th>
-                                        <th>Food-Name</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php foreach ($food_img as $pages) { ?>
-                                        <tr class="id_<?php echo $pages['id']; ?>">
-
-                                            <td><img src="<?= base_url('uploads/' . $pages['food_images']) ?>" alt="User Image" style="width:50px; height:50px;"></td>
-                                            <td class=""><?= $pages['category'] ?></td>
-                                            <td class=""><?= $pages['title'] ?></td>
-                                            <td class=""><?= $pages['top_foods'] ?></td>
-                                            <td><button onclick="editPage(<?= $pages['id'] ?>)" class="edit-button">
-                                                    <i class="fa fa-pencil edit-icon fa-lg" style="color: blue;"></i>
-                                                </button>
-                                                &emsp; <a href="" class="delete-btn" id="<?= $pages['id'] ?>">
-                                                    <i class="fa fa-trash delete-icon fa-lg" style="color: red;"></i>
-                                                </a>
-                                            </td>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-12 mt-3">
+                                <table id="photos_list" class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Image</th>
+                                            <th>Category</th>
+                                            <th>City/Place</th>
+                                            <th>Food-Name</th>
+                                            <th>Action</th>
                                         </tr>
-                                    <?php } ?>
-                                </tbody>
-                            </table>
-
+                                    </thead>
+                                    <tbody>
+                                        <?php foreach ($food_img as $pages): ?>
+                                            <tr class="id_<?= $pages['id']; ?>">                          
+                                                <td class="py-1">
+                                                    <img src="<?= base_url('uploads/' . $pages['food_images']) ?>" alt="image">
+                                                </td>
+                                                <td><?= $pages['category'] ?></td>
+                                                <td><?= $pages['title'] ?></td>
+                                                <td><?= $pages['top_foods'] ?></td>
+                                                <td>
+                                                    <button style="border:none;" onclick="editPage(<?= $pages['id'] ?>)" class="edit-button border-none">
+                                                        <i class="mdi mdi-grease-pencil" style="color: blue;"></i>
+                                                    </button>
+                                                    &emsp;
+                                                    <a href="#" class="delete-btn" id="<?= $pages['id'] ?>">
+                                                        <i class="fa fa-trash delete-icon fa-lg" style="color: red;"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
+
+
+
+      
+
+    
 
     <!--  edit phtos model-->
     <div class="modal" id="edit_items_modal" tabindex="-1" role="dialog">
