@@ -1,3 +1,4 @@
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -15490,4 +15491,54 @@ strong {
 
 /*********Smouth scrolling for body***********/
 
+.sidebar__post {
+    position: relative;
+    display: block;
+    padding: 46px 30px 30px;
+    color: #121212;
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+.room-details__details-box {
+    background-color: #f5f6f7;
+    border: 1px solid #ae7d54;
+    border-radius: 10px;
+    padding: 43px 50px 30px 50px;
+    position: relative;
+    z-index: 1;
+}
+.room-facility-list
+ {
+    position: relative;
+}
 
+.room-facility-list .icon {
+    border: 1px solid #ae7d54;
+    border-radius: 50%;
+    display: block;
+    font-size: 22px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    width: 64px;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.text-theme-color1 {
+    color: #ae7d54;
+}
+
+.sidebar__title {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.text-theme-color1{
+  cursor: pointer;
+
+}

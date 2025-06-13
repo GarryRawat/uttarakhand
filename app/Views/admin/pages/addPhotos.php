@@ -104,7 +104,6 @@
     $(document).ready(function() {
         $('#cityDropdown').show();
     });
-
     $("#submit-button").on("click", function(e) {
         e.preventDefault();
         $("#my-dropzone").find(":input[name]").each(function() {

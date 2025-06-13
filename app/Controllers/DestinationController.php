@@ -7,6 +7,7 @@ use App\Models\ImageModel;
 use App\Models\AreaModel;
 use App\Models\FoodModel;
 use App\Models\BlogModel;
+use App\Models\HotelModel;
 class DestinationController extends BaseController
 {
     
@@ -19,6 +20,7 @@ class DestinationController extends BaseController
         $this->areaModel = new AreaModel();
         $this->foodModel = new FoodModel();
         $this->blogModel = new BlogModel();
+        $this->hotelModel = new HotelModel();
     } 
 
     public function Destination()
@@ -43,8 +45,10 @@ class DestinationController extends BaseController
         .view('frontend/destination',$data)
         .view('frontend/includes/footer');
     }
+
+
     
-    // 
+    // HOTELS
     public function list()
     {
         $data['cities'] = $this->citiesModel->Getcity();
@@ -57,10 +61,20 @@ class DestinationController extends BaseController
             'meta_description'=>'home',
             'meta_keywords'=>'home'
         ];
+        
+        $data['placesData'] = $this->uttarakhandModel->get_all_places();
+        $data['allHotels'] = $this->hotelModel->findAll();
+        // echo "<pre>";
+        // print_r($data['allHotels']);
+        // die;
         return view('frontend/includes/header',$data)
         .view('frontend/hotel',$data)
         .view('frontend/includes/footer');
     }
+
+
+
+   
 
 
 

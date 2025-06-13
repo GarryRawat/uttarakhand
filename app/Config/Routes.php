@@ -73,13 +73,20 @@ $routes->get('/', 'Home::index');
 $routes->get('/home', 'HomeController::home');
 $routes->get('/about', 'AboutController::About');
 $routes->get('/destination', 'DestinationController::Destination');
-$routes->get('/hotel', 'DestinationController::list');
+
+
 $routes->get('/Places', 'PlacesController::get_place_page');
 $routes->get('/blog', 'blogController::ShowBLogPage');
 $routes->get('/blogdetails/(:any)', 'blogController::Showblogdetails/$1');
 $routes->get('/contact', 'ContactController::contact');
-$routes->get('/(:segment)/(:segment)', 'HomeController::page/$1/$2');
-$routes->get('/(:segment)', 'HomeController::Mainpage/$1');
+
+// 
+$routes->get('/hotel', 'HotelController::viewHotels');
+$routes->get('/hotel-details/(:num)', 'HotelController::hotalDetails/$1');
+$routes->post('/get-room-category', 'HotelController::getroomCategory');
+$routes->post('/store-booking', 'HotelController::storeBooking');
+$routes->get('/checkout-booking/(:num)', 'HotelController::checkoutBooking/$1');
+
 
 
 /**
@@ -93,4 +100,5 @@ $routes->post('/getdestination', 'HomeController::searchDestination');
 
 // my routes
 
-
+$routes->get('/(:segment)/(:segment)', 'HomeController::page/$1/$2');
+$routes->get('/(:segment)', 'HomeController::Mainpage/$1');

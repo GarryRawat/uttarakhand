@@ -1,0 +1,112 @@
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$citiesModel is deprecated in APPPATH\Controllers\HotelController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$uttarakhandModel is deprecated in APPPATH\Controllers\HotelController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$imageModel is deprecated in APPPATH\Controllers\HotelController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$areaModel is deprecated in APPPATH\Controllers\HotelController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$foodModel is deprecated in APPPATH\Controllers\HotelController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$blogModel is deprecated in APPPATH\Controllers\HotelController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$hotelModel is deprecated in APPPATH\Controllers\HotelController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$roomsCategoryModel is deprecated in APPPATH\Controllers\HotelController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$roomModel is deprecated in APPPATH\Controllers\HotelController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$bookingModel is deprecated in APPPATH\Controllers\HotelController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:16:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$bookingitem is deprecated in APPPATH\Controllers\HotelController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-13 05:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$citiesModel is deprecated in APPPATH\Controllers\HotelController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$uttarakhandModel is deprecated in APPPATH\Controllers\HotelController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$imageModel is deprecated in APPPATH\Controllers\HotelController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$areaModel is deprecated in APPPATH\Controllers\HotelController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$foodModel is deprecated in APPPATH\Controllers\HotelController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$blogModel is deprecated in APPPATH\Controllers\HotelController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$hotelModel is deprecated in APPPATH\Controllers\HotelController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$roomsCategoryModel is deprecated in APPPATH\Controllers\HotelController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$roomModel is deprecated in APPPATH\Controllers\HotelController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$bookingModel is deprecated in APPPATH\Controllers\HotelController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-06-13 05:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\HotelController::$bookingitem is deprecated in APPPATH\Controllers\HotelController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\HotelController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-13 05:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
